@@ -1,0 +1,36 @@
+{{ define "main" }}
+<div class="page__explore">
+    <div class="component">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <h1>{{.Title}}</h1>
+                    <span class="line"></span>
+                    <p>{{.Page.Params.intro}}</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="component">
+        <div class="container">
+            <div class="list">
+                {{ range .Page.Params.activeties }}
+                    <div class="row justify-content-center">
+                        <div class="col-lg-5 col-md-6 text__container">
+                            <h2>{{.title}}</h2>
+                            <p>{{.desc}}</p>
+                            <div class="navigation__actions">
+                                <a href="{{.homepage}}">{{.button}}</a>
+                            </div>
+                        </div>
+                        <div class="col-lg-5 col-md-6 image__container">
+                            <img src="{{.img}}" alt="{{.alt}}"/>
+                        </div>
+                    </div>
+                {{ end }}
+            </div>
+        </div>
+    </div>
+</div>
+
+{{ end }}
