@@ -1,4 +1,19 @@
-baseURL = 'http://example.org/'
-languageCode = 'en-us'
-title = 'My New Hugo Site'
+languageCode = 'nb-NO'
+title = 'Balestrand Fjord Apartments'
 theme = 'boilerplate-hugo-theme'
+
+defaultContentLanguage = 'no'
+[languages]
+  [languages.no]
+    languageName = "Norsk"
+    weight = 1
+    other = "Norsk"
+  [languages.en]
+    languageName = "English"
+    weight = 2
+    other = "English"
+  [languages.de]
+    languageName = "Deutsch"
+    weight = 3
+    other = "Deutsch"
+

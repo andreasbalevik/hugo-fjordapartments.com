@@ -1,0 +1,11 @@
+col1:
+  links:
+    - title: "Holmen 19, 6899 Balestrand"
+      url: https://goo.gl/maps/m1m6qCMF3fZNQ31s7
+      class: "bi bi-house"
+    - title: "lidalsiv@gmail.com"
+      url: "mailto:lidalsiv@gmail.com"
+      class: "bi bi-envelope"
+    - title: "+47 472 89 748"
+      class: "bi bi-telephone"
+      url: "tel:+4747289748"
