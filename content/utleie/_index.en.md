@@ -19,7 +19,8 @@ items:
     - /images/jetski/IMG_0816.jpg
     - /images/jetski/IMG_0880.jpg
     - /images/jetski/IMG_0890.jpg
+  price: "3 Hours: 1400 NOK - 6 Hours: 1900 NOK <br> 1 Day (09-21): 2500 NOK - 1 Week: 9900 NOK"
 - title: Rental cars
-  desc: We have 2 cars available for rent. Family friendly and suitable for short day trips. Car must be returned in the center of Balestrand. Contact us for price proposal. Kontaktieren Sie uns für einen Preisvorschlag.
+  desc: We have 2 cars available for rent. Family friendly and suitable for short day trips. <br> Car must be returned in the center of Balestrand. Contact us for price proposal. Kontaktieren Sie uns für einen Preisvorschlag.
 
 ---

@@ -71,7 +71,7 @@ html {
     max-width: 55%;
     margin-left: 35px;
     margin-top:-20px;
-    margin-bottom: $size-lg;
+    margin-bottom: $size-md;
 
     @include tablet(){
         max-width: 80%;

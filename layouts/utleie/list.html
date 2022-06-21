@@ -18,7 +18,10 @@
                 <div class="row justify-content-center">
                     <div class="col text__container">
                         <h2>{{.title}}</h2>
-                        <p>{{.desc}}</p>
+                        <p>{{.desc | safeHTML}}</p>
+                        {{ if .price }}
+                            {{.price | safeHTML}}
+                        {{ end }}
                     </div>
 
                     {{ if .images }}

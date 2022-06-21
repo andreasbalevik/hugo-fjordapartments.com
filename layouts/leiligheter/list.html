@@ -1,0 +1,72 @@
+{{ define "main" }}
+<div class="component">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-8">
+                <h1>{{.Title}}</h1>
+                <span class="line"></span>
+                <p>{{.Page.Params.intro}}</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+{{ $entry := 0 }}
+{{ range .Page.Params.apartments }}
+{{ $counter := 0 }}
+{{ $counter_2 := 0 }}
+<div class="component">
+    <div class="container">
+        <div class="row justify-content-center">
+
+            <div class="col-xl-4 col-lg-6 ">
+                <h2>{{.title}}</h2>
+                <p>{{.desc}}</p>
+                <div class="navigation__actions" style="margin-left:0px!important">
+                    <br>
+                    <a href="{{.link}}">Airbnb {{.title}}</a>
+                    <br><br>
+                </div>
+            </div>
+            <div class="col-xl-5 col-lg-6 image__container">
+
+                <!-- Carousel -->
+                <div id="id-{{$entry}}" class="carousel slide" data-bs-ride="carousel">
+
+                    <!-- Indicators/dots -->
+                    <div class="carousel-indicators">
+                        {{ range .images }}
+                        <button type="button" data-bs-target="#id-{{$entry}}" data-bs-slide-to="{{$counter_2}}"
+                            class="{{ if eq $counter_2 0}}active{{end}}"></button>
+                        {{ $counter_2 = add $counter_2 1 }}
+                        {{ end }}
+                    </div>
+
+                    <!-- The slideshow/carousel -->
+                    <div class="carousel-inner">
+                        {{ range .images }}
+                        <div class="carousel-item {{ if eq $counter 0}}active{{end}}">
+                            <img class="lozad" src="{{.}}" alt="" class="">
+                        </div>
+                        {{ $counter = add $counter 1 }}
+                        {{ end }}
+                    </div>
+
+                    <!-- Left and right controls/icons -->
+                    <button class="carousel-control-prev" type="button" data-bs-target="#id-{{$entry}}"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon"></span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#id-{{$entry}}"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                    </button>
+                    {{ $entry = add $entry 1 }}
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+{{ end }}
+{{ end }}

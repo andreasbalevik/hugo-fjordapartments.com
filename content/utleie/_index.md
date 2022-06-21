@@ -18,8 +18,9 @@ items:
     - /images/jetski/IMG_0816.jpg
     - /images/jetski/IMG_0880.jpg
     - /images/jetski/IMG_0890.jpg
+  price: "3 Timer: 1400 NOK - 6 Timer: 1900 NOK <br> 1 Dag (09-21): 2500 NOK - 1 Veke: 9900 NOK"
 - title: Utleie av bil
-  desc: Vi disponerer 2 stk biler tilgjengelig for utleie. Familievennlig og egner seg godt for korte dagsturer. Bil må tilbakeleveres i Balestrand sentrum. Kontakt oss for et prisforslag.
+  desc: Vi disponerer 2 stk biler tilgjengelig for utleie. Familievennlig og egner seg godt for korte dagsturer. <br> Bil må tilbakeleveres i Balestrand sentrum. Kontakt oss for et prisforslag.
 
 
 ---
