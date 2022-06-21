@@ -1,0 +1,28 @@
+{{ define "main" }}
+<div class="page__practical">
+    <div class="component">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <h1>{{.Title}}</h1>
+                    <span class="line"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="component">
+        <div class="container">
+            <div class="row justify-content-center">
+                {{ range .Page.Params.faq }}
+                    <div class="col-lg-8 ">
+                        <h2>{{.title}}</h2>
+                        <p>{{.content | safeHTML}}</p>
+                    </div>
+                {{ end }}
+
+            </div>
+        </div>
+    </div>
+</div>
+{{ end }}

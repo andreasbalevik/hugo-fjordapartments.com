@@ -4,4 +4,22 @@ menu: main
 menu:
   main:
     weight: 4
+
+description: Wir vermieten Autos, Jetskis und Apartments im Zentrum von Balestrand. Perfekt für kurze Tagesausflüge in die Umgebung.
+
+intro: Hier finden Sie eine Übersicht unserer Mietangebote. Senden Sie eine Anfrage per E-Mail oder bei der Buchung eines unserer Apartments.
+
+items:
+- title: Jet-Ski
+  desc: 2 stk Sea-Doo SPARK TRIXX 2 persönliche Jetskis zum Mieten im Zentrum von Balestrand.
+  images:
+    - /images/jetski/IMG_0834.jpg
+    - /images/jetski/IMG_0606.jpg
+    - /images/jetski/IMG_0690.jpg
+    - /images/jetski/IMG_0816.jpg
+    - /images/jetski/IMG_0880.jpg
+    - /images/jetski/IMG_0890.jpg
+- title: Mietwagen
+  desc: Wir haben 4 Autos zu vermieten. Familienfreundlich und für kurze Tagesausflüge geeignet. Das Auto muss im Zentrum von Balestrand zurückgegeben werden.
+
 ---

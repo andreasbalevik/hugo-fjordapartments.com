@@ -2,23 +2,18 @@ html {
     font-size: 16px;
 }
 
-.page__explore {
+.page__practical {
+    
+    .col-lg-8 {
+        margin-top: $size-md;
 
-    .line {
-        background-color: #8A5A6D;
-        border-radius: 25px;
-        height: 9px;
-        width: 100%;
-        display: block;
-        max-width: 55%;
-        margin-left: 35px;
-        margin-top:-20px;
-        margin-bottom: $size-lg;
-
-        @include tablet(){
-            max-width: 80%;
+        &:first-of-type {
+            margin-top:0!important;
         }
     }
+}
+
+.page__explore {
 
     .list {
 
@@ -40,7 +35,7 @@ html {
         img {
             width: 100%;
             object-fit: cover!important;
-            max-height: 400px;
+            max-height: 450px;
 
             @include mobile(){
                 max-height: 100%!important;
@@ -64,5 +59,28 @@ html {
             padding-top: $size-md;
             
         }
+    }
+}
+
+.line {
+    background-color: $secondary-text-color;
+    border-radius: 25px;
+    height: 9px;
+    width: 100%;
+    display: block;
+    max-width: 55%;
+    margin-left: 35px;
+    margin-top:-20px;
+    margin-bottom: $size-lg;
+
+    @include tablet(){
+        max-width: 80%;
+    }
+}
+
+.header__title {
+    .line {
+        margin-left:0!important;
+        margin-bottom:0!important;
     }
 }

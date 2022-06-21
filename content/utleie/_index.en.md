@@ -4,4 +4,22 @@ menu: main
 menu:
   main:
     weight: 4
+
+description: We rent cars, jet skis and apartments in the center of Balestrand. Perfect for short day trips in the local area.
+
+intro: Here you will find an overview of our rental offers. Send an inquiry by e-mail or when booking one of our apartments.
+
+items:
+- title: Jet skis
+  desc: 2 Sea-Doo SPARK (TRIXX 2) and 2 Sea-Doo SPARK (TRIXX 3) personal jet skis for rent in the center of Balestrand.
+  images:
+    - /images/jetski/IMG_0834.jpg
+    - /images/jetski/IMG_0606.jpg
+    - /images/jetski/IMG_0690.jpg
+    - /images/jetski/IMG_0816.jpg
+    - /images/jetski/IMG_0880.jpg
+    - /images/jetski/IMG_0890.jpg
+- title: Rental cars
+  desc: We have 2 cars available for rent. Family friendly and suitable for short day trips. Car must be returned in the center of Balestrand. Contact us for price proposal. Kontaktieren Sie uns für einen Preisvorschlag.
+
 ---

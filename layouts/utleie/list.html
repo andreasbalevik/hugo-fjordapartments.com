@@ -1,0 +1,69 @@
+{{ define "main" }}
+<div class="page__explore">
+    <div class="component">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <h1>{{.Title}}</h1>
+                    <span class="line"></span>
+                    <p>{{.Page.Params.intro}}</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="component">
+        <div class="container" style="max-width:1400px!important;">
+            <div class="list">
+                {{ range .Page.Params.items }}
+                <div class="row justify-content-center">
+                    <div class="col text__container">
+                        <h2>{{.title}}</h2>
+                        <p>{{.desc}}</p>
+                    </div>
+
+                    {{ if .images }}
+                    {{ $counter := 0 }}
+                    {{ $counter_2 := 0 }}
+                    <div class="col-lg-6 image__container">
+
+                        <!-- Carousel -->
+                        <div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+                            <!-- Indicators/dots -->
+                            <div class="carousel-indicators">
+                                {{ range .images }}
+                                <button type="button" data-bs-target="#demo" data-bs-slide-to="{{$counter_2}}" class="{{ if eq $counter_2 0}}active{{end}}"></button>
+                                {{ $counter_2 = add $counter_2 1 }}
+                                {{ end }}
+                            </div>
+
+                            <!-- The slideshow/carousel -->
+                            <div class="carousel-inner">
+                                {{ range .images }}
+                                <div class="carousel-item {{ if eq $counter 0}}active{{end}}">
+                                    <img class="lozad" src="{{.}}" alt="Los Angeles" class="">
+                                </div>
+                                {{ $counter = add $counter 1 }}
+                                {{ end }}
+                            </div>
+
+                            <!-- Left and right controls/icons -->
+                            <button class="carousel-control-prev" type="button" data-bs-target="#demo"
+                                data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon"></span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#demo"
+                                data-bs-slide="next">
+                                <span class="carousel-control-next-icon"></span>
+                            </button>
+                        </div>
+                    </div>
+                    {{ end }}
+                </div>
+                {{ end }}
+            </div>
+        </div>
+    </div>
+</div>
+
+{{ end }}
