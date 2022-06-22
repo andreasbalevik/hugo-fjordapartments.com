@@ -1,28 +1,37 @@
 {{ define "main" }}
-
-<div class="container">
-    <div class="row">
-        <div class="col-lg-12">
-            <h1>Mer salg. Bedre tid.
-                Kvalitet og kontroll.</h1>
-            <p>Driver du med aktiviteter, guidede turer eller andre typer opplevelser? Da er Bilberry systemet for deg.
-                Bilberry er aktivitetsbedriftenes operativsystem. I tillegg til å holde orden på bookinger og ressurser,
-                håndterer det også økonomi og kundeoppfølging. Bilberry er alt i en boks!</p>
+<div class="page__index">
+    <div class="component">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <h1>{{.Title}}</h1>
+                    <span class="line"></span>
+                </div>
+            </div>
         </div>
     </div>
-    <div class="row">
 
-
-        <div class="col-lg-6">
-            <h2>Bilberry gjør det vanskelige enkelt</h2>
-            <p>Bilberry forvalter hele din bedrift - slik at du kan fokusere mindre på administrasjon, og mer på å skape
-                uforglemmelige øyeblikk.</p>
-        </div>
-        <div class="col-lg-6">
-            <img src="https://picsum.photos/id/684/600/400" alt="">
+    <div class="component">
+        <div class="container">
+            <div class="f-list">
+            <div class="row gx-5 gy-5 justify-content-center">
+                {{ range .Page.Params.items }}
+                <div class="col-lg-6">
+                    <div class="text__container">
+                        <img src="{{.image}}" alt="{{.alt}}" />
+                        {{ if .source }}
+                        <div class="source">{{ i18n "image" }}: {{.source}}</div>
+                        {{ end }}
+                        <h2>{{.title}}</h2>
+                        <p>{{.desc}}</p>
+                        <div class="navigation__actions">
+                            <a href="{{.url}}">{{.button}}</a>
+                        </div>
+                    </div>
+                </div>
+                {{ end }}
+            </div>
         </div>
     </div>
-    
 </div>
-
 {{ end }}

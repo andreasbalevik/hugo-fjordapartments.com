@@ -13,6 +13,34 @@ html {
     }
 }
 
+.page__apartments {
+    img {
+        max-height: 450px!important;
+    }
+}
+
+.page__index {
+    .f-list {
+        h2 {
+            margin-top:$size-md;
+        }
+        .text__container {
+            height: 100%;
+            padding:45px;
+            background-color: white;
+            @extend .box-shadow;
+        }
+        img {
+            height: auto;
+            width: 100%;
+            object-fit: cover;
+        }
+        .navigation__actions {
+            margin-left: unset!important;
+            margin-top:$size-lg;
+        }
+    }
+}
 .page__explore {
 
     .list {
@@ -23,7 +51,6 @@ html {
             background-color: white;
             @extend .box-shadow;
             padding:50px;            
-
         }
 
         .image__container {
