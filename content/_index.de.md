@@ -5,13 +5,13 @@ description: Benötigen Sie eine Unterkunft? Wir haben neue, moderne Apartments 
 
 intro: Benötigen Sie eine Unterkunft? Wir haben neue, moderne Apartments mitten im Zentrum von Balestrand. Balkone mit fantastischem Blick auf den Fjord. Einfacher Zugang. Fertig möbliert, mit voll ausgestatteter Küche und Bad. Perfekt für diejenigen, die mehr Freiheit wollen.
 
-intro-button: Alle Wohnungen anzeigen
+intro_button: Alle Wohnungen anzeigen
 
 items:
 - title: Vermietung
-  image: /images/jetski/IMG_0890.jpg
-  desc: Wir vermieten Jetskis, Autos und Apartments im Zentrum von Balestrand. Perfekt für kurze Tagesausflüge in die Umgebung.
-  url: rental
+  image: /images/IMG_9845-HDR.jpg
+  desc: Wir vermieten Apartments, Autos und Jetskis  im Zentrum von Balestrand. Perfekt für kurze Tagesausflüge in die Umgebung.
+  url: /de/utleie
   button: Mehr Informationen
 
 - title: Lage
@@ -21,10 +21,10 @@ items:
   button: Mehr Informationen
 
 - title: Erkunden
-  image: /images/explore.jpg
+  image: /images/IMG_6248.jpg
   desc: Balestrand hat Ihnen als Besucher viel zu bieten. Ob alleine oder in Gruppen. Hier finden Sie alles von kulturellen Spaziergängen entlang der Küste bis hin zu Fjordsafaris in der Nähe der Umgebung. Reiselivsmuseum und mehr. Treffen Sie Einheimische, Fischer oder Künstler. Es gibt viel zur Auswahl.
   button: Erkunden Balestrand
-  url: explore
+  url: utforsk
 
 - title: Haben Sie Fragen zu unseren Apartments?
   image: /images/esefjord.jpg

@@ -5,14 +5,14 @@ description: Looking for a place to stay? We have new, high standard apartments 
 
 intro: Looking for a place to stay? We have new, high standard apartments in the hearth of Balestrand. Balconies with an amazing fjord view. Fully furnished, well equipped kitchen and bathroom. Perfect for a small family or if you are looking for a flexible stay.
 
-intro-button: View our apartments
+intro_button: View our apartments
 
 items:
 - title: Rental
-  image: /images/jetski/IMG_0890.jpg
-  desc: We rent out jet skis, cars and apartments in the center of Balestrand. Perfect for short day trips in the local area.
+  image: /images/IMG_9845-HDR.jpg
+  desc: We rent out apartments, cars and jet skis in the center of Balestrand. Perfect for short day trips in the local area.
   button: More information
-  url : rental
+  url : /en/utleie
 
 - title: Location
   image: /images/balestrand.jpg
@@ -21,10 +21,10 @@ items:
   url : info
 
 - title: Explore
-  image: /images/explore.jpg
+  image: /images/IMG_6248.jpg
   desc: Balestrand has many hidden treasures to explore. Go hiking in the high mountains, watch the fjord from above, or cruise the fjord, close to the elements. The opportunities are endless.
   button: Explore Balestrand. 
-  url: explore
+  url: utforsk
 
 - title: Do you have any questions about our apartments?
   image: /images/esefjord.jpg

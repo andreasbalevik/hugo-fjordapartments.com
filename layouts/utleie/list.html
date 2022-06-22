@@ -22,6 +22,11 @@
                         {{ if .price }}
                             {{.price | safeHTML}}
                         {{ end }}
+                        {{ if .button }}
+                            <div class="navigation__actions" style="margin-left:0px!important">
+                                <a href="{{.url}}">{{.button}}</a>
+                            </div>
+                        {{ end }}
                     </div>
 
                     {{ if .images }}
@@ -30,7 +35,7 @@
                     <div class="col-lg-6 image__container">
 
                         <!-- Carousel -->
-                        <div id="demo" class="carousel slide" data-bs-ride="carousel">
+                        <div id="demo" class="carousel slide" data-bs-interval="false" data-bs-ride="carousel">
 
                             <!-- Indicators/dots -->
                             <div class="carousel-indicators">
