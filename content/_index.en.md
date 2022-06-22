@@ -18,17 +18,17 @@ items:
   image: /images/balestrand.jpg
   desc: Our apartments are located centrally in Balestrand. With calm and quiet surroundings and an amazing view of the fjord. Balestrand offers beautiful scenery and high mountains with fantastic hiking opportunities. With short distances to grocery stores, tourist information and hiking opurtunities this is a perfect base for a longer stay.
   button: More information
-  url : info
+  url : /en/lokasjon
 
 - title: Explore
   image: /images/IMG_6248.jpg
   desc: Balestrand has many hidden treasures to explore. Go hiking in the high mountains, watch the fjord from above, or cruise the fjord, close to the elements. The opportunities are endless.
   button: Explore Balestrand. 
-  url: utforsk
+  url: /en/utforsk
 
 - title: Do you have any questions about our apartments?
   image: /images/esefjord.jpg
   button: Find more information
-  url: info
+  url: /en/info
 
 ---

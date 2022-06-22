@@ -12,6 +12,8 @@ title: Praktische Information
 faq:
 - title: Lage
   content: Unsere Apartments befinden sich im Herzen von Balestrand. Kurze Entfernungen zu allem, was Sie brauchen sollten. Lebensmittelgeschäfte, Restaurants, Touristeninformation und zu Fuß zum Boot (Bergen, Flom), Bus und Parkplatz
+  button: Mehr informationen 
+  url: /de/lokasjon
 
 
 - title: Wie buche ich eine Wohnung?

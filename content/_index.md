@@ -17,7 +17,7 @@ items:
 - title: Lokasjon
   image: /images/balestrand.jpg
   desc: Alle våre leiligheter ligger sentralt i Balestrand sentrum. Rolige omgivelser og med en fantastisk fjordutsikt. Med korte avstander til matbutikk, turistinformasjon og turmuligheter er dette et perfekt utgangspunkt for et lengre opphold.
-  url: /info
+  url: /lokasjon
   button: Mer informasjon
 
 - title: Utforsk
