@@ -1,0 +1,3 @@
+[submodule "themes/boilerplate-hugo-theme"]
+	path = themes/boilerplate-hugo-theme
+	url = https://github.com/andreasbalevik/boilerplate-hugo-theme.git
