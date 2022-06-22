@@ -18,6 +18,11 @@
                     <div class="col-lg-8 ">
                         <h2>{{.title}}</h2>
                         <p>{{.content | safeHTML}}</p>
+                        {{ if .button }}
+                        <div class="navigation__actions" style="margin-left:0px!important;margin-top:25px; margin-bottom:25px;">
+                            <a href="{{.url}}">{{.button}}</a>
+                        </div>
+                    {{ end }}
                     </div>
                 {{ end }}
 

@@ -10,10 +10,13 @@ description: Vi bruker Airbnb som booking tjeneste.
 title: Praktisk informasjon
 
 faq:
+- title: Lokasjon
+  content: Våre leiligheter ligger midt i Balestrand sentrum. Korte avstander til det du trenger. Matbutikker, resturanter, turistinformasjon og gode aktivitetsmuligheter. Gå avstand til båt (Bergen, Flåm), buss og parkering.
+
 - title: Hvordan leier jeg en leilighet?
   content: Vi bruker Airbnb som booking tjeneste. Vi har listet alle våre leiligheter under Leiligheter. Her finner du også direktelenke til leilighetens airbnb profil
-  button-text: Se våre leiligheter
-  button-link: apartments.html
+  button: Se våre leiligheter
+  url: apartments.html
 
 - title: Om leilighetene
   content: "<ul>
@@ -34,6 +37,8 @@ faq:
 
 - title: Utleiebil
   content: Vi disponerer en leiebil til våre gjester. Denne er ment for korte dagsturer i området. Bilen kan kun hentes og returneres i Balestrand. Ta kontakt for mer informasjon.
+  button: Se utleietjenester
+  url: /utleie
 
 - title: Noe er galt, hvem kan jeg kontakte?
   content: Ring oss på <b>+47 47 28 97 48</b> eller send en e-post til <b>lidalsiv@gmail.com</b>

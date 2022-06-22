@@ -10,10 +10,14 @@ description: We use Airbnb for booking.
 title: Praktische Information
 
 faq:
+- title: Lage
+  content: Unsere Apartments befinden sich im Herzen von Balestrand. Kurze Entfernungen zu allem, was Sie brauchen sollten. Lebensmittelgeschäfte, Restaurants, Touristeninformation und zu Fuß zum Boot (Bergen, Flom), Bus und Parkplatz
+
+
 - title: Wie buche ich eine Wohnung?
   content: Wir nutzen Airbnb für die Buchung. Unter dem Menü Apartments finden Sie eine Liste der verfügbaren Apartments. Alle Apartments haben einen direkten Link zu aribnb für die Buchung.
-  button-text: Gehen Sie zu unseren Wohnungen
-  button-link: apartments.html
+  button: Gehen Sie zu unseren Wohnungen
+  url: apartments.html
 
 - title: Über unsere Wohnungen
   content: "<ul>
@@ -33,6 +37,8 @@ faq:
 
 - title: Autovermietung
   content: Wir haben ein Auto zu mieten. Nur für kurze Tagesausflüge. Die Abholung und Rückgabe ist nur in Balestrand möglich. Kontaktieren Sie uns für weitere Informationen.
+  button: Siehe Mietservice
+  url: /de/utleie
 
 - title: Irgendwas stimmt nicht, an wen kann ich mich wenden?
   content: Rufen Sie uns unter <b> +47 47 28 97 48 </b> an oder senden Sie eine E-Mail an <b> lidalsiv@gmail.com </b>

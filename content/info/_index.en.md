@@ -10,10 +10,14 @@ description: We use Airbnb for booking.
 title: Practical information
 
 faq:
+
+- title: Location
+  content: Our apartments are located in the hearth of Balestrand. Short distances to everything you should need. Grocery stores, resturants, tourist information and walking distance to boat (Bergen, Flom), bus and parking
+
 - title: How do i book an apartment?
   content: We use Airbnb for booking. Under the menu Apartments you will find a list of available apartments. All apartments have a direct link to aribnb for booking.
-  button-text: Go to our apartments
-  button-link: apartments.html
+  button: Go to our apartments
+  url: apartments.html
 
 - title: About our apartments
   content: "<ul>
@@ -33,6 +37,8 @@ faq:
 
 - title: Car rental
   content: We have a car available for rental. Only for short daytrips. Pick-up and dropoff is only possible in Balestrand. Contact us for more information.
+  button: See rental services
+  url: /en/utleie
 
 - title: Something is wrong, who can i contact?
   content: Call us at <b>+47 47 28 97 48</b> or send an email to <b>lidalsiv@gmail.com</b>
