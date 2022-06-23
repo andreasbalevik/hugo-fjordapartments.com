@@ -26,10 +26,5 @@ items:
   url: /aktiviteter
   button: Se aktiviteter i Balestrand
 
-- title: Har du spørsmål om våre leiligheter?
-  image: /images/esefjord.jpg
-  url: /info
-  image: /images/esefjord.jpg
-  button: Mer praktisk info
 
 ---

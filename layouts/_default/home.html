@@ -1,12 +1,13 @@
 {{ define "main" }}
 <div class="page__index">
 
-    <div class="component" style="margin-bottom:-48px;">
+    <div class="component">
         <div class="container">
             <div class="row justify-content-center">
-                <div class="col-lg-7">
+                <div class="col-lg-6 text-center">
                     <h1>{{.Title}}</h1>
-                    <span class="line"></span>
+                    <span class="line"
+                        style="margin:unset; width:20%; margin:auto; margin-bottom:50px;margin-top:25px;"></span>
                     <p>{{.Page.Params.intro}}</p>
                     <div class="navigation__actions" style="margin-left:unset;margin-top:35px;text-align: center;">
                         <a href="leiligheter">{{.Page.Params.intro_button}}</a>
@@ -15,29 +16,31 @@
             </div>
         </div>
     </div>
-    
+    <div class="container">
+        <hr>
+    </div>
 
-    <div class="component pt-0">
+    <div class="component pt-5">
         <div class="container">
             <div class="f-list">
-            <div class="row gx-5 gy-5 justify-content-center">
-                {{ range .Page.Params.items }}
-                <div class="col-lg-5">
-                    <div class="text__container">
-                        <img src="{{.image}}" alt="{{.alt}}" />
-                        {{ if .source }}
-                        <div class="source">{{ i18n "image" }}: {{.source}}</div>
-                        {{ end }}
-                        <h2>{{.title}}</h2>
-                        <p>{{.desc}}</p>
-                        <div class="navigation__actions">
-                            <a href="{{.url}}">{{.button}}</a>
+                <div class="row gx-5 gy-5 justify-content-center">
+                    {{ range .Page.Params.items }}
+                    <div class="col-xl-4">
+                        <div class="text__container">
+                            <img src="{{.image}}" alt="{{.alt}}" />
+                            {{ if .source }}
+                            <div class="source">{{ i18n "image" }}: {{.source}}</div>
+                            {{ end }}
+                            <h2>{{.title}}</h2>
+                            <p>{{.desc}}</p>
+                            <div class="navigation__actions">
+                                <a href="{{.url}}">{{.button}}</a>
+                            </div>
                         </div>
                     </div>
+                    {{ end }}
                 </div>
-                {{ end }}
             </div>
         </div>
     </div>
-</div>
-{{ end }}
+    {{ end }}
