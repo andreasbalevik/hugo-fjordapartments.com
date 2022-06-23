@@ -1,13 +1,12 @@
 ---
-title: Explore
 menu:
   main:
     weight: 3
-    name: Activeties
+    name: Activities
 
 description: Balestrand has many hidden treasures to explore. Go hiking in the high mountains, watch the fjord from above, or cruise the fjord, close to the elements. The opportunities are endless.
 
-title: Activeties in Balestrand
+title: Activities in Balestrand
 intro: The first tourist came to Balestrand more than a 100 years ago, drawn to majestic mountains and deep fjords. The small village has since become an attractive destination worldwide. Below we have listed some of the activities in Balestrand we think you should try.
 
 activeties:
