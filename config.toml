@@ -17,3 +17,9 @@ defaultContentLanguage = 'no'
     weight = 3
     other = "Deutsch"
 
+
+
+[Params]
+  ogimage = '/images/balestrand.jpg'
+
+
