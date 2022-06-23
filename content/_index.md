@@ -20,11 +20,11 @@ items:
   url: /lokasjon
   button: Mer informasjon
 
-- title: Utforsk
+- title: Aktiviteter
   image: /images/IMG_6248.jpg
   desc: Balestrand har mye å tilby deg som besøkende. Enten du reiser alene, eller i gruppe. Her er alt fra kulturvandring langs sjøkanten til fjord safari, tett på omgivelsene. Reiselivsmuseum og mer. Møt lokale mennesker, fiskere eller kunstnere. Det er mye å velge mellom. 
-  url: /utforsk
-  button: Utforsk Balestrand
+  url: /aktiviteter
+  button: Se aktiviteter i Balestrand
 
 - title: Har du spørsmål om våre leiligheter?
   image: /images/esefjord.jpg

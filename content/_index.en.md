@@ -20,11 +20,11 @@ items:
   button: More information
   url : /en/lokasjon
 
-- title: Explore
+- title: Activeties
   image: /images/IMG_6248.jpg
   desc: Balestrand has many hidden treasures to explore. Go hiking in the high mountains, watch the fjord from above, or cruise the fjord, close to the elements. The opportunities are endless.
-  button: Explore Balestrand. 
-  url: /en/utforsk
+  button: Find activeties in Balestrand. 
+  url: /en/aktiviteter
 
 - title: Do you have any questions about our apartments?
   image: /images/esefjord.jpg

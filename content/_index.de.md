@@ -20,11 +20,11 @@ items:
   url: /de/lokasjon
   button: Mehr Informationen
 
-- title: Erkunden
+- title: Aktivitäten
   image: /images/IMG_6248.jpg
   desc: Balestrand hat Ihnen als Besucher viel zu bieten. Ob alleine oder in Gruppen. Hier finden Sie alles von kulturellen Spaziergängen entlang der Küste bis hin zu Fjordsafaris in der Nähe der Umgebung. Reiselivsmuseum und mehr. Treffen Sie Einheimische, Fischer oder Künstler. Es gibt viel zur Auswahl.
-  button: Erkunden Balestrand
-  url: /de/utforsk
+  button: Aktivitäten in Balestrand 
+  url: /de/aktiviteter
 
 - title: Haben Sie Fragen zu unseren Apartments?
   image: /images/esefjord.jpg
