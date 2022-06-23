@@ -26,8 +26,4 @@ items:
   button: Aktivitäten in Balestrand 
   url: /de/aktiviteter
 
-- title: Haben Sie Fragen zu unseren Apartments?
-  image: /images/esefjord.jpg
-  button: Mehr Informationen
-  url: /de/info
 ---
