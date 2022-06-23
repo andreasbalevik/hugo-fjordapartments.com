@@ -4,11 +4,11 @@ menu: main
 menu:
   main:
     weight: 3
-    name: Utforsk
+    name: Aktiviteter
 
 description: Balestrand har mye å tilby deg som besøkende. Enten du reiser alene, eller i gruppe. Her er alt fra kulturvandring langs sjøkanten til fjord safari, tett på omgivelsene. Sognefjord akvarium, Reiselivsmuseum og mer. Møt lokale mennesker, fiskere eller kunstnere. Det er mye å velge mellom. 
 
-title: Utforsk Balestrand
+title: Aktiviteter i Balestrand
 intro: Den første turisten kom til Balestrand for over 100 år siden, tiltrukket av høye fjell og dype fjorder. Det lille tettstedet har siden blitt et attraktivt reisemål for mennesker over hele verden. Under har vi liste opp noen aktiviteter og steder vi synes du bør vurdere.
 
 activeties:

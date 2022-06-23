@@ -1,15 +1,14 @@
 ---
-title: Erkunden
-menu: main
+title: Explore
 menu:
   main:
     weight: 3
-    name: Erkunden
+    name: Activeties
 
-description: Balestrand hat viele verborgene Schätze zu entdecken. Wandern Sie im Hochgebirge, beobachten Sie den Fjord von oben oder fahren Sie auf dem Fjord in der Nähe der Elemente. Die Möglichkeiten sind endlos.
+description: Balestrand has many hidden treasures to explore. Go hiking in the high mountains, watch the fjord from above, or cruise the fjord, close to the elements. The opportunities are endless.
 
-title: Erkunden Balestrand
-intro: Der erste Tourist kam vor mehr als 100 Jahren nach Balestrand, angezogen von majestätischen Bergen und tiefen Fjorden. Das kleine Dorf ist seitdem weltweit ein attraktives Reiseziel. Nachfolgend haben wir einige Aktivitäten in Balestrand aufgelistet, die Sie ausprobieren sollten.
+title: Activeties in Balestrand
+intro: The first tourist came to Balestrand more than a 100 years ago, drawn to majestic mountains and deep fjords. The small village has since become an attractive destination worldwide. Below we have listed some of the activities in Balestrand we think you should try.
 
 activeties:
 - title: The view
@@ -59,4 +58,3 @@ activeties:
   source: sognefjord.no
 
 ---
-
