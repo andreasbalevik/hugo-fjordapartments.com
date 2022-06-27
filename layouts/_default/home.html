@@ -1,26 +1,23 @@
 {{ define "main" }}
 <div class="page__index">
 
-    <div class="component">
+    <div class="component" style="background-repeat:no-repeat;background:linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),url('/images/IMG_6391.jpeg');background-size: 100% auto;background-position:center;">
         <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-lg-6 text-center">
+            <div class="row justify-content-lg-center">
+                <div class="col-lg-6 text-center text-white textbox">
                     <h1>{{.Title}}</h1>
                     <span class="line"
-                        style="margin:unset; width:20%; margin:auto; margin-bottom:50px;margin-top:25px;"></span>
+                        style="margin:unset; background:white; width:20%; margin:auto; margin-bottom:50px;margin-top:25px;"></span>
                     <p>{{.Page.Params.intro}}</p>
                     <div class="navigation__actions" style="margin-left:unset;margin-top:35px;text-align: center;">
-                        <a href="leiligheter">{{.Page.Params.intro_button}}</a>
+                        <a href="leiligheter" class="text-white">{{.Page.Params.intro_button}}</a>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <div class="container">
-        <hr>
-    </div>
 
-    <div class="component pt-5">
+    <div class="component pt-3">
         <div class="container">
             <div class="f-list">
                 <div class="row gx-5 gy-5 justify-content-center">
