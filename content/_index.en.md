@@ -7,6 +7,11 @@ intro: Looking for a place to stay? We have new, high standard apartments in the
 
 intro_button: View our apartments
 
+images:
+- /images/IMG_6391.jpeg
+- /images/jetski/IMG_0690.jpg
+- /images/IMG_6248.jpg
+
 items:
 - title: Rental
   image: /images/IMG_9845-HDR.jpg

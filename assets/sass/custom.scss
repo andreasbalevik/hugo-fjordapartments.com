@@ -2,6 +2,17 @@ html {
     font-size: 16px;
 }
 
+.navigation__actions {
+    a {
+        border:1px solid $primary-signal-color;
+        color:black;
+        &:hover {
+           background-color: $primary-signal-color;
+           color:white!important; 
+        }
+    }
+}
+
 .header {
     margin-bottom: 0px;
 }
@@ -47,6 +58,21 @@ html {
         .navigation__actions {
             margin-left: unset!important;
             margin-top:$size-lg;
+        }
+    }
+
+    img {
+        width:100%!important;
+        object-fit: cover;
+    }
+
+    .carousel-inner {
+        img {
+            height:700px!important;
+
+            @include tablet(){
+                height:400px!important;
+            }
         }
     }
 }
@@ -146,10 +172,10 @@ html {
 
     .navigation__actions {
         a {
-            border: 1px solid white;
+            border: 1px solid white!important;
 
             &:hover {
-               background-color: white;
+               background-color: white!important;
                color:black!important; 
             }
         }

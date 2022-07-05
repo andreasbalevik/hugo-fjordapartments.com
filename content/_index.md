@@ -6,6 +6,11 @@ description: Behov for overnatting? Vi har nye, moderne leiligheter midt i Bales
 intro: Behov for overnatting? Vi har nye, moderne leiligheter midt i Balestrand sentrum. Balkonger med fantastisk fjordutsikt. Lett tilkomst. Ferdig møblert, med fullt utstyrt kjøkken og bad. Perfekt for deg som ønsker mer frihet.
 intro_button: Vis alle leiligheter
 
+images:
+- /images/IMG_6391.jpeg
+- /images/jetski/IMG_0690.jpg
+- /images/IMG_6248.jpg
+
 
 items: 
 - title: Utleie

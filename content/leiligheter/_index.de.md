@@ -13,7 +13,8 @@ intro-button-text: Klicken Sie für weitere praktische Informationen
 
 apartments:
 - title: Holmen 19B (8 Völker)
-  desc: Neue Wohnung im Zentrum von Balestrand für 8 Personen. Eine Treppe führt in die obere Etage zu den Schlafräumen und einem 2. Bad. Die Wohnung verfügt über einen großen und einen kleinen Balkon mit einem fantastischen Blick auf den Fjord. Voll möblierte, gut ausgestattete Küche und Bad mit Waschmaschine. 50 Meter zum nächsten Lebensmittelgeschäft, Post, Restaurant / Pub und Aquarium, Touristeninformation. Mini Bank in 300 Meter
+  desc: "Neue Wohnung im Zentrum von Balestrand für 8 Personen. (Möglichkeit von 2 zusätzlichen Gästen gegen Aufpreis). 4 Schlafzimmer (optional, wenn Sie ein Einzel- oder Doppelbett wünschen). Kinderbett vorhanden. Die Wohnung verfügt über einen großen Balkon und einen kleinen Balkon im Dachgeschoss. Internet. 50 Meter zum Lebensmittelgeschäft, Restaurant / Kneipe, Aquarium, Touristeninformation, Mietwagen, Rippchen und Angeltouren. Fähre von und nach Bergen und weiter in den Fjord hinein nach Flåm. Tolle Tour in den Bergen. HINWEIS: Treppe zur Haustür."
+
   images: 
     - /images/IMG_6385.jpeg
     - /images/IMG_6382.jpeg
@@ -36,7 +37,9 @@ apartments:
   alt: leiligheter overnatting balestrand sentralt
 
 - title: Holmen 19A (4 Völker)
-  desc: Neue Wohnung im Zentrum von Balestrand für 4 Personen Menschen. Die Wohnung hat Ein großer Balkon mit einem fantastischen Blick auf den Fjord. Voll möblierte, gut ausgestattete Küche und Badezimmer mit Waschmaschine. 50 Meter zum nächsten Lebensmittelgeschäft, Post, Restaurant / Pub und Aquarium, Touristeninformation. Minibank in 300 Metern
+  desc: "Neue Wohnung im Zentrum von Balestrand für 4 Personen. 2 Schlafzimmer, (optional, wenn Sie Einzelbetten oder Doppelbett wünschen).
+Reisebett vorhanden. Ein zusätzlicher Gast im Zustellbett.
+Die Wohnung verfügt über einen großen Balkon mit mehreren Sitzplätzen. Internet. 50 Meter zum Lebensmittelgeschäft, Restaurant / Pub, Aquarium, Touristeninformation, Kajakverleih und Ribs-Touren. Fähre von und nach Bergen und weiter landeinwärts nach Flåm. Tolle Wandermöglichkeiten in den Bergen mit vielen Wanderwegen in der Umgebung."
   images: 
     - /images/IMG_6391.jpeg
     - /images/apartment_19a_slide1.jpg

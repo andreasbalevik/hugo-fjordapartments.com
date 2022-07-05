@@ -1,26 +1,47 @@
 {{ define "main" }}
 <div class="page__index">
 
-    <div class="component" style="background-repeat:no-repeat;background:linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),url('/images/IMG_6391.jpeg');background-size: 100% auto;background-position:center;">
+    {{ $counter := 0 }}
+    <div class="component" style="padding-top:0!important; padding-bottom:0!important;">
         <div class="container">
             <div class="row justify-content-lg-center">
-                <div class="col-lg-6 text-center text-white textbox">
-                    <h1>{{.Title}}</h1>
-                    <span class="line"
-                        style="margin:unset; background:white; width:20%; margin:auto; margin-bottom:50px;margin-top:25px;"></span>
-                    <p>{{.Page.Params.intro}}</p>
-                    <div class="navigation__actions" style="margin-left:unset;margin-top:35px;text-align: center;">
-                        <a href="leiligheter" class="text-white">{{.Page.Params.intro_button}}</a>
+
+                <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        {{ range .Params.images }}
+                        <div class="carousel-item {{ if eq $counter 0}}active{{end}}">
+                            <img class="lozad" src="{{.}}" alt="" class="">
+                        </div>
+                        {{ $counter = add $counter 1 }}
+                        {{ end }}
                     </div>
-                </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+
             </div>
         </div>
     </div>
 
-    <div class="component pt-3">
+    <div class="component pt-0">
         <div class="container">
-            <div class="f-list">
+            <div class="f-list" style="overflow: hidden;">
                 <div class="row gx-5 gy-5 justify-content-center">
+                    <div class="col-lg-12 text-center text-white textbox">
+                        <h1>{{.Title}}</h1>
+                        <span class="line"
+                            style="margin:unset; background:white; width:40%; margin:auto; margin-bottom:50px;margin-top:25px;"></span>
+                        <p style="max-width: 60%; margin:auto;">{{.Page.Params.intro}}</p>
+                        <div class="navigation__actions" style="margin-left:unset;margin-top:35px;text-align: center;">
+                            <a href="leiligheter" class="text-white">{{.Page.Params.intro_button}}</a>
+                        </div>
+                    </div>
                     {{ range .Page.Params.items }}
                     <div class="col-xl-4">
                         <div class="text__container">

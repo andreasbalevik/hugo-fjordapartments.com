@@ -7,6 +7,11 @@ intro: Benötigen Sie eine Unterkunft? Wir haben neue, moderne Apartments mitten
 
 intro_button: Alle Wohnungen anzeigen
 
+images:
+- /images/IMG_6391.jpeg
+- /images/jetski/IMG_0690.jpg
+- /images/IMG_6248.jpg
+
 items:
 - title: Vermietung
   image: /images/IMG_9845-HDR.jpg
