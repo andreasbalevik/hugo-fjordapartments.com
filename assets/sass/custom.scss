@@ -2,6 +2,10 @@ html {
     font-size: 16px;
 }
 
+.carousel-control-next, .carousel-control-prev {
+    filter: brightness(100%)!important;
+}
+
 .navigation__actions {
     a {
         border:1px solid $primary-signal-color;
@@ -35,6 +39,15 @@ html {
 }
 
 .page__index {
+
+    .intro-text {
+        max-width: 60%;
+        margin:auto;
+
+        @include tablet(){
+            max-width: 100%;
+        }
+    }
 
     &:nth-child(odd){
         background-color: $component-color;
@@ -163,20 +176,25 @@ html {
 }
  
 .textbox {
-    background-color:$primary-signal-color;
+    h1,p {color:black;}
     padding:45px 80px;
 
     @include mobile(){
         padding:45px 20px;
     }
 
+    .line {
+        background-color: $primary-signal-color;
+    }
+
     .navigation__actions {
         a {
-            border: 1px solid white!important;
+            border: 1px solid black!important;
+            color:black!important;
 
             &:hover {
-               background-color: white!important;
-               color:black!important; 
+               background-color: $primary-signal-color!important;
+               color:white!important; 
             }
         }
     }
