@@ -10,7 +10,7 @@ intro_button: Alle Wohnungen anzeigen
 images:
 - /images/IMG_6391.jpeg
 - /images/holmen.jpg
-- /images/jetski/IMG_0690.jpg
+- /images/jetski.jpg
 - /images/IMG_6248.jpg
 
 items:
