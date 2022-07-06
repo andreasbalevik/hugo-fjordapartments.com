@@ -8,6 +8,7 @@ intro_button: Vis alle leiligheter
 
 images:
 - /images/IMG_6391.jpeg
+- /images/holmen.jpg
 - /images/jetski/IMG_0690.jpg
 - /images/IMG_6248.jpg
 

@@ -163,7 +163,7 @@ html {
 }
  
 .textbox {
-    background-color:#8a5a6d;
+    background-color:$primary-signal-color;
     padding:45px 80px;
 
     @include mobile(){

@@ -13,7 +13,7 @@ items:
 - title: Apartments
   desc: Wir vermieten Apartments im Zentrum von Balestrand. Perfekt für kurze Aufenthalte in Balestrand.
   images: 
-    - /images/IMG_6391.jpeg
+    - /images/holmen.jpg
     - /images/IMG_9845-HDR.jpg
     - /images/IMG_9826.jpg
     - /images/IMG_9817-HDR.jpg

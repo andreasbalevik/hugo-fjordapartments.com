@@ -13,7 +13,7 @@ items:
 - title: Apartments
   desc: We rent out apartments in the center of Balestrand. Perfect for short stays in Balestrand.
   images: 
-    - /images/IMG_6391.jpeg
+    - /images/holmen.jpg
     - /images/IMG_9845-HDR.jpg
     - /images/IMG_9826.jpg
     - /images/IMG_9817-HDR.jpg

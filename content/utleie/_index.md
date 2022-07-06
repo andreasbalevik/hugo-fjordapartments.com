@@ -12,7 +12,7 @@ items:
 - title: Leiligheter
   desc: Vi leier ut leiligheter i Balestrand sentrum. Perfekt for korte opphold i Balestrand. 
   images: 
-    - /images/IMG_6391.jpeg
+    - /images/holmen.jpg
     - /images/IMG_9845-HDR.jpg
     - /images/IMG_9826.jpg
     - /images/IMG_9817-HDR.jpg
