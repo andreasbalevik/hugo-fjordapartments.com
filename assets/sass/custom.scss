@@ -100,7 +100,7 @@ html {
         }
 
         .image__container {
-            @include mobile(){
+            @include tablet(){
                 padding:unset!important;
             }
         }
