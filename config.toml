@@ -2,9 +2,10 @@ languageCode = 'nb-NO'
 title = 'Balestrand Fjord Apartments'
 theme = 'boilerplate-hugo-theme'
 
-defaultContentLanguage = 'no'
+defaultContentLanguage = 'nb'
+
 [languages]
-  [languages.no]
+  [languages.nb]
     languageName = "Norsk"
     weight = 1
     other = "Norsk"

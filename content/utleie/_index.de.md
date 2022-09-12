@@ -27,7 +27,5 @@ items:
     - /images/jetski/IMG_0606.jpg
     - /images/jetski/IMG_0816.jpg
   price: "3 Timer: 1400 NOK - 6 Timer: 1900 NOK <br> 1 Tag (09-21): 2500 NOK - 1 Woche: 9900 NOK"
-- title: Mietwagen
-  desc: Wir haben 4 Autos zu vermieten. Familienfreundlich und für kurze Tagesausflüge geeignet. <br> Das Auto muss im Zentrum von Balestrand zurückgegeben werden.
 
 ---

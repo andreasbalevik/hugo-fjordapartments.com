@@ -17,10 +17,6 @@ html {
     }
 }
 
-.header {
-    margin-bottom: 0px;
-}
-
 .page__practical {
     
     .col-lg-8 {
@@ -61,6 +57,7 @@ html {
             height: 100%;
             padding:25px;
             background-color: white;
+            border:1px solid lightgray;
             @extend .box-shadow;
         }
         img {
@@ -96,7 +93,8 @@ html {
         position: relative;
 
         .text__container {
-            background-color: white;
+            background-color: #f4f6f9;
+            border: 1px solid lightgray;
             @extend .box-shadow;
             padding:50px;            
         }
