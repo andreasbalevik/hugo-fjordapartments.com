@@ -2,6 +2,11 @@ html {
     font-size: 16px;
 }
 
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+    background-color: rgba(0, 0, 0, 0.177);
+}
+
 .page__explore,
 .page__apartments {
     .text__container {
