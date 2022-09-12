@@ -16,7 +16,7 @@ images:
 items:
 - title: Vermietung
   image: /images/IMG_9845-HDR.jpg
-  desc: Wir vermieten Apartments, Autos und Jetskis  im Zentrum von Balestrand. Perfekt für kurze Tagesausflüge in die Umgebung.
+  desc: Wir vermieten Apartments und Jetskis  im Zentrum von Balestrand. Perfekt für kurze Tagesausflüge in die Umgebung.
   url: /de/utleie
   button: Mehr Informationen
 

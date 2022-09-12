@@ -37,11 +37,6 @@ faq:
 - title: Check-in and checkout
   content: The apartments have a keybox near the entrance. We will provide you with information about the adress, keybox code and more after you have completed the booking. Checkout before 1200 a.m the day of departure. Cleaning is included, but we kindly ask you to leave it in the same condition as when you arrived. 
 
-- title: Car rental
-  content: We have a car available for rental. Only for short daytrips. Pick-up and dropoff is only possible in Balestrand. Contact us for more information.
-  button: See rental services
-  url: /en/utleie
-
 - title: Something is wrong, who can i contact?
   content: Call us at <b>+47 47 28 97 48</b> or send an email to <b>lidalsiv@gmail.com</b>
 

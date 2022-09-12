@@ -12,11 +12,10 @@ images:
 - /images/jetski.jpg
 - /images/IMG_6248.jpg
 
-
 items: 
 - title: Utleie
   image: /images/IMG_9845-HDR.jpg
-  desc: Vi har utleie av leiligheter, bil og vannscooter midt i Balestrand sentrum. Perfekt for korte dagsturer i nærområdet.
+  desc: Vi har utleie av leiligheter og vannscooter midt i Balestrand sentrum. Perfekt for korte dagsturer i nærområdet.
   url: /utleie
   button: Mer informasjon
 

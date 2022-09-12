@@ -37,11 +37,6 @@ faq:
 - title: Inn og utsjekk
   content: Alle våre leilighet har en egen nøkkelboks på utsiden. Du vil få praktisk informasjon som adresse, pinkode og mer når du booker en av våre leiligheter. Utsjekk senest kl 12:00 på avreisedag. Utvask av leiligheten er inkludert i leieprisen, men vi ønsker at leiligheten skal være ryddig slik som ved ankomst.
 
-- title: Utleiebil
-  content: Vi disponerer en leiebil til våre gjester. Denne er ment for korte dagsturer i området. Bilen kan kun hentes og returneres i Balestrand. Ta kontakt for mer informasjon.
-  button: Se utleietjenester
-  url: /utleie
-
 - title: Noe er galt, hvem kan jeg kontakte?
   content: Ring oss på <b>+47 47 28 97 48</b> eller send en e-post til <b>lidalsiv@gmail.com</b>
 ---

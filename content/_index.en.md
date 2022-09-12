@@ -16,7 +16,7 @@ images:
 items:
 - title: Rental
   image: /images/IMG_9845-HDR.jpg
-  desc: We rent out apartments, cars and jet skis in the center of Balestrand. Perfect for short day trips in the local area.
+  desc: We rent out apartments and jet skis in the center of Balestrand. Perfect for short day trips in the local area.
   button: More information
   url : /en/utleie
 
