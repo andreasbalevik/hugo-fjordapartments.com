@@ -49,7 +49,11 @@
                         <div class="carousel-inner">
                             {{ range .images }}
                             <div class="carousel-item {{ if eq $counter 0}}active{{end}}">
-                                <img {{ if (ne $counter 0) }}loading="lazy"{{end}} height=600 width=450 src="{{.}}" alt="" class="">
+                                
+                                {{ $image := resources.GetMatch . }}
+                                {{ $image := $image.Fill "650x450" }}
+                                <img src="{{$image.RelPermalink}}" {{ if (ne $counter 0) }}loading="lazy"{{end}} width="{{ $image.Width }}" height="{{ $image.Height }}" alt="">
+       
                             </div>
                             {{ $counter = add $counter 1 }}
                             {{ end }}

@@ -10,7 +10,11 @@
                     <div class="carousel-inner">
                         {{ range .Params.images }}
                             <div class="carousel-item {{ if eq $counter 0}}active{{end}}">
-                                <img {{ if (ne $counter 0) }}loading="lazy"{{end}} width=1729 height=700 src="{{.}}" alt="" class="">
+
+                                {{ $image := resources.GetMatch . }}
+                                {{ $image := $image.Fill "1712x700" }}
+                                <img src="{{$image.RelPermalink}}" {{ if (ne $counter 0) }}loading="lazy"{{end}} width="{{ $image.Width }}" height="{{ $image.Height }}" alt="">
+  
                             </div>
                         {{ $counter = add $counter 1 }}
                         {{ end }}
@@ -45,7 +49,12 @@
                     {{ range .Page.Params.items }}
                     <div class="col-xl-4">
                         <div class="text__container">
-                            <img loading="lazy" width=492 height=277 src="{{.image}}" alt="{{.alt}}" />
+
+
+                            {{ $image := resources.GetMatch .image }}
+                            {{ $image := $image.Fill "492x277" }}
+                            <img src="{{$image.RelPermalink}}" {{ if (ne $counter 0) }}loading="lazy"{{end}} width="{{ $image.Width }}" height="{{ $image.Height }}" alt="">
+
                             {{ if .source }}
                             <div class="source">{{ i18n "image" }}: {{.source}}</div>
                             {{ end }}
