@@ -10,6 +10,22 @@ title: Activities in Balestrand
 intro: The first tourist came to Balestrand more than a 100 years ago, drawn to majestic mountains and deep fjords. The small village has since become an attractive destination worldwide. Below we have listed some of the activities in Balestrand we think you should try.
 
 activeties:
+- title: Balestrand Adventure
+  desc: Balestrand adventures are an experienced provider in Balestrand, in the heart of the Sognefjord region. They sell down-to-earth experiences based on the history and nature of the Sognefjord. 
+  homepage: https://www.balestrandadventure.no
+  img: /images/BHCKTHm-16_9-s.jpg
+  alt: fast sightseeing rib guide
+  button: Go to website >
+  source: balestrandadventure.no
+
+- title: Balestrand Fjord Angling
+  desc: Experience more than just fishing. Stunning vistas around every corner, as far as eye can see. Culture. Educational. High mountains, Running water & Clean Air...
+  homepage: https://www.balestrandfjordangling.com
+  img: /images/B67I4877-min.JPG
+  alt: fishing angling balestrand fjord deep fish guide 
+  button: Go to website >
+  source: balestrandfjordangling.com
+  
 - title: The view
   desc: From Balestrand and 40 minutes drive you will find the spectacular viewpoint on Gaularfjellet.
   homepage: https://goo.gl/maps/8Hxim3bHPJMgEdqBA
@@ -24,21 +40,6 @@ activeties:
   img: /images/badelagunen.png
   alt: balestrand lagoon swimming
   button: Get directions >
-- title: Balestrand Adventure
-  desc: Balestrand adventures are an experienced provider in Balestrand, in the heart of the Sognefjord region. They sell down-to-earth experiences based on the history and nature of the Sognefjord. 
-  homepage: https://www.balestrandadventure.no
-  img: /images/fjord_adventure2.jpg
-  alt: fast sightseeing rib guide
-  button: Go to website >
-  source: balestrandadventure.no
-
-- title: Balestrand Fjord Angling
-  desc: Experience more than just fishing. Stunning vistas around every corner, as far as eye can see. Culture. Educational. High mountains, Running water & Clean Air...
-  homepage: https://www.balestrandfjordangling.com
-  img: /images/balestrand_fjord_angling.jpg
-  alt: fishing angling balestrand fjord deep fish guide 
-  button: Go to website >
-  source: balestrandfjordangling.com
 
 - title: Balestrand Cider House
   desc: Balestrand cider house is located in Balestrand, a small walk from the pier and Kviknes Hotel. Balholm is their brand for fruit and berry drinks - cooked with a large portion of passion! In the summer, you can join in the tasting of cider and learn how to distill or cook sparkling cider in the traditional way. You can shop in the farm shop or have a meal in the restaurant.
