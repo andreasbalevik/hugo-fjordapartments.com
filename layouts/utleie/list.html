@@ -49,7 +49,7 @@
                             <div class="carousel-inner">
                                 {{ range .images }}
                                 <div class="carousel-item {{ if eq $counter 0}}active{{end}}">
-                                    <img class="lozad" src="{{.}}" alt="Los Angeles" class="">
+                                    <img {{ if (ne $counter 0) }}loading="lazy"{{end}} height=650 width=450 src="{{.}}" class="">
                                 </div>
                                 {{ $counter = add $counter 1 }}
                                 {{ end }}
