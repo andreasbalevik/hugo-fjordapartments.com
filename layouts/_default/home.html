@@ -53,7 +53,7 @@
 
                             {{ $image := resources.GetMatch .image }}
                             {{ $image := $image.Fill "492x277" }}
-                            <img src="{{$image.RelPermalink}}" {{ if (ne $counter 0) }}loading="lazy"{{end}} width="{{ $image.Width }}" height="{{ $image.Height }}" alt="">
+                            <img src="{{$image.RelPermalink}}" loading="lazy" width="{{ $image.Width }}" height="{{ $image.Height }}" alt="">
 
                             {{ if .source }}
                             <div class="source">{{ i18n "image" }}: {{.source}}</div>
