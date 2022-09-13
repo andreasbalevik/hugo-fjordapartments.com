@@ -9,9 +9,9 @@
                 <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
                     <div class="carousel-inner">
                         {{ range .Params.images }}
-                        <div class="carousel-item {{ if eq $counter 0}}active{{end}}">
-                            <img class="lozad" src="{{.}}" alt="" class="">
-                        </div>
+                            <div class="carousel-item {{ if eq $counter 0}}active{{end}}">
+                                <img {{ if (ne $counter 0) }}loading="lazy"{{end}} width=1729 height=700 src="{{.}}" alt="" class="">
+                            </div>
                         {{ $counter = add $counter 1 }}
                         {{ end }}
                     </div>
@@ -45,7 +45,7 @@
                     {{ range .Page.Params.items }}
                     <div class="col-xl-4">
                         <div class="text__container">
-                            <img src="{{.image}}" alt="{{.alt}}" />
+                            <img loading="lazy" width=492 height=277 src="{{.image}}" alt="{{.alt}}" />
                             {{ if .source }}
                             <div class="source">{{ i18n "image" }}: {{.source}}</div>
                             {{ end }}
