@@ -24,7 +24,7 @@ activeties:
 - title: Balestrand Fjord Angling
   desc: Experience more than just fishing. Stunning vistas around every corner, as far as eye can see. Culture. Educational. High mountains, Running water & Clean Air...
   homepage: https://www.balestrandfjordangling.com
-  img: /images/B67I4877-min.JPG
+  img: /images/B67I4877-min.jpg
   alt: fishing angling balestrand fjord deep fish guide 
   button: Go to website >
   source: balestrandfjordangling.com
