@@ -10,6 +10,23 @@ title: Activities in Balestrand
 intro: The first tourist came to Balestrand more than a 100 years ago, drawn to majestic mountains and deep fjords. The small village has since become an attractive destination worldwide. Below we have listed some of the activities in Balestrand we think you should try.
 
 activeties:
+
+- title: Balestrand Adventure
+  desc: Balestrand adventures are an experienced provider in Balestrand, in the heart of the Sognefjord region. They sell down-to-earth experiences based on the history and nature of the Sognefjord. 
+  homepage: https://www.balestrandadventure.no
+  img: /images/BHCKTHm-16_9-s.jpg
+  alt: fast sightseeing rib guide
+  button: Go to website >
+  source: balestrandadventure.no
+
+- title: Balestrand Fjord Angling
+  desc: Experience more than just fishing. Stunning vistas around every corner, as far as eye can see. Culture. Educational. High mountains, Running water & Clean Air...
+  homepage: https://www.balestrandfjordangling.com
+  img: /images/B67I4877-min.JPG
+  alt: fishing angling balestrand fjord deep fish guide 
+  button: Go to website >
+  source: balestrandfjordangling.com
+  
 - title: The view
   desc: From Balestrand and 40 minutes drive you will find the spectacular viewpoint on Gaularfjellet.
   homepage: https://goo.gl/maps/8Hxim3bHPJMgEdqBA
