@@ -13,7 +13,7 @@
 
                                 {{ $image := resources.GetMatch . }}
                                 {{ $image := $image.Fill "1712x700" }}
-                                <img src="{{$image.RelPermalink}}" {{ if (ne $counter 0) }}loading="lazy"{{end}} width="{{ $image.Width }}" height="{{ $image.Height }}" alt="">
+                                <img src="{{$image.RelPermalink}}" width="{{ $image.Width }}" height="{{ $image.Height }}" alt="">
   
                             </div>
                         {{ $counter = add $counter 1 }}
