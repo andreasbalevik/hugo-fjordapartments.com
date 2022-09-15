@@ -4,6 +4,14 @@ theme = 'boilerplate-hugo-theme'
 
 defaultContentLanguage = 'nb'
 
+
+
+[imaging]
+  anchor = 'Smart'
+  hint = 'photo'
+  quality = 80
+  resampleFilter = 'MitchellNetravali'
+
 [languages]
   [languages.nb]
     languageName = "Norsk"

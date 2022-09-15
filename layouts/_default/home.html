@@ -12,7 +12,7 @@
                             <div class="carousel-item {{ if eq $counter 0}}active{{end}}">
 
                                 {{ $image := resources.GetMatch . }}
-                                {{ $image := $image.Fill "1712x700" }}
+                                {{ $image := $image.Fill "1629x700" }}
                                 <img src="{{$image.RelPermalink}}" width="{{ $image.Width }}" height="{{ $image.Height }}" alt="">
   
                             </div>
