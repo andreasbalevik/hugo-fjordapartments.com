@@ -9,7 +9,7 @@ intro_button: View our apartments
 
 images:
 - /images/IMG_6391.jpeg
-- /images/holmen.jpg
+- /images/IMG_6377.jpeg
 - /images/jetski.jpg
 - /images/IMG_6248.jpg
 

@@ -5,9 +5,9 @@ menu:
   main:
     weight: 4
 
-description: Wir vermieten Autos, Jetskis und Apartments im Zentrum von Balestrand. Perfekt für kurze Tagesausflüge in die Umgebung.
+description: Wir vermieten Jetskis und Apartments im Zentrum von Balestrand. Perfekt für kurze Tagesausflüge in die Umgebung.
 
-intro: Hier finden Sie eine Übersicht unserer Mietangebote. Senden Sie eine Anfrage per E-Mail oder bei der Buchung eines unserer Apartments.
+intro: Hier finden Sie eine Übersicht unserer Mietangebote. Auch mit Mietwagen oder Vorschlägen für schöne Tagesausflüge in die Umgebung sind wir behilflich. Senden Sie eine Anfrage per E-Mail oder bei Buchung eines unserer Apartments.
 
 items:
 - title: Apartments
@@ -26,6 +26,6 @@ items:
     - /images/jetski/IMG_0834.jpg
     - /images/jetski/IMG_0606.jpg
     - /images/jetski/IMG_0816.jpg
-  price: "3 Timer: 1400 NOK - 6 Timer: 1900 NOK <br> 1 Tag (09-21): 2500 NOK - 1 Woche: 9900 NOK"
+  price: "2 Stunden: NOK 1400 - 4 Stunden: NOK 1900 - Preis kann verhandelt werden, wenn kürzere / längere Zeiten gewünscht werden."
 
 ---

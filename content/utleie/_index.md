@@ -4,9 +4,9 @@ menu:
   main:
     weight: 4
 
-description: Vi har utleie av bil, vannscooter og leiligheter midt i Balestrand sentrum. Perfekt for korte dagsturer i nærområdet.
+description: Vi har utleie av vannscooter og leiligheter midt i Balestrand sentrum. Perfekt for korte dagsturer i nærområdet.
 
-intro: Her finner du en oversikt over våre utleietilbud. Send en henvendelse på e-post eller ved bestilling av en av våre leiligheter.
+intro: Her finner du en oversikt over våre utleietilbud. Vi er også behjelpelig med leiebiler eller forslag til fine dagsturer i området. Send en henvendelse på e-post eller ved bestilling av en av våre leiligheter.
 
 items:
 - title: Leiligheter
@@ -25,6 +25,6 @@ items:
     - /images/jetski/IMG_0834.jpg
     - /images/jetski/IMG_0606.jpg
     - /images/jetski/IMG_0816.jpg
-  price: "3 Timer: 1400 NOK - 6 Timer: 1900 NOK <br> 1 Dag (09-21): 2500 NOK - 1 Veke: 9900 NOK"
+  price: "2 Timer: 1400 NOK - 4 Timer: 1900 NOK - Pris kan avtales ved ønske om kortere / lengre tider."
 
 ---
