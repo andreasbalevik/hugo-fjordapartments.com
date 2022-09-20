@@ -110,12 +110,16 @@ html {
             background-color: #f4f6f9;
             border: 1px solid lightgray;
             @extend .box-shadow;
-            padding:50px;            
+            padding:50px;
+            
+            @include mobile(){
+                padding:35px;
+            }
         }
 
         .image__container {
             @include tablet(){
-                padding:unset!important;
+                padding:0 4px!important;
             }
         }
 

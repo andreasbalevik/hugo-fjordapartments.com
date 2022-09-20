@@ -36,7 +36,7 @@
     <div class="component pt-0">
         <div class="container">
             <div class="f-list" style="overflow: hidden;">
-                <div class="row gx-5 gy-5 justify-content-center">
+                <div class="row gx-1 gy-5 justify-content-center">
                     <div class="col-lg-12 text-center text-white textbox">
                         <h1>{{.Title}}</h1>
                         
@@ -45,6 +45,8 @@
                             <a href="leiligheter" class="text-white">{{.Page.Params.intro_button}}</a>
                         </div>
                     </div>
+                </div>
+                <div class="row gx-4 justify-content-center">
                     {{ range .Page.Params.items }}
                     <div class="col-xl-4">
                         <div class="text__container">
