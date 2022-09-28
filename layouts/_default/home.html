@@ -15,7 +15,7 @@
                                 {{ $image := $image.Fill "1629x700" }}
                                 {{ $colors := $image.Colors }}
 
-                                <img style="background-color: {{index $colors 3}}" src="{{$image.RelPermalink}}" {{if not (in $counter 0)}}loading="lazy"{{ end}} width="{{ $image.Width }}" height="{{ $image.Height }}" alt="">
+                                <img style="background-color: {{index $colors 3}}" src="{{$image.RelPermalink}}" width="{{ $image.Width }}" height="{{ $image.Height }}" alt="">
   
                             </div>
                         {{ $counter = add $counter 1 }}
