@@ -29,6 +29,4 @@ defaultContentLanguage = 'nb'
 
 
 [Params]
-  ogimage = '/images/balestrand.jpg'
-
-
+  ogimage = "https://fjordapartments.no/images/IMG_6391.jpeg"
