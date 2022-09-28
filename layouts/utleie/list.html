@@ -52,7 +52,8 @@
 
                                     {{ $image := resources.GetMatch . }}
                                     {{ $image := $image.Fill "650x450" }}
-                                    <img src="{{$image.RelPermalink}}" width="{{ $image.Width }}" height="{{ $image.Height }}" alt="">
+                                    {{ $colors := $image.Colors }}
+                                    <img src="{{$image.RelPermalink}}" {{if not (in $counter 0)}}loading="lazy"{{ end}} style="background-color: {{index $colors 3}}" width="{{ $image.Width }}" height="{{ $image.Height }}" alt="">
         
                                 </div>
                                 {{ $counter = add $counter 1 }}
