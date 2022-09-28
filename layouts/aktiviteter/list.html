@@ -26,7 +26,9 @@
 
                             {{ $image := resources.GetMatch .img }}
                             {{ $image := $image.Fill "699x411" }}
-                            <img src="{{$image.RelPermalink}}" width="{{ $image.Width }}" height="{{ $image.Height }}" alt="">
+                            {{ $colors := $image.Colors }}
+
+                            <img style="background-color: {{index $colors 3}}" loading="lazy" src="{{$image.RelPermalink}}" width="{{ $image.Width }}" height="{{ $image.Height }}" alt="">
 
                             {{ if .source }}
                             <div class="source">{{ i18n "image" }}: {{.source}}</div>
