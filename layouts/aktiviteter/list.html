@@ -13,6 +13,7 @@
     <div class="component">
         <div class="container">
             <div class="list">
+                {{ $counter := 0 }}
                 {{ range .Page.Params.activeties }}
                     <div class="row justify-content-center">
                         <div class="col-xl-6 col-xxl-6 text__container">
@@ -28,13 +29,14 @@
                             {{ $image := $image.Fill "699x411" }}
                             {{ $colors := $image.Colors }}
 
-                            <img style="background-color: {{index $colors 3}}" loading="lazy" src="{{$image.RelPermalink}}" width="{{ $image.Width }}" height="{{ $image.Height }}" alt="">
+                            <img {{ if ne $counter 0 }} loading="lazy" decoding="async" {{end}} style="background-color: {{index $colors 3}}" src="{{$image.RelPermalink}}" width="{{ $image.Width }}" height="{{ $image.Height }}" alt="">
 
                             {{ if .source }}
                             <div class="source">{{ i18n "image" }}: {{.source}}</div>
                             {{ end }}
                         </div>
                     </div>
+                    {{ $counter = add $counter 1 }}
                 {{ end }}
             </div>
         </div>
