@@ -4,7 +4,7 @@ theme = 'boilerplate-hugo-theme'
 
 defaultContentLanguage = 'nb'
 
-
+baseURL = "https://www.fjordapartments.no/"
 
 [imaging]
   anchor = 'Smart'
