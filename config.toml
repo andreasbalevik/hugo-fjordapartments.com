@@ -2,7 +2,7 @@ languageCode = 'nb-NO'
 title = 'Balestrand Fjord Apartments'
 theme = 'boilerplate-hugo-theme'
 
-defaultContentLanguage = 'nb'
+defaultContentLanguage = 'no'
 
 baseURL = "https://www.fjordapartments.no/"
 
@@ -13,7 +13,7 @@ baseURL = "https://www.fjordapartments.no/"
   resampleFilter = 'MitchellNetravali'
 
 [languages]
-  [languages.nb]
+  [languages.no]
     languageName = "Norsk"
     weight = 1
     other = "Norsk"
@@ -30,3 +30,4 @@ baseURL = "https://www.fjordapartments.no/"
 
 [Params]
   ogimage = "https://fjordapartments.no/images/IMG_6391.jpeg"
+  keywords = ['Fjordapartments', 'Balestrand', 'Vestland']

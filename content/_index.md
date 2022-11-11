@@ -1,9 +1,9 @@
 ---
 title: Velkommen
 
-description: Behov for overnatting? Vi har nye, moderne leiligheter midt i Balestrand sentrum. Balkonger med fantastisk fjordutsikt. Lett tilkomst. Ferdig møblert, med fullt utstyrt kjøkken og bad. Perfekt for deg som ønsker mer frihet.
+description: Behov for overnatting i Balestrand? Vi har nye, moderne leiligheter midt i Balestrand sentrum. Balkonger med fantastisk fjordutsikt. Lett tilkomst. Ferdig møblert, med fullt utstyrt kjøkken og bad. Perfekt for deg som ønsker mer frihet.
 
-intro: Behov for overnatting? Vi har nye, moderne leiligheter midt i Balestrand sentrum. Balkonger med fantastisk fjordutsikt. Lett tilkomst. Ferdig møblert, med fullt utstyrt kjøkken og bad. Perfekt for deg som ønsker mer frihet.
+intro: Behov for overnatting i Balestrand? Vi har nye, moderne leiligheter midt i Balestrand sentrum. Balkonger med fantastisk fjordutsikt. Lett tilkomst. Ferdig møblert, med fullt utstyrt kjøkken og bad. Perfekt for deg som ønsker mer frihet.
 intro_button: Vis alle leiligheter
 
 images:
@@ -31,6 +31,5 @@ items:
   desc: Balestrand har mye å tilby deg som besøkende. Enten du reiser alene, eller i gruppe. Her er alt fra kulturvandring langs sjøkanten til fjord safari, tett på omgivelsene. Reiselivsmuseum og mer. Møt lokale mennesker, fiskere eller kunstnere. Det er mye å velge mellom. 
   url: /aktiviteter
   button: Se aktiviteter i Balestrand
-
 
 ---
