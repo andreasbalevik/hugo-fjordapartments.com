@@ -26,8 +26,6 @@ baseURL = "https://www.fjordapartments.no/"
     weight = 3
     other = "Deutsch"
 
-
-
 [Params]
   ogimage = "https://fjordapartments.no/images/IMG_6391.jpeg"
   keywords = ['Fjordapartments', 'Balestrand', 'Vestland']
