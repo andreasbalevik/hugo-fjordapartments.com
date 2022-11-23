@@ -20,12 +20,12 @@
                         <h2>{{.title}}</h2>
                         <p>{{.desc | safeHTML}}</p>
                         {{ if .price }}
-                            {{.price | safeHTML}}
+                        <p>{{.price | safeHTML}}</p>
                         {{ end }}
                         {{ if .button }}
-                            <div style="margin-left:0px!important">
-                                <a class="btn btn-outline-secondary" href="{{.url}}">{{.button}}</a>
-                            </div>
+                        <div style="margin-left:0px!important">
+                            <a class="btn btn-outline-secondary" href="{{.url}}">{{.button}}</a>
+                        </div>
                         {{ end }}
                     </div>
 
@@ -40,7 +40,8 @@
                             <!-- Indicators/dots -->
                             <div class="carousel-indicators">
                                 {{ range .images }}
-                                <button type="button" data-bs-target="#id-{{$entry}}" data-bs-slide-to="{{$counter_2}}" class="{{ if eq $counter_2 0}}active{{end}}"></button>
+                                <button type="button" data-bs-target="#id-{{$entry}}" data-bs-slide-to="{{$counter_2}}"
+                                    class="{{ if eq $counter_2 0}}active{{end}}"></button>
                                 {{ $counter_2 = add $counter_2 1 }}
                                 {{ end }}
                             </div>
@@ -53,8 +54,9 @@
                                     {{ $image := resources.GetMatch . }}
                                     {{ $image := $image.Fill "650x450" }}
                                     {{ $colors := $image.Colors }}
-                                    <img src="{{$image.RelPermalink}}" style="background-color: {{index $colors 3}}" width="{{ $image.Width }}" height="{{ $image.Height }}" alt="">
-        
+                                    <img src="{{$image.RelPermalink}}" style="background-color: {{index $colors 3}}"
+                                        width="{{ $image.Width }}" height="{{ $image.Height }}" alt="">
+
                                 </div>
                                 {{ $counter = add $counter 1 }}
                                 {{ end }}
