@@ -29,3 +29,4 @@ baseURL = "https://www.fjordapartments.no/"
 [Params]
   ogimage = "https://fjordapartments.no/images/IMG_6391.jpeg"
   keywords = ['Fjordapartments', 'Balestrand', 'Vestland']
+  email = "lidalsiv@gmail.com"

@@ -23,8 +23,8 @@
                             {{.price | safeHTML}}
                         {{ end }}
                         {{ if .button }}
-                            <div class="navigation__actions" style="margin-left:0px!important">
-                                <a href="{{.url}}">{{.button}}</a>
+                            <div style="margin-left:0px!important">
+                                <a class="btn btn-outline-secondary" href="{{.url}}">{{.button}}</a>
                             </div>
                         {{ end }}
                     </div>
