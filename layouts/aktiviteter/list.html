@@ -26,12 +26,7 @@
                         </div>
                     </div>
                     <div class="col-lg-6">
-                        {{ $image := resources.GetMatch .img }}
-                        {{ $image := $image.Resize "648x411" }}
-                        {{ $colors := $image.Colors }}
-                        <img {{ if ne $counter 0 }} loading="lazy" decoding="async" {{end}}
-                            style="background-color: {{index $colors 3}}" src="{{$image.RelPermalink}}"
-                            width="{{ $image.Width }}" height="{{ $image.Height }}" alt="">
+                        {{ partial "components/image.html" (dict "context" . "image_input" .img) }}
                         <div>{{ i18n "image" }}: {{.source}}</div>
                     </div>
                 </div>

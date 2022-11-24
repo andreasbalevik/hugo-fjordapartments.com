@@ -54,12 +54,7 @@
                         <div class="carousel-inner">
                             {{ range .images }}
                             <div class="carousel-item {{ if eq $counter 0}}active{{end}}">
-                                
-                                {{ $image := resources.GetMatch . }}
-                                {{ $image := $image.Fill "650x450" }}
-                                {{ $colors := $image.Colors }}
-                                <img {{ if ne $counter 0 }} loading="lazy" decoding="async" {{end}} src="{{$image.RelPermalink}}" style="background-color: {{index $colors 3}}" width="{{ $image.Width }}" height="{{ $image.Height }}" alt="">
-       
+                                {{ partial "components/image_fixed.html" (dict "context" . "image_input" .) }}
                             </div>
                             {{ $counter = add $counter 1 }}
                             {{ end }}

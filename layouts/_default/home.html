@@ -60,12 +60,7 @@
                 {{ range .Page.Params.items }}
                 <div class="col-xl-4">
                     <div class="card h-100 text-center">
-
-                        {{ $image := resources.GetMatch .image }}
-                        {{ $image := $image.Fill "492x277" }}
-                        <img src="{{$image.RelPermalink}}" loading="lazy" decoding="async"
-                            width="{{ $image.Width }}" height="{{ $image.Height }}" alt="">
-
+                        {{ partial "components/image.html" (dict "context" . "image_input" .image) }}
                         <div class="card-body d-flex flex-column">
                             <h2 class="card-title mt-3 mb-3">{{.title}}</h2>
                             <p class="card-text mb-4">{{.desc}}</p>
