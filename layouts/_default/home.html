@@ -11,11 +11,13 @@
                         <div class="carousel-item {{ if eq $counter 0}}active{{end}}">
 
                             {{ $image := resources.GetMatch . }}
-                            {{ $image := $image.Fill "1400x600" }}
+                            {{ $image := $image.Fill "1200x550 q100" }}
+                            {{ $image_tablet := $image.Fill "900x550 q100" }}
+                            {{ $image_mobile := $image.Fill "600x450 q100" }}
                             {{ $colors := $image.Colors }}
 
                             <img {{ if ne $counter 0 }} loading="lazy" decoding="async" {{end}}
-                                style="background-color: {{index $colors 3}}" src="{{$image.RelPermalink}}"
+                                style="background-color: {{index $colors 3}}" srcSet="{{$image_mobile.RelPermalink}} 600w, {{$image_tablet.RelPermalink}} 900w, {{$image.RelPermalink}} 1200w"
                                 width="{{ $image.Width }}" height="{{ $image.Height }}" alt="">
                         </div>
                         {{ $counter = add $counter 1 }}
