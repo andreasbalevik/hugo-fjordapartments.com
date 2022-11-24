@@ -16,7 +16,7 @@
                             {{ $image_mobile := $image.Fill "600x450 q100" }}
                             {{ $colors := $image.Colors }}
 
-                            <img {{ if ne $counter 0 }} loading="lazy" decoding="async" {{end}}
+                            <img {{ if ne $counter 0 }} decoding="async" {{end}}
                                 style="background-color: {{index $colors 3}}" srcSet="{{$image_mobile.RelPermalink}} 600w, {{$image_tablet.RelPermalink}} 900w, {{$image.RelPermalink}} 1200w"
                                 width="{{ $image.Width }}" height="{{ $image.Height }}" alt="">
                         </div>
