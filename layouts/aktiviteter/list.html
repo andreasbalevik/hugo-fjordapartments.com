@@ -1,8 +1,8 @@
 {{ define "main" }}
-<div class="page__explore">
+<div class="page__activeties">
     <div class="component">
         <div class="container">
-            <div class="row justify-content-center">
+            <div class="row">
                 <div class="col-lg-10">
                     <h1>{{.Title}}</h1>
                     <p class="ingress">{{.Page.Params.intro}}</p>
@@ -12,31 +12,30 @@
     </div>
     <div class="component">
         <div class="container">
-            <div class="list">
+            <div class="activeties__list">
                 {{ $counter := 0 }}
                 {{ range .Page.Params.activeties }}
-                    <div class="row justify-content-center">
-                        <div class="col-xl-6 col-xxl-6 text__container">
+                <div class="row g-0">
+                    <div class="col-lg-6 p-5 d-flex border mb-sm-0" style="margin-bottom: 26.56px;">
+                        <div class="my-auto">
                             <h2>{{.title}}</h2>
                             <p>{{.desc}}</p>
                             <div>
                                 <a class="btn btn-outline-secondary" href="{{.homepage}}">{{.button}}</a>
                             </div>
                         </div>
-                        <div class="col-xl-6 col-xxl-4 image__container">
-
-                            {{ $image := resources.GetMatch .img }}
-                            {{ $image := $image.Fill "699x411" }}
-                            {{ $colors := $image.Colors }}
-
-                            <img {{ if ne $counter 0 }} loading="lazy" decoding="async" {{end}} style="background-color: {{index $colors 3}}" src="{{$image.RelPermalink}}" width="{{ $image.Width }}" height="{{ $image.Height }}" alt="">
-
-                            {{ if .source }}
-                            <div class="source">{{ i18n "image" }}: {{.source}}</div>
-                            {{ end }}
-                        </div>
                     </div>
-                    {{ $counter = add $counter 1 }}
+                    <div class="col-lg-6">
+                        {{ $image := resources.GetMatch .img }}
+                        {{ $image := $image.Resize "648x411" }}
+                        {{ $colors := $image.Colors }}
+                        <img {{ if ne $counter 0 }} loading="lazy" decoding="async" {{end}}
+                            style="background-color: {{index $colors 3}}" src="{{$image.RelPermalink}}"
+                            width="{{ $image.Width }}" height="{{ $image.Height }}" alt="">
+                        <div>{{ i18n "image" }}: {{.source}}</div>
+                    </div>
+                </div>
+                {{ $counter = add $counter 1 }}
                 {{ end }}
             </div>
         </div>

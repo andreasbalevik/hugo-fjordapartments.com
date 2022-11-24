@@ -23,13 +23,13 @@ items:
 
 - title: Lage
   image: /images/balestrand-492x277.jpg
-  desc: Alle unsere Apartments befinden sich in zentraler Lage im Zentrum von Balestrand. Ruhige Umgebung und mit einem fantastischen Blick auf den Fjord. Mit kurzen Entfernungen zum Lebensmittelgeschäft, Touristeninformationen und Wandermöglichkeiten ist dies ein perfekter Ausgangspunkt für einen längeren Aufenthalt.
+  desc: Alle unsere Apartments liegen zentral im Zentrum von Balestrand. Ruhige Umgebung und mit fantastischem Blick auf den Fjord. Kurze Wege zu dem, was Sie brauchen.
   url: /de/lokasjon
   button: Mehr Informationen
 
 - title: Aktivitäten
   image: /images/IMG_6248-492x277.jpg
-  desc: Balestrand hat Ihnen als Besucher viel zu bieten. Ob alleine oder in Gruppen. Hier finden Sie alles von kulturellen Spaziergängen entlang der Küste bis hin zu Fjordsafaris in der Nähe der Umgebung. Reiselivsmuseum und mehr. Treffen Sie Einheimische, Fischer oder Künstler. Es gibt viel zur Auswahl.
+  desc: Balestrand hat Ihnen als Besucher viel zu bieten. Ob Sie alleine oder in einer Gruppe reisen. Es gibt eine Menge zur Auswahl.
   button: Aktivitäten in Balestrand 
   url: /de/aktiviteter
 

@@ -1,222 +1,49 @@
-html {
-    font-size: 16px;
-}
-
-.container {
-    max-width: 1709px!important;
-}
-
-.carousel-control-next-icon,
-.carousel-control-prev-icon {
-    background-color: rgba(0, 0, 0, 0.177);
-}
-
-.page__explore,
-.page__apartments {
-    .text__container {
-        h2 {
-            margin-top:0!important;
-        }
-    }
-}
-
-.carousel-control-next, .carousel-control-prev {
-    filter: brightness(100%)!important;
-}
-
-.navigation__actions {
-    a {
-        border:1px solid $primary-signal-color;
-        color:black;
-        &:hover {
-           background-color: $primary-signal-color;
-           color:white!important; 
-        }
-    }
-}
-
 .page__practical {
-    
-    .col-lg-8 {
-        margin-top: $size-md;
-
-        &:first-of-type {
-            margin-top:0!important;
+    .g-5 {
+        .col-lg-8:first-of-type {
+            margin-top: unset !important;
         }
     }
 }
 
-.page__apartments {
-    img {
-        max-height: 550px!important;
-    }
-}
+.page__activeties {
 
-.page__index {
-
-    .intro-text {
-        max-width: 60%;
-        margin:auto;
-
-        @include tablet(){
-            max-width: 100%;
-        }
-    }
-
-    &:nth-child(odd){
-        background-color: $component-color;
-    }
-
-    .f-list {
-        h2 {
-            margin-top:$size-md;
-        }
-        .text__container {
-            height: 100%;
-            padding:25px;
-            background-color: white;
-            border:1px solid lightgray;
-            @extend .box-shadow;
-        }
-        img {
-            height: auto;
-            width: 100%;
-            object-fit: cover;
-        }
-        .navigation__actions {
-            margin-left: unset!important;
-            margin-top:$size-lg;
-        }
-    }
-
-    img {
-        width:100%!important;
-        object-fit: cover;
-    }
-
-    .carousel-inner {
-        img {
-            height:700px!important;
-
-            @include tablet(){
-                height:400px!important;
-            }
-        }
-    }
-}
-.page__explore {
-
-    .list {
-
-        position: relative;
-
-        .text__container {
-            background-color: #f4f6f9;
-            border: 1px solid lightgray;
-            @extend .box-shadow;
-            padding:50px;
-            
-            @include mobile(){
-                padding:35px;
-            }
-        }
-
-        .image__container {
-            @include tablet(){
-                padding:0 4px!important;
-            }
-        }
-
-        img {
-            width: 100%;
-            object-fit: cover!important;
-            max-height: 450px;
-
-            @include mobile(){
-                max-height: 100%!important;
-            }
-        }
+    .activeties__list {
 
         .row {
-            @extend .align-items-center;
-
-            &:not(:last-of-type){
-                margin-bottom: $size-xl!important;
-            }
-
-            &:nth-child(even){
+            &:nth-child(even) {
                 @extend .flex-row-reverse;
             }
         }
-
-        .navigation__actions {
-            margin:unset;
-            padding-top: $size-md;
-            
-        }
     }
 }
 
-.line {
-    background-color: $secondary-text-color;
-    border-radius: 25px;
-    height: 9px;
-    width: 100%;
-    display: block;
-    max-width: 55%;
-    margin-left: 35px;
-    margin-top:-10px;
-    margin-bottom: $size-md;
+.page__rental {
+    .list {
 
-    @include tablet(){
-        max-width: 80%;
-    }
-}
-
-.header__title {
-    .line {
-        margin-left:0!important;
-        margin-bottom:0!important;
-    }
-}
-
-.map-responsive{
-    overflow:hidden;
-    padding-bottom:56.25%;
-    position:relative;
-    height:0;
-}
-
-.map-responsive iframe{
-    left:0;
-    top:0;
-    height:100%;
-    width:100%;
-    position:absolute;
-}
- 
-.textbox {
-    h1,p {color:black;}
-    padding:45px 80px;
-
-    @include mobile(){
-        padding:45px 20px;
-    }
-
-    .line {
-        background-color: $primary-signal-color;
-    }
-
-    .navigation__actions {
-        a {
-            border: 1px solid black!important;
-            color:black!important;
-
-            &:hover {
-               background-color: $primary-signal-color!important;
-               color:white!important; 
+        .row {
+            &:nth-child(even) {
+                @extend .flex-row-reverse;
             }
         }
-    }
-       
+    }  
+}
+
+.map-responsive {
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    position: relative;
+    height: 0;
+}
+
+.map-responsive iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
+img {
+    width: 100%;
 }

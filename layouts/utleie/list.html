@@ -1,8 +1,8 @@
 {{ define "main" }}
-<div class="page__explore">
+<div class="page__rental">
     <div class="component">
         <div class="container">
-            <div class="row justify-content-center">
+            <div class="row">
                 <div class="col-lg-10">
                     <h1>{{.Title}}</h1>
                     <p class="ingress">{{.Page.Params.intro}}</p>
@@ -11,12 +11,12 @@
         </div>
     </div>
     <div class="component">
-        <div class="container" style="max-width:1400px!important;">
+        <div class="container">
             <div class="list">
                 {{ $entry := 0 }}
                 {{ range .Page.Params.items }}
-                <div class="row justify-content-center">
-                    <div class="col text__container">
+                <div class="row g-5">
+                    <div class="col-lg-6 my-auto">
                         <h2>{{.title}}</h2>
                         <p>{{.desc | safeHTML}}</p>
                         {{ if .price }}
@@ -32,7 +32,7 @@
                     {{ if .images }}
                     {{ $counter := 0 }}
                     {{ $counter_2 := 0 }}
-                    <div class="col-lg-6 image__container">
+                    <div class="col-lg-6">
 
                         <!-- Carousel -->
                         <div id="id-{{$entry}}" class="carousel slide" data-bs-interval="false" data-bs-ride="carousel">

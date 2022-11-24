@@ -22,13 +22,13 @@ items:
 
 - title: Lokasjon
   image: /images/balestrand-492x277.jpg
-  desc: Alle våre leiligheter ligger sentralt i Balestrand sentrum. Rolige omgivelser og med en fantastisk fjordutsikt. Med korte avstander til matbutikk, turistinformasjon og turmuligheter er dette et perfekt utgangspunkt for et lengre opphold.
+  desc: Alle våre leiligheter ligger sentralt i Balestrand sentrum. Rolige omgivelser og med en fantastisk fjordutsikt. Korte avstander til det du trenger.
   url: /lokasjon
   button: Mer informasjon
 
 - title: Aktiviteter
   image: /images/IMG_6248-492x277.jpg
-  desc: Balestrand har mye å tilby deg som besøkende. Enten du reiser alene, eller i gruppe. Her er alt fra kulturvandring langs sjøkanten til fjord safari, tett på omgivelsene. Reiselivsmuseum og mer. Møt lokale mennesker, fiskere eller kunstnere. Det er mye å velge mellom. 
+  desc: Balestrand har mye å tilby deg som besøkende. Enten du reiser alene, eller i gruppe. Det er mye å velge mellom. 
   url: /aktiviteter
   button: Se aktiviteter i Balestrand
 

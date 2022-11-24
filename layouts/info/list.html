@@ -2,7 +2,7 @@
 <div class="page__practical">
     <div class="component">
         <div class="container">
-            <div class="row justify-content-center">
+            <div class="row">
                 <div class="col-lg-8">
                     <h1 class="m-0">{{.Title}}</h1>
                 </div>
@@ -12,17 +12,15 @@
 
     <div class="component">
         <div class="container">
-            <div class="row justify-content-center">
+            <div class="row g-5">
                 {{ range .Page.Params.faq }}
-                    <div class="col-lg-8 ">
-                        <h2>{{.title}}</h2>
-                        <p>{{.content | safeHTML}}</p>
-                        {{ if .button }}
-                        <div style="margin-left:0px!important;margin-top:25px; margin-bottom:25px;">
-                            <a class="btn btn-outline-secondary" href="{{.url}}">{{.button}}</a>
-                        </div>
+                <div class="col-lg-8 ">
+                    <h2>{{.title}}</h2>
+                    <p>{{.content | safeHTML}}</p>
+                    {{ if .button }}
+                    <a class="btn btn-outline-secondary" href="{{.url}}">{{.button}}</a>
                     {{ end }}
-                    </div>
+                </div>
                 {{ end }}
 
             </div>
