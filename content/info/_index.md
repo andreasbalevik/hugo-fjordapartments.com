@@ -32,6 +32,7 @@ faq:
 				<li>Kjøkken med kjøleskap, komfyr og fryser</li>
 				<li>Oppholdsrom med sittegruppe og fjernsyn</li>
 				<li>Utvask inkludert i prisen</li>
+        <li>Internett</li>
 			</ul>"
 
 - title: Inn og utsjekk

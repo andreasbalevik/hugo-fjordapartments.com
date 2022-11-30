@@ -13,7 +13,7 @@ intro-button-text: Klicken Sie für weitere praktische Informationen
 
 apartments:
 - title: Holmen 19B
-  desc: "Neue Wohnung im Zentrum von Balestrand für 8 Personen. (Möglichkeit von 2 zusätzlichen Gästen gegen Aufpreis). 4 Schlafzimmer (optional, wenn Sie ein Einzel- oder Doppelbett wünschen). Kinderbett vorhanden. Die Wohnung verfügt über einen großen Balkon und einen kleinen Balkon im Dachgeschoss. Internet. 50 Meter zum Lebensmittelgeschäft, Restaurant / Kneipe, Aquarium, Touristeninformation, Mietwagen, Rippchen und Angeltouren. Fähre von und nach Bergen und weiter in den Fjord hinein nach Flåm. Tolle Tour in den Bergen. HINWEIS: Treppe zur Haustür."
+  desc: "Neue Wohnung im Zentrum von Balestrand für 8 Personen. (Möglichkeit von 2 zusätzlichen Gästen gegen Aufpreis). 4 Schlafzimmer (optional, wenn Sie ein Einzel- oder Doppelbett wünschen). Kinderbett vorhanden. Die Wohnung verfügt über einen großen Balkon und einen kleinen Balkon im Dachgeschoss."
 
   details:
     - "8 personen"
@@ -44,7 +44,7 @@ apartments:
 - title: Holmen 19A
   desc: "Neue Wohnung im Zentrum von Balestrand für 4 Personen. 2 Schlafzimmer, (optional, wenn Sie Einzelbetten oder Doppelbett wünschen).
 Reisebett vorhanden. Ein zusätzlicher Gast im Zustellbett.
-Die Wohnung verfügt über einen großen Balkon mit mehreren Sitzplätzen. Internet. 50 Meter zum Lebensmittelgeschäft, Restaurant / Pub, Aquarium, Touristeninformation, Kajakverleih und Ribs-Touren. Fähre von und nach Bergen und weiter landeinwärts nach Flåm. Tolle Wandermöglichkeiten in den Bergen mit vielen Wanderwegen in der Umgebung."
+Die Wohnung verfügt über einen großen Balkon mit mehreren Sitzplätzen."
 
   details:
     - "4 personen"

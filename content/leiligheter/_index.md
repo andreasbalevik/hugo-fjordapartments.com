@@ -16,7 +16,7 @@ basic_apartments: Generell informasjon
 
 apartments:
 - title: Holmen 19B
-  desc: "Ny leilighet i Balestrand sentrum for 8 personer. (Mulighet for 2 ekstra gjester mot tillegg i pris). 4 soverom (valgfritt om du ønsker enkelt- eller dobbeltseng). Barneseng tilgjengelig. Leiligheten har en stor balkong og en liten balkong i toppetasjen. Internett. 50 meter til matbutikk, restaurant/pub, akvarium, turistinfo., leiebil, rib og fisketurer. Ferge til og fra Bergen, og videre inn til fjorden til Flåm. Flott tur i fjellet. OBS: Trapper til inngangsdør."
+  desc: "Ny leilighet i Balestrand sentrum for 8 personer. (Mulighet for 2 ekstra gjester mot tillegg i pris). 4 soverom (valgfritt om du ønsker enkelt- eller dobbeltseng). Barneseng tilgjengelig. Leiligheten har en stor balkong og en liten balkong i toppetasjen. OBS: Trapper til inngangsdør."
   
   details:
     - "8 personer"
@@ -47,7 +47,7 @@ apartments:
 - title: Holmen 19A
   desc: "Ny leilighet i Balestrand sentrum for 4 personer. 2 soverom, (valgfritt hvis du ønsker enkeltsenger eller dobbeltseng).
 Reiseseng tilgjengelig. Én ekstra gjest i den ekstra sengen.
-Leiligheten har en stor balkong med flere sitteplasser. Internett. 50 meter til dagligvarehandel, restaurant / pub, akvarium, turistinformasjon, kajakkutleie og Ribs-turer. Fergebåt til og fra Bergen, og videre innover fjorden til Flåm. Flotte turmuligheter i fjellet med mange turstier i området."
+Leiligheten har en stor balkong med flere sitteplasser."
   details:
     - "4 personer"
     - "- 2 soverom"

@@ -32,6 +32,7 @@ faq:
 				<li>Bettwäsche inklusive</li>
 				<li>Küche mit Kühlschrank, Herd und Gefrierschrank</li>
 				<li>Wohnzimmer mit Sitzecke und TV</li>
+        <li>Internet</li>
 			</ul>"
 
 - title: Ein- und Auschecken

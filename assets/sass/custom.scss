@@ -1,3 +1,16 @@
+.page__index {
+    .intro-text {
+
+        max-width: 80%;
+        margin: auto;
+
+        @include tablet(){
+            max-width: 100%;
+        }
+
+    }
+}
+
 .page__practical {
     .g-5 {
         .col-lg-8:first-of-type {

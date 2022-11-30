@@ -13,7 +13,7 @@ intro-button-text: Click for more practical info
 
 apartments:
 - title: Holmen 19B
-  desc: "New apartment in the center of Balestrand for 8 people. (Possibility of 2 extra guests at extra cost). 4 bedrooms (optional if you want a single or double bed). Cot available. The apartment has a large balcony and a small balcony on the top floor. Internet. 50 meters to grocery store, restaurant / pub, aquarium, tourist info, rental car, ribs and fishing trips. Ferry to and from Bergen, and further into the fjord to Flåm. Great trip in the mountains. NOTE: Stairs to front door."
+  desc: "New apartment in the center of Balestrand for 8 people. (Possibility of 2 extra guests at extra cost). 4 bedrooms (optional if you want a single or double bed). Cot available. The apartment has a large balcony and a small balcony on the top floor. NOTE: Stairs to front door."
   
   details:
     - "8 persons"
@@ -43,7 +43,7 @@ apartments:
 - title: Holmen 19A
   desc: "New apartment in Balestrand center for 4 people. 2 bedrooms, (optional if you want single beds or double bed).
 Travel cot available. One extra guest in the extra bed.
-The apartment has a large balcony with several seats. Internet. 50 meters to grocery store, restaurant / pub, aquarium, tourist information, kayak rental and Ribs tours. Ferry boat to and from Bergen, and further inland to Flåm. Great hiking opportunities in the mountains with many hiking trails in the area."
+The apartment has a large balcony with several seats."
   details:
     - "4 persons"
     - "- 2 bedrooms"

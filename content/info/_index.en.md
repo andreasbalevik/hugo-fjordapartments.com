@@ -32,6 +32,7 @@ faq:
 				<li>Bedsheets included</li>
 				<li>Kitchen with refrigerator, stove and freezer</li>
 				<li>Living room with sitting area and TV</li>
+        <li>Internet</li>
 			</ul>"
 
 - title: Check-in and checkout
