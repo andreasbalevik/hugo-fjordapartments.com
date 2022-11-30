@@ -16,7 +16,7 @@
                 {{ $counter := 0 }}
                 {{ range .Page.Params.activeties }}
                 <div class="row g-0">
-                    <div class="col-lg-6 p-5 d-flex border mb-sm-0" style="margin-bottom: 26.56px;">
+                    <div class="col-lg-6 p-5 d-flex border mb-sm-0">
                         <div class="my-auto">
                             <h2>{{.title}}</h2>
                             <p>{{.desc}}</p>
@@ -28,14 +28,12 @@
                     <div class="col-lg-6">
                         <div style="position:relative;">
                             {{ partial "components/image.html" (dict "context" . "image_input" .img) }}
-
                             {{ with .source }}
                             <div style="position: absolute; left:10px; bottom:10px;color:white;">
                                 {{ i18n "image" }}: {{.}}
                             </div>
                             {{ end }}
                         </div>
-
                     </div>
                 </div>
                 {{ $counter = add $counter 1 }}
