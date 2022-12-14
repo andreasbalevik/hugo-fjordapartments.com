@@ -14,7 +14,7 @@
         <div class="container">
             <div class="row g-5">
                 {{ range .Page.Params.faq }}
-                <div class="col-lg-8 ">
+                <div class="col-lg-8 border p-5">
                     <h2>{{.title}}</h2>
                     <p>{{.content | safeHTML}}</p>
                     {{ if .button }}

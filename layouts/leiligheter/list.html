@@ -5,7 +5,7 @@
             <div class="row">
                 <div class="col-lg-9">
                     <h1>{{.Title}}</h1>
-                    <p class="ingress">{{.Page.Params.intro}}</p>
+                    <p class="mb-0">{{.Page.Params.intro}}</p>
                 </div>
             </div>
         </div>
@@ -17,21 +17,22 @@
     {{ $counter_2 := 0 }}
     <div class="component">
         <div class="container">
-            <div class="row">
+            <div class="row g-0">
 
-                <div class="col-xl-6 col-xxl-6 ">
-
-                    <div class="effect">
-                        <h2 class="mt-0">{{.title}}</h2>
-                        {{ range .details }}
+                <div class="col-xl-6 col-xxl-6 border p-4 bg-white d-flex">
+                    <div class="my-auto">
+                        <div class="effect">
+                            <h2 class="mt-0">{{.title}}</h2>
+                            {{ range .details }}
                             {{.}}
-                        {{ end }}
-                        <br><br>
-                        <p>{{.desc}}</p>
-                        <div style="margin-left:0px!important">
-                            <br>
-                            <a class="btn btn-outline-secondary" href="{{.link}}">Airbnb {{.title}}</a>
-                            <br><br> 
+                            {{ end }}
+                            <br><br>
+                            <p>{{.desc}}</p>
+                            <div style="margin-left:0px!important">
+                                <br>
+                                <a class="btn btn-outline-secondary" href="{{.link}}">Airbnb {{.title}}</a>
+                                <br><br>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -44,9 +45,9 @@
                         <div class="carousel-indicators">
                             {{ range .images }}
 
-                                <button type="button" data-bs-target="#id-{{$entry}}" data-bs-slide-to="{{$counter_2}}"
-                                    class="{{ if eq $counter_2 0}}active{{end}}"></button>
-                                {{ $counter_2 = add $counter_2 1 }}
+                            <button type="button" data-bs-target="#id-{{$entry}}" data-bs-slide-to="{{$counter_2}}"
+                                class="{{ if eq $counter_2 0}}active{{end}}"></button>
+                            {{ $counter_2 = add $counter_2 1 }}
                             {{ end }}
                         </div>
 

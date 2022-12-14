@@ -5,7 +5,7 @@
             <div class="row">
                 <div class="col-lg-10">
                     <h1>{{.Title}}</h1>
-                    <p class="ingress">{{.Page.Params.intro}}</p>
+                    <p class="mb-0">{{.Page.Params.intro}}</p>
                 </div>
             </div>
         </div>
@@ -15,8 +15,8 @@
             <div class="list">
                 {{ $entry := 0 }}
                 {{ range .Page.Params.items }}
-                <div class="row g-5">
-                    <div class="col-lg-6 my-auto">
+                <div class="row g-0">
+                    <div class="col-lg-6 my-auto border p-5">
                         <h2>{{.title}}</h2>
                         <p>{{.desc | safeHTML}}</p>
                         {{ if .price }}
