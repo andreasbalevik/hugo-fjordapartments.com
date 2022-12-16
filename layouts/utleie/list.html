@@ -1,15 +1,8 @@
 {{ define "main" }}
 <div class="page__rental">
-    <div class="component">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-10">
-                    <h1>{{.Title}}</h1>
-                    <p class="mb-0">{{.Page.Params.intro}}</p>
-                </div>
-            </div>
-        </div>
-    </div>
+  
+    {{ partial "components/banner.html" . }}
+    
     <div class="component">
         <div class="container">
             <div class="list">
