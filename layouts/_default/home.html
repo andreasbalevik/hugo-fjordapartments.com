@@ -52,21 +52,8 @@
             </div>
         </div>
 
-        <div class="container">
-            <div class="row pt-5 justify-content-center">
-                {{ range .Page.Params.items }}
-                <div class="col-xl-4">
-                    <div class="card h-100 text-center">
-                        {{ partial "components/image.html" (dict "context" . "image_input" .image) }}
-                        <div class="card-body d-flex flex-column">
-                            <h2 class="card-title mt-3 mb-3">{{.title}}</h2>
-                            <p class="card-text mb-4">{{.desc}}</p>
-                            <a class="mt-auto btn btn-outline-secondary" href="{{.url}}">{{.button}}</a>
-                        </div>
-                    </div>
-                </div>
-                {{ end }}
-        </div>
+        {{ partial "components/cards.html" (dict "ctx" . "json" .Params.items) }}
+
     </div>
 </div>
 {{ end }}

@@ -20,7 +20,7 @@
                     </div>
                     <div class="col-lg-6">
                         <div style="position:relative;">
-                            {{ partial "components/image.html" (dict "context" . "image_input" .img) }}
+                            {{ partial "components/image.html" (dict "ctx" . "image" .image) }}
                             {{ with .source }}
                             <div style="position: absolute; left:10px; bottom:10px;color:white;">
                                 {{ i18n "image" }}: {{.}}

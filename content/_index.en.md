@@ -16,21 +16,30 @@ images:
 
 items:
 - title: Rental
-  image: /images/IMG_9845-HDR-492x277.jpg
-  desc: We rent apartments and jet skis in the center of Balestrand. Perfect for short day trips in the local area.
-  button: More information
-  url : /en/utleie
+  image: 
+    - src: /images/IMG_9845-HDR-492x277.jpg
+      alt: Image of made bed
+  text: We rent apartments and jet skis in the center of Balestrand. Perfect for short day trips in the local area.
+  link:
+    text: More information
+    href : /en/utleie
 
 - title: Location
-  image: /images/balestrand-492x277.jpg
-  desc: All our apartments are centrally located in the center of Balestrand. Quiet surroundings and with a fantastic view of the fjord. Short distances to what you need.
-  button: More information
-  url : /en/lokasjon
+  image: 
+    - src: /images/balestrand-492x277.jpg
+      alt: Image of Balestrand
+  text: All our apartments are centrally located in the center of Balestrand. Quiet surroundings and with a fantastic view of the fjord. Short distances to what you need.
+  link:
+    text: More information
+    href : /en/lokasjon
 
 - title: Activities
-  image: /images/IMG_6248-492x277.jpg
-  desc: Balestrand has a lot to offer you as a visitor. Whether you travel alone or in a group. There is a lot to choose from.
-  button: Find activities in Balestrand. 
-  url: /en/aktiviteter
+  image: 
+    - src: /images/IMG_6248-492x277.jpg
+      alt: Image of mountains in esefjord
+  text: Balestrand has a lot to offer you as a visitor. Whether you travel alone or in a group. There is a lot to choose from.
+  link:
+    text: Find activities in Balestrand. 
+    href: /en/aktiviteter
 
 ---

@@ -1,13 +1,11 @@
 .page__index {
     .intro-text {
-
         max-width: 80%;
         margin: auto;
 
         @include tablet(){
             max-width: 100%;
         }
-
     }
 }
 
@@ -20,9 +18,7 @@
 }
 
 .page__activeties {
-
     .activeties__list {
-
         .row {
             &:nth-child(even) {
                 @extend .flex-row-reverse;
@@ -33,7 +29,6 @@
 
 .page__rental {
     .list {
-
         .row {
             &:nth-child(even) {
                 @extend .flex-row-reverse;

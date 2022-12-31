@@ -15,21 +15,30 @@ images:
 
 items: 
 - title: Utleie
-  image: /images/IMG_9845-HDR-492x277.jpg
-  desc: Vi har utleie av leiligheter og vannscooter midt i Balestrand sentrum. Perfekt for korte dagsturer i nærområdet.
-  url: /utleie
-  button: Mer informasjon
+  image:
+    - src: /images/IMG_9845-HDR-492x277.jpg
+      alt: Bilde av oppredd seng
+  text: Vi har utleie av leiligheter og vannscooter midt i Balestrand sentrum. Perfekt for korte dagsturer i nærområdet.
+  link:
+    href: /utleie
+    text: Mer informasjon
 
 - title: Lokasjon
-  image: /images/balestrand-492x277.jpg
-  desc: Alle våre leiligheter ligger sentralt i Balestrand sentrum. Rolige omgivelser og med en fantastisk fjordutsikt. Korte avstander til det du trenger.
-  url: /lokasjon
-  button: Mer informasjon
+  image: 
+    - src: /images/balestrand-492x277.jpg
+      alt: Bilde av Balestrand fra luften
+  text: Alle våre leiligheter ligger sentralt i Balestrand sentrum. Rolige omgivelser og med en fantastisk fjordutsikt. Korte avstander til det du trenger.
+  link:
+    href: /lokasjon
+    text: Mer informasjon
 
 - title: Aktiviteter
-  image: /images/IMG_6248-492x277.jpg
-  desc: Balestrand har mye å tilby deg som besøkende. Enten du reiser alene, eller i gruppe. Det er mye å velge mellom. 
-  url: /aktiviteter
-  button: Se aktiviteter i Balestrand
+  image: 
+    - src: /images/IMG_6248-492x277.jpg
+      alt: Bilde av fjellet i esefjorden
+  text: Balestrand har mye å tilby deg som besøkende. Enten du reiser alene, eller i gruppe. Det er mye å velge mellom. 
+  link:
+    href: /aktiviteter
+    text: Se aktiviteter i Balestrand
 
 ---
