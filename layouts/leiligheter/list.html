@@ -6,64 +6,32 @@
     <div class="component">
         <div class="container">
 
-            {{ $entry := 0 }}
             {{ range .Page.Params.apartments }}
-            {{ $counter := 0 }}
-            {{ $counter_2 := 0 }}
             <div class="row gx-0">
                 <div class="col-xl-6 col-xxl-6 border p-4 bg-white d-flex">
                     <div class="my-auto">
                         <div class="effect">
-                            <h2 class="mt-0">{{.title}}</h2>
+                            <h2 class="mt-0">
+                                {{.title}}
+                            </h2>
+                            
+                            <label class="mb-3">
                             {{ range .details }}
-                            {{.}}
+                                {{.}}
                             {{ end }}
-                            <br><br>
+                            </label>
+                   
                             <p>{{.desc}}</p>
                             <div style="margin-left:0px!important">
-                                <br>
+                        
                                 <a class="btn btn-outline-secondary" href="{{.link}}">Airbnb {{.title}}</a>
-                                <br><br>
+                               
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="col-xl-6 col-xxl-6 image__container">
-
-                    <!-- Carousel -->
-                    <div id="id-{{$entry}}" class="carousel slide" data-bs-interval="false" data-bs-ride="carousel">
-
-                        <!-- Indicators/dots -->
-                        <div class="carousel-indicators">
-                            {{ range .images }}
-
-                            <button type="button" data-bs-target="#id-{{$entry}}" data-bs-slide-to="{{$counter_2}}"
-                                class="{{ if eq $counter_2 0}}active{{end}}"></button>
-                            {{ $counter_2 = add $counter_2 1 }}
-                            {{ end }}
-                        </div>
-
-                        <!-- The slideshow/carousel -->
-                        <div class="carousel-inner">
-                            {{ range .images }}
-                            <div class="carousel-item {{ if eq $counter 0}}active{{end}}">
-                                {{ partial "components/image_fixed.html" (dict "context" . "image_input" .) }}
-                            </div>
-                            {{ $counter = add $counter 1 }}
-                            {{ end }}
-                        </div>
-
-                        <!-- Left and right controls/icons -->
-                        <button class="carousel-control-prev" type="button" data-bs-target="#id-{{$entry}}"
-                            data-bs-slide="prev">
-                            <span class="carousel-control-prev-icon"></span>
-                        </button>
-                        <button class="carousel-control-next" type="button" data-bs-target="#id-{{$entry}}"
-                            data-bs-slide="next">
-                            <span class="carousel-control-next-icon"></span>
-                        </button>
-                        {{ $entry = add $entry 1 }}
-                    </div>
+                    {{ partial "components/carousel.html" (dict "ctx" . "images" .images ) }}
                 </div>
             </div>
             {{ end }}

@@ -17,7 +17,7 @@ images:
 items:
 - title: Vermietung
   image: 
-    - src: /images/IMG_9845-HDR-492x277.jpg
+      src: /images/IMG_9845-HDR-492x277.jpg
       alt: ""
   text: Wir vermieten Apartments und Jetskis  im Zentrum von Balestrand. Perfekt für kurze Tagesausflüge in die Umgebung.
   link:
@@ -26,7 +26,7 @@ items:
 
 - title: Lage
   image: 
-    - src: /images/balestrand-492x277.jpg
+      src: /images/balestrand-492x277.jpg
       alt: ""
   text: Alle unsere Apartments liegen zentral im Zentrum von Balestrand. Ruhige Umgebung und mit fantastischem Blick auf den Fjord. Kurze Wege zu dem, was Sie brauchen.
   link:
@@ -35,7 +35,7 @@ items:
 
 - title: Aktivitäten
   image: 
-    - src: /images/IMG_6248-492x277.jpg
+      src: /images/IMG_6248-492x277.jpg
       alt: ""
   text: Balestrand hat Ihnen als Besucher viel zu bieten. Ob Sie alleine oder in einer Gruppe reisen. Es gibt eine Menge zur Auswahl.
   link:

@@ -13,19 +13,21 @@ items:
 - title: Apartments
   desc: Wir vermieten Apartments im Zentrum von Balestrand. Perfekt für kurze Aufenthalte in Balestrand.
   images: 
-    - /images/holmen.jpg
-    - /images/IMG_9845-HDR.jpg
-    - /images/IMG_9826.jpg
-    - /images/IMG_9817-HDR.jpg
-  button: Sehen Sie hier unsere Wohnungen
-  url: /de/leiligheter
+    - src: /images/holmen.jpg
+    - src: /images/IMG_9845-HDR.jpg
+    - src: /images/IMG_9826.jpg
+    - src: /images/IMG_9817-HDR.jpg
+  
+  link: 
+    href: /de/leiligheter
+    text: Sehen Sie hier unsere Wohnungen
 
 - title: Jet-Ski
   desc: 2 stk Sea-Doo SPARK TRIXX 2 persönliche Jetskis zum Mieten im Zentrum von Balestrand. Kontaktieren Sie uns für eine Reservierung.
   images:
-    - /images/jetski/IMG_0834.jpg
-    - /images/jetski/IMG_0606.jpg
-    - /images/jetski/IMG_0816.jpg
+    - src: /images/jetski/IMG_0834.jpg
+    - src: /images/jetski/IMG_0606.jpg
+    - src: /images/jetski/IMG_0816.jpg
   price: "2 Stunden: NOK 1400 - 4 Stunden: NOK 1900 - Preis kann verhandelt werden, wenn kürzere / längere Zeiten gewünscht werden."
 
 ---

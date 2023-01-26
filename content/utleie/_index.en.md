@@ -11,21 +11,23 @@ intro: Here you will find an overview of our rental offers. We are also helpful 
 
 items:
 - title: Apartments
-  desc: We rent out apartments in the center of Balestrand. Perfect for short stays in Balestrand.
+  text: We rent out apartments in the center of Balestrand. Perfect for short stays in Balestrand.
   images: 
-    - /images/holmen.jpg
-    - /images/IMG_9845-HDR.jpg
-    - /images/IMG_9826.jpg
-    - /images/IMG_9817-HDR.jpg
-  button: See our apartments
-  url: /en/leiligheter
+    - src: /images/holmen.jpg
+    - src: /images/IMG_9845-HDR.jpg
+    - src: /images/IMG_9826.jpg
+    - src: /images/IMG_9817-HDR.jpg
+  
+  link: 
+    href: /en/leiligheter
+    text: See our apartments
 
 - title: Jet skis
-  desc: 2 Sea-Doo SPARK (TRIXX 2) and 2 Sea-Doo SPARK (TRIXX 3) personal jet skis for rent in the center of Balestrand. Contact us for a reservation.
+  text: 2 Sea-Doo SPARK (TRIXX 2) and 2 Sea-Doo SPARK (TRIXX 3) personal jet skis for rent in the center of Balestrand. Contact us for a reservation.
   images:
-    - /images/jetski/IMG_0834.jpg
-    - /images/jetski/IMG_0606.jpg
-    - /images/jetski/IMG_0816.jpg
+    - src: /images/jetski/IMG_0834.jpg
+    - src: /images/jetski/IMG_0606.jpg
+    - src: /images/jetski/IMG_0816.jpg
   price: "2 hours: NOK 1400 - 4 hours: NOK 1900 - Price can be negotiated if shorter / longer times are desired."
 
 ---

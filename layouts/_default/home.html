@@ -17,7 +17,8 @@
                             {{ $colors := $image.Colors }}
 
                             <img {{ if ne $counter 0 }} decoding="async" {{end}}
-                                style="background-color: {{index $colors 3}}" srcSet="{{$image_mobile.RelPermalink}} 600w, {{$image_tablet.RelPermalink}} 900w, {{$image.RelPermalink}} 1200w"
+                                style="background-color: {{index $colors 3}}"
+                                srcSet="{{$image_mobile.RelPermalink}} 600w, {{$image_tablet.RelPermalink}} 900w, {{$image.RelPermalink}} 1200w"
                                 width="{{ $image.Width }}" height="{{ $image.Height }}" alt="">
                         </div>
                         {{ $counter = add $counter 1 }}
@@ -52,8 +53,12 @@
             </div>
         </div>
 
-        {{ partial "components/cards.html" (dict "ctx" . "json" .Params.items) }}
 
+    </div>
+    <div class="component">
+        <div class="container">
+            {{ partial "components/cards.html" (dict "ctx" . "json" .Params.items) }}
+        </div>
     </div>
 </div>
 {{ end }}
