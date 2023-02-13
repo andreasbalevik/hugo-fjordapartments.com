@@ -1,0 +1,19 @@
+{
+  "name": "hugo-fjordapartments.com",
+  "version": "1.0.0",
+  "description": "Website using Hugo",
+  "main": "index.js",
+  "scripts": {
+    "install": "npm install -g postcss-cli"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andreasbalevik/hugo-fjordapartments.com.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andreasbalevik/hugo-fjordapartments.com/issues"
+  },
+  "homepage": "https://github.com/andreasbalevik/hugo-fjordapartments.com#readme"
+}
