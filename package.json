@@ -4,7 +4,7 @@
   "description": "Website using Hugo",
   "main": "index.js",
   "scripts": {
-    "install": "npm install -g postcss-cli"
+    "install": "npm install -g postcss-cli && cd themes/boilerplate-hugo-theme && npm install"
   },
   "repository": {
     "type": "git",
