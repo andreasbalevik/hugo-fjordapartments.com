@@ -7,8 +7,8 @@ intro: Her finner du en oversikt over våre utleietilbud. Vi er også behjelpeli
   eller ved bestilling av en av våre leiligheter.
 items:
 - title: Leiligheter
-  text: Vi leier ut leiligheter i Balestrand sentrum. Perfekt for korte opphold i
-    Balestrand.
+  text: Vi har utleie av leiligheter midt i Balestrand sentrum. Perfekt for korte
+    opphold for å utforske nærområdet i Balestrand.
   images:
   - src: "/images/holmen.jpg"
   - src: "/images/IMG_9845-HDR.jpg"
