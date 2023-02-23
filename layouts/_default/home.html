@@ -2,7 +2,7 @@
 <div class="page__index">
 
     {{ $counter := 0 }}
-    <div class="component pt-5 pb-5">
+    <div class="component">
         <div class="container">
             <div class="row justify-content-lg-center">
                 <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
@@ -46,14 +46,12 @@
                         <div class="border p-lg-5 p-4 bg-white">
                             <h1>{{.Title}}</h1>
                             <p class="ingress intro-text">{{.Page.Params.intro}}</p>
-                            <a href="leiligheter" class="btn btn-primary mt-5">{{.Page.Params.intro_button}}</a>
+                            <a href="leiligheter" class="btn mt-5">{{.Page.Params.intro_button}}</a>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-
-
     </div>
     <div class="component">
         <div class="container">
