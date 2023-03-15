@@ -13,8 +13,6 @@ faq:
 
 - title: Location
   content: Our apartments are located in the hearth of Balestrand. Short distances to everything you should need. Grocery stores, resturants, tourist information and walking distance to boat (Bergen, Flom), bus and parking
-  button: More information
-  url: /en/lokasjon
 
 - title: How do i book an apartment?
   content: We use Airbnb for booking. Under the menu Apartments you will find a list of available apartments. All apartments have a direct link to aribnb for booking.

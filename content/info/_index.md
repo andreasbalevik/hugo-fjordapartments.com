@@ -12,8 +12,6 @@ title: Praktisk informasjon
 faq:
 - title: Lokasjon
   content: Våre leiligheter ligger midt i Balestrand sentrum. Korte avstander til det du trenger. Matbutikker, resturanter, turistinformasjon og gode aktivitetsmuligheter. Gå avstand til båt (Bergen, Flåm), buss og parkering.
-  button: Mer informasjon
-  url: /lokasjon
 
 - title: Hvordan leier jeg en leilighet?
   content: Vi bruker Airbnb som booking tjeneste. Vi har listet alle våre leiligheter under Leiligheter. Her finner du også direktelenke til leilighetens airbnb profil

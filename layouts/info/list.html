@@ -2,22 +2,43 @@
 <div class="page__practical">
 
     {{ partial "components/banner.html" . }}
-
     <div class="component">
         <div class="container">
-            <div class="row g-4">
-                {{ range .Page.Params.faq }}
-                <div class="col-lg-8 border p-lg-5 p-4">
-                    <h2>{{.title}}</h2>
-                    <p>{{.content | safeHTML}}</p>
-                    {{ if .button }}
-                    <a class="btn" href="{{.url}}">{{.button}}</a>
-                    {{ end }}
-                </div>
-                {{ end }}
+            <div class="row">
+                <div class="col">
+                    <div class="single-accordion">
+                        <div class="accordion-style-two">
+                            <div class="accordion" id="accordionTwo">
+                                {{ $count := 0 }}
+                                {{ range .Page.Params.faq }}
+                                <div class="card">
+                                    <div class="card-header" id="heading-{{$count}}">
+                                        <a class="collapsed" href="#collapse-{{$count}}" data-bs-toggle="collapse" role="button"
+                                            aria-expanded="false">{{.title}}</a>
+                                    </div>
+                                    <div id="collapse-{{$count}}" class="collapse" data-bs-parent="#accordionTwo">
+                                        <div class="card-body">
+                                            <p class="text">
+                                                {{.content | safeHTML}}
 
+                                                {{ if .button }}
+                                                <br><br>
+                                                <a class="btn" href="{{.url}}">{{.button}}</a>
+                                                {{ end }}
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                    {{ $count = add $count 1 }}
+                                
+                                {{ end }}
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
+
 </div>
 {{ end }}

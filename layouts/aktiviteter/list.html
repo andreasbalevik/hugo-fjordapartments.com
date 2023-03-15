@@ -2,24 +2,30 @@
 <div class="page__activeties">
 
     {{ partial "components/banner.html" . }}
-    
-    <div class="component">
+
+    <section class="features-area features-nine">
         <div class="container">
-            <div class="activeties__list">
-                {{ $counter := 0 }}
-                {{ range .Page.Params.activeties }}
-                <div class="row g-0">
-                    <div class="col-lg-6 p-lg-5 p-4 d-flex border mb-sm-0">
-                        <div class="my-auto">
-                            <h2>{{.title}}</h2>
-                            <p>{{.desc}}</p>
-                            <div>
-                                <a class="btn" href="{{.homepage}}">{{.button}}</a>
+
+            {{ range .Page.Params.activeties }}
+            <div class="features-items">
+                <div class="row justify-content-between">
+                    <div class="col-lg-5">
+                        <div class="features-title">
+                            <h2 class="h3">
+                                {{.title}}
+                            </h2>
+                            <p class="text-lg">
+                                {{.desc}}
+                            </p>
+                            <div class="feature-btn">
+                                <a href="{{.homepage}}" class="btn primary-btn">
+                                    {{.button}}
+                                </a>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-6">
-                        <div style="position:relative;">
+                        <div class="features-image" style="position: relative;">
                             {{ partial "components/image.html" (dict "ctx" . "image" .image) }}
                             {{ with .source }}
                             <div style="position: absolute; left:10px; bottom:10px;color:white;">
@@ -29,11 +35,11 @@
                         </div>
                     </div>
                 </div>
-                {{ $counter = add $counter 1 }}
-                {{ end }}
             </div>
+            {{ end }}
+
         </div>
-    </div>
+    </section>
 </div>
 
 {{ end }}
