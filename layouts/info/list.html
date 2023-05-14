@@ -5,7 +5,7 @@
     <div class="component">
         <div class="container">
             <div class="row">
-                <div class="col">
+                <div class="col-lg-8">
                     <div class="single-accordion">
                         <div class="accordion-style-two">
                             <div class="accordion" id="accordionTwo">
@@ -13,8 +13,9 @@
                                 {{ range .Page.Params.faq }}
                                 <div class="card">
                                     <div class="card-header" id="heading-{{$count}}">
-                                        <a class="collapsed" href="#collapse-{{$count}}" data-bs-toggle="collapse" role="button"
-                                            aria-expanded="false">{{.title}}</a>
+                                        <a class="collapsed" href="#collapse-{{$count}}" data-bs-toggle="collapse"
+                                           role="button"
+                                           aria-expanded="false">{{.title}}</a>
                                     </div>
                                     <div id="collapse-{{$count}}" class="collapse" data-bs-parent="#accordionTwo">
                                         <div class="card-body">
@@ -29,8 +30,8 @@
                                         </div>
                                     </div>
                                 </div>
-                                    {{ $count = add $count 1 }}
-                                
+                                {{ $count = add $count 1 }}
+
                                 {{ end }}
                             </div>
                         </div>
