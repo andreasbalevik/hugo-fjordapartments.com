@@ -1,5 +1,5 @@
 ---
-title: Welcom
+title: Balestrand Fjord Apartments
 
 description: Looking for a place to stay in Balestrand? We have new, high standard apartments in the hearth of Balestrand. Balconies with an amazing fjord view. Fully furnished, well equipped kitchen and bathroom. Perfect for a small family or if you are looking for a flexible stay.
 

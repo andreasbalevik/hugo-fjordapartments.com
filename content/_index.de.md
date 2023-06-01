@@ -1,5 +1,5 @@
 ---
-title: Willkommen
+title: Balestrand Fjord Apartments
 
 description: Benötigen Sie eine Unterkunft? Wir haben neue, moderne Apartments mitten im Zentrum von Balestrand. Balkone mit fantastischem Blick auf den Fjord. Einfacher Zugang. Fertig möbliert, mit voll ausgestatteter Küche und Bad. Perfekt für diejenigen, die mehr Freiheit wollen.
 

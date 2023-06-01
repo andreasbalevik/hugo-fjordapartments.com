@@ -1,5 +1,5 @@
 ---
-title: Velkommen
+title: Balestrand Fjord Apartments
 
 description: Behov for overnatting i Balestrand? Vi har nye, moderne leiligheter midt i Balestrand sentrum. Balkonger med fantastisk fjordutsikt. Lett tilkomst. Ferdig møblert, med fullt utstyrt kjøkken og bad. Perfekt for deg som ønsker mer frihet.
 

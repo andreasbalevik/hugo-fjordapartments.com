@@ -8,6 +8,7 @@ description: Balestrand has many hidden treasures to explore. Go hiking in the h
 
 title: Activities in Balestrand
 intro: The first tourist came to Balestrand more than a 100 years ago, drawn to majestic mountains and deep fjords. The small village has since become an attractive destination worldwide. Below we have listed some of the activities in Balestrand we think you should try.
+image: /images/B67I4877-min.jpg
 
 activeties:
 

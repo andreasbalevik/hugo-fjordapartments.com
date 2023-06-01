@@ -1,6 +1,4 @@
 ---
-title: Utforsk
-menu: main
 menu:
   main:
     weight: 3
@@ -10,6 +8,7 @@ description: Balestrand har mye å tilby deg som besøkende. Enten du reiser ale
 
 title: Aktiviteter i Balestrand
 intro: Den første turisten kom til Balestrand for over 100 år siden, tiltrukket av høye fjell og dype fjorder. Det lille tettstedet har siden blitt et attraktivt reisemål for mennesker over hele verden. Under har vi liste opp noen aktiviteter og steder vi synes du bør vurdere.
+image: /images/B67I4877-min.jpg
 
 activeties:
 

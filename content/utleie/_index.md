@@ -1,10 +1,16 @@
 ---
+menu:
+  main:
+    weight: 4
+
 title: Utleie
 description: Vi har utleie av vannscooter og leiligheter midt i Balestrand sentrum.
   Perfekt for korte opphold for å utforske nærområdet.
 intro: Her finner du en oversikt over våre utleietilbud. Vi er også behjelpelig med
   leiebiler eller forslag til fine dagsturer i området. Send en henvendelse på e-post
   eller ved bestilling av en av våre leiligheter.
+image: /images/jetski/IMG_0834.jpg
+
 items:
 - title: Leiligheter
   text: Vi har utleie av leiligheter midt i Balestrand sentrum. Perfekt for korte
@@ -23,8 +29,5 @@ items:
 
   price: '2 Timer: 1400 NOK - 4 Timer: 1900 NOK - Pris kan avtales ved ønske om kortere
     / lengre tider.'
-menu:
-  main:
-    weight: 4
 
 ---

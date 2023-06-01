@@ -1,6 +1,4 @@
 ---
-title: Erkunden
-menu: main
 menu:
   main:
     weight: 3
@@ -10,9 +8,9 @@ description: Balestrand hat viele verborgene Schätze zu entdecken. Wandern Sie 
 
 title: Aktivitäten in Balestrand
 intro: Der erste Tourist kam vor mehr als 100 Jahren nach Balestrand, angezogen von majestätischen Bergen und tiefen Fjorden. Das kleine Dorf ist seitdem weltweit ein attraktives Reiseziel. Nachfolgend haben wir einige Aktivitäten in Balestrand aufgelistet, die Sie ausprobieren sollten.
+image: /images/B67I4877-min.jpg
 
 activeties:
-
 - title: Balestrand Adventure
   desc: Balestrand adventures are an experienced provider in Balestrand, in the heart of the Sognefjord region. They sell down-to-earth experiences based on the history and nature of the Sognefjord. 
   homepage: https://www.balestrandadventure.no

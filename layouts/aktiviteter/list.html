@@ -28,7 +28,7 @@
                         <div class="features-image" style="position: relative;">
                             {{ partial "components/image.html" (dict "ctx" . "image" .image) }}
                             {{ with .source }}
-                            <div style="position: absolute; left:10px; bottom:10px;color:white;">
+                            <div style="position: absolute; left:10px; bottom:10px;color:white; background-color:black;padding:1px 5px;">
                                 {{ i18n "image" }}: {{.}}
                             </div>
                             {{ end }}
