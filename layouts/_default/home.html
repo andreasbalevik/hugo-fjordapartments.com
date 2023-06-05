@@ -21,7 +21,7 @@
                                     <img {{ if ne $counter 0 }} decoding="async" {{end}}
                                         style="background-color: {{index $colors 3}}"
                                         srcSet="{{$image_mobile.RelPermalink}} 600w, {{$image_tablet.RelPermalink}} 900w, {{$image.RelPermalink}} 1200w"
-                                        width="{{ $image.Width }}" height="{{ $image.Height }}" alt="">
+                                        width="{{ $image.Width }}" loading="lazy" height="{{ $image.Height }}"    alt="">
                                 </div>
                                 {{ $counter = add $counter 1 }}
                                 {{ end }}
