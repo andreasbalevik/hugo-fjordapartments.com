@@ -1,9 +1,10 @@
 ---
-title: Practical
 menu:
   main:
     weight: 1
     name: Practical
+
+url: /en/practical
 
 description: We use Airbnb for booking.
 
@@ -16,8 +17,6 @@ faq:
 
 - title: How do i book an apartment?
   content: We use Airbnb for booking. Under the menu Apartments you will find a list of available apartments. All apartments have a direct link to aribnb for booking.
-  button: Go to our apartments
-  url: apartments.html
 
 - title: About our apartments
   content: "<ul>

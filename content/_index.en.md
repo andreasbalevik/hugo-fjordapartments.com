@@ -22,7 +22,7 @@ items:
   text: We rent apartments and jet skis in the center of Balestrand. Perfect for short day trips in the local area.
   link:
     text: More information
-    href : /en/utleie
+    href : /en/rental
 
 - title: Activities
   image: 
@@ -31,6 +31,6 @@ items:
   text: Balestrand has a lot to offer you as a visitor. Whether you travel alone or in a group. There is a lot to choose from.
   link:
     text: Find activities in Balestrand. 
-    href: /en/aktiviteter
+    href: /en/activities
 
 ---

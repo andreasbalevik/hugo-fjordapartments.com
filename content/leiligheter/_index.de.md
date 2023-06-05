@@ -1,9 +1,13 @@
 ---
-title: Wohnungen
 menu:
   main:
     weight: 2
     name: Wohnungen
+
+url: /de/wohnungen
+
+sitemap:
+  priority: 1
 
 description: Wir nutzen Airbnb für die Buchung. Nachfolgend haben wir unsere zur Vermietung verfügbaren Apartments aufgelistet.
 

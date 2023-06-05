@@ -4,6 +4,8 @@ menu:
     weight: 3
     name: Activities
 
+url: /en/activities
+
 description: Balestrand has many hidden treasures to explore. Go hiking in the high mountains, watch the fjord from above, or cruise the fjord, close to the elements. The opportunities are endless.
 
 title: Activities in Balestrand

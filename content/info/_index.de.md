@@ -1,9 +1,10 @@
 ---
-title: Praktisch
 menu:
   main:
     weight: 1
     name: Praktisch
+
+url: /de/praktisch
 
 description: We use Airbnb for booking.
 
@@ -15,8 +16,6 @@ faq:
 
 - title: Wie buche ich eine Wohnung?
   content: Wir nutzen Airbnb für die Buchung. Unter dem Menü Apartments finden Sie eine Liste der verfügbaren Apartments. Alle Apartments haben einen direkten Link zu aribnb für die Buchung.
-  button: Gehen Sie zu unseren Wohnungen
-  url: apartments.html
 
 - title: Über unsere Wohnungen
   content: "<ul>

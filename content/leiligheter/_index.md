@@ -1,9 +1,11 @@
 ---
-title: Leiligheter
 menu:
   main:
     weight: 2
     name: Leiligheter
+
+sitemap:
+  priority: 1
 
 description: Behov for å leie bolig? Vi har nye, moderne leiligheter midt i Balestrand sentrum. Lett tilkomst. Ferdig møblert, med komplett kjøkken og bad. Perfekt for deg som ønsker mer frihet.
 intro-button: Vis alle leiligheter

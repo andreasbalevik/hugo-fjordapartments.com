@@ -1,5 +1,4 @@
 ---
-title: Info
 menu:
   main:
     weight: 1
@@ -15,8 +14,6 @@ faq:
 
 - title: Hvordan leier jeg en leilighet?
   content: Vi bruker Airbnb som booking tjeneste. Vi har listet alle våre leiligheter under Leiligheter. Her finner du også direktelenke til leilighetens airbnb profil
-  button: Se våre leiligheter
-  url: apartments.html
 
 - title: Om leilighetene
   content: "<ul>

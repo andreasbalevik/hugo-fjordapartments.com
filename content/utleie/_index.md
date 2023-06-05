@@ -4,6 +4,10 @@ menu:
     weight: 4
 
 title: Utleie
+
+sitemap:
+  priority: 0.8
+
 description: Vi har utleie av vannscooter og leiligheter midt i Balestrand sentrum.
   Perfekt for korte opphold for å utforske nærområdet.
 intro: Her finner du en oversikt over våre utleietilbud. Vi er også behjelpelig med

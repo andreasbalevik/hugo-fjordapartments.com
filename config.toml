@@ -1,3 +1,5 @@
+disableKinds = ["taxonomy","taxonomyTerm"]
+
 languageCode = 'nb-NO'
 title = 'Balestrand Fjord Apartments'
 theme = 'boilerplate-hugo-theme'
@@ -5,6 +7,10 @@ theme = 'boilerplate-hugo-theme'
 defaultContentLanguage = 'no'
 
 baseURL = "https://www.fjordapartments.no/"
+
+canonifyURLs = true
+
+enableRobotsTXT = true
 
 [minify]
   minifyOutput = true
@@ -14,6 +20,11 @@ baseURL = "https://www.fjordapartments.no/"
   hint = 'photo'
   quality = 80
   resampleFilter = 'MitchellNetravali'
+
+[sitemap]
+  changefreq = 'monthly'
+  filename = 'sitemap.xml'
+  priority = 0.5
 
 [languages]
   [languages.no]

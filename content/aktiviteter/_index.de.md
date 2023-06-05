@@ -4,6 +4,8 @@ menu:
     weight: 3
     name: Aktivitäten
 
+url: /de/aktivitaten
+
 description: Balestrand hat viele verborgene Schätze zu entdecken. Wandern Sie im Hochgebirge, beobachten Sie den Fjord von oben oder fahren Sie auf dem Fjord in der Nähe der Elemente. Die Möglichkeiten sind endlos.
 
 title: Aktivitäten in Balestrand

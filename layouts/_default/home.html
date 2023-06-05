@@ -40,7 +40,10 @@
                         <div class="col-lg p-lg-5 p-4 bg-white text-center">
                             <h1>{{.Title}}</h1>
                             <p>{{.Page.Params.intro}}</p>
-                            <a href="leiligheter" class="btn mt-3">{{.Page.Params.intro_button}}</a>
+
+                            {{ with .Site.GetPage "/leiligheter"}}
+                            <a href="{{.RelPermalink}}" class="btn mt-3">{{.Title}}</a>
+                            {{ end }}
                         </div>
                     </div>
                 </div>

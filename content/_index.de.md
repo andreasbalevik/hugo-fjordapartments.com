@@ -21,7 +21,7 @@ items:
       alt: ""
   text: Wir vermieten Apartments und Jetskis  im Zentrum von Balestrand. Perfekt für kurze Tagesausflüge in die Umgebung.
   link:
-    href: /de/utleie
+    href: /de/zu-vermieten
     text: Mehr Informationen
 
 - title: Aktivitäten
@@ -31,6 +31,6 @@ items:
   text: Balestrand hat Ihnen als Besucher viel zu bieten. Ob Sie alleine oder in einer Gruppe reisen. Es gibt eine Menge zur Auswahl.
   link:
     text: Aktivitäten in Balestrand 
-    href: /de/aktiviteter
+    href: /de/aktivitaten
 
 ---
