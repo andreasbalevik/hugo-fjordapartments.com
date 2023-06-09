@@ -14,7 +14,6 @@ intro_button: Alle Wohnungen anzeigen
 images:
 - src: /images/IMG_6391.jpeg
 - src: /images/IMG_6377.jpeg
-- src: /images/IMG_6377.jpeg
 - src: /images/IMG_6248.jpg
 - src: /images/jetski.jpg
 
