@@ -11,10 +11,8 @@
                         <div class="col-12">
                             <div class="nav-head">
                                 <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
-
                                     {{ $count_nav := 0 }}
                                     {{ range .Page.Params.apartments }}
-
                                     {{ $id := replace .title " " "-"}}
                                     <li class="nav-item" role="presentation">
                                         <a class="nav-link {{ if eq $count_nav 0 }}active{{end}}" id="{{$id}}-tab"
@@ -25,11 +23,9 @@
                                     </li>
                                     {{$count_nav = add $count_nav 1 }}
                                     {{ end }}
-
                                 </ul>
                             </div>
                             <div class="tab-content" id="pills-tabContent">
-
                                 {{ $count_div := 0 }}
                                 {{ range .Page.Params.apartments }}
                                 {{ $id := replace .title " " "-"}}
@@ -39,7 +35,7 @@
                                         <div class="row">
                                             <div class="col-lg-6 col-md-12 col-12">
                                                 <div class="tab-image">
-                                                    {{ partial "components/carousel.html" (dict "ctx" . "images" .images ) }}
+                                                    {{ partial "components/image-col-6.html" (dict "ctx" . "images" .images ) }}
                                                 </div>
                                             </div>
                                             <div class="col-lg-6 col-md-12 col-12">
@@ -55,18 +51,14 @@
                                                     <p>
                                                         {{.desc}}
                                                     </p>
-
                                                     <div style="margin-left:0px!important">
-
                                                         <a class="btn" href="{{.link}}">Book {{.title}} with Airbnb</a>
-
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-
                                 {{$count_div = add $count_div 1 }}
                                 {{ end }}
                             </div>

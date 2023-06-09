@@ -1,15 +1,16 @@
 ---
+# HUGO
 menu:
   main:
     weight: 1
     name: Praktisch
-
 url: /de/praktisch
 
-description: We use Airbnb for booking.
+# SEO
 
+# CONTENT
 title: Praktische Information
-
+description: We use Airbnb for booking.
 faq:
 - title: Lage
   content: Unsere Apartments befinden sich im Herzen von Balestrand. Kurze Entfernungen zu allem, was Sie brauchen sollten. Lebensmittelgeschäfte, Restaurants, Touristeninformation und zu Fuß zum Boot (Bergen, Flom), Bus und Parkplatz

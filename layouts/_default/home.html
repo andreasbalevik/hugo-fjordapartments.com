@@ -7,42 +7,13 @@
             <div class="row justify-content-lg-center">
                 <div class="col-lg-12">
                     <div class="column shadow-none">
-                        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-                            <div class="carousel-inner">
-                                {{ range .Params.images }}
-                                <div class="carousel-item {{ if eq $counter 0}}active{{end}}">
-
-                                    {{ $image := resources.GetMatch . }}
-                                    {{ $image := $image.Fill "1200x550 q100" }}
-                                    {{ $image_tablet := $image.Fill "900x550 q100" }}
-                                    {{ $image_mobile := $image.Fill "600x450 q100" }}
-                                    {{ $colors := $image.Colors }}
-
-                                    <img {{ if ne $counter 0 }} decoding="async" {{end}}
-                                        style="background-color: {{index $colors 3}}"
-                                        srcSet="{{$image_mobile.RelPermalink}} 600w, {{$image_tablet.RelPermalink}} 900w, {{$image.RelPermalink}} 1200w"
-                                        width="{{ $image.Width }}" loading="lazy" height="{{ $image.Height }}"    alt="">
-                                </div>
-                                {{ $counter = add $counter 1 }}
-                                {{ end }}
-                            </div>
-                            <button class="carousel-control-prev" type="button"
-                                data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                <span class="visually-hidden">Previous</span>
-                            </button>
-                            <button class="carousel-control-next" type="button"
-                                data-bs-target="#carouselExampleControls" data-bs-slide="next">
-                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                <span class="visually-hidden">Next</span>
-                            </button>
-                        </div>
+                        {{ partial "components/image-col-12.html" (dict "ctx" . "images" .Params.images ) }}
                         <div class="col-lg p-lg-5 p-4 bg-white text-center">
                             <h1>{{.Title}}</h1>
                             <p>{{.Page.Params.intro}}</p>
 
                             {{ with .Site.GetPage "/leiligheter"}}
-                            <a href="{{.RelPermalink}}" class="btn mt-3">{{.Title}}</a>
+                                <a href="{{.RelPermalink}}" class="btn mt-3">{{.Title}}</a>
                             {{ end }}
                         </div>
                     </div>

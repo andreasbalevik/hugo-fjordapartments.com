@@ -26,7 +26,7 @@
                     </div>
                     <div class="col-lg-6">
                         <div class="features-image" style="position: relative;">
-                            {{ partial "components/image.html" (dict "ctx" . "image" .image) }}
+                            {{ partial "components/image-col-6.html" (dict "ctx" . "images" .images ) }}
                             {{ with .source }}
                             <div style="position: absolute; left:10px; bottom:10px;color:white; background-color:black;padding:1px 5px;">
                                 {{ i18n "image" }}: {{.}}
