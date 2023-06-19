@@ -9,7 +9,7 @@
             {{ range .Page.Params.activeties }}
             <div class="features-items">
                 <div class="row justify-content-between">
-                    <div class="col-lg-5">
+                    <div class="col-md-5">
                         <div class="features-title">
                             <h2 class="h3">
                                 {{.title}}
@@ -24,7 +24,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-6">
+                    <div class="col-md-6">
                         <div class="features-image" style="position: relative;">
                             {{ partial "components/image-col-6.html" (dict "ctx" . "images" .images ) }}
                             {{ with .source }}

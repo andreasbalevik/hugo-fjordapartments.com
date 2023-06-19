@@ -5,7 +5,7 @@
 
 .features-items {
     &:nth-child(even) {
-        .col-lg-5 {
+        .col-md-5 {
             @extend .order-lg-last;
         }
     }
