@@ -1,1 +1,2 @@
-Access-Control-Allow-Origin
+/fonts/*
+  Access-Control-Allow-Origin: https://www.fjordapartments.no
