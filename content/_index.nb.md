@@ -16,7 +16,7 @@ jumbotrone:
   description: Behov for overnatting i Balestrand? Vi har nye, moderne leiligheter midt i Balestrand sentrum. Balkonger med fantastisk fjordutsikt. Lett tilkomst. Ferdig møblert, med fullt utstyrt kjøkken og bad. Perfekt for deg som ønsker mer frihet.
   button:
     text: Se alle våre leiligheter
-    href: /leiligheter
+    href: /nb/leiligheter
 
 items: 
 - title: Utleie
@@ -25,7 +25,7 @@ items:
         alt: Bilde av oppredd seng
   text: Vi har utleie av leiligheter og vannscooter midt i Balestrand sentrum. Perfekt for korte dagsturer i nærområdet.
   link:
-    href: /utleie
+    href: /nb/utleie
 
 - title: Aktiviteter
   images:
@@ -33,5 +33,5 @@ items:
         alt: Bilde av fjellet i esefjorden
   text: Balestrand har mye å tilby deg som besøkende. Enten du reiser alene, eller i gruppe er det mye å velge mellom. 
   link:
-    href: /aktiviteter
+    href: /nb/aktiviteter
 ---
