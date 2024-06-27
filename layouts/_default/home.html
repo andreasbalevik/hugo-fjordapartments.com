@@ -1,37 +1,76 @@
 {{ define "main" }}
-<div class="page__index">
 
-    {{ $counter := 0 }}
-    <div class="component">
-        <div class="container">
-            <div class="row justify-content-lg-center">
-                <div class="col-lg-12">
-                    <div class="column shadow-none">
-                        {{ partial "components/image-col-12.html" (dict "ctx" . "images" .Params.images ) }}
-                        <div class="col-lg p-lg-5 p-4 bg-white text-center">
-                            <h1>{{.Title}}</h1>
-                            <p>{{.Page.Params.intro}}</p>
 
-                            {{ with .Site.GetPage "/leiligheter"}}
-                                <a href="{{.RelPermalink}}" class="btn mt-3">{{.Title}}</a>
-                            {{ end }}
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-        </div>
+<div class="my-medium">
+    <div class="container">
+        {{ partial "components/carousel.html" (dict "ctx" . "images" .Params.carousel.images ) }}
     </div>
-    <div class="component">
-        <div class="container">
-            <div class="row gy-3">
-                {{ range .Params.items }}
-                <div class="col-md-6">
-                    {{ partial "components/column.html" . }}
+
+    <div class="container">
+        <section class="bg-white dark:bg-gray-900">
+            <div class="py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16">
+                <h1 class="mb-4 text-4xl font-extrabold tracking-tight leading-none text-gray-900 md:text-5xl lg:text-6xl">
+                    {{.Page.Params.jumbotrone.title }}
+                </h1>
+                <p class="mb-8 text-lg font-normal text-gray-600 lg:text-xl sm:px-16 lg:px-28 ">
+                    {{.Page.Params.jumbotrone.description }}
+                </p>
+                <div class="flex flex-col space-y-4 sm:flex-row sm:justify-center sm:space-y-0">
+                    {{ $href := .Page.Params.jumbotrone.button.href }}
+                    {{ $text := .Page.Params.jumbotrone.button.text }}
+                    {{ with .Site.GetPage (string $href) }}
+                    <a href="{{.RelPermalink}}"
+                        class="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-white rounded-lg bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-900">
+                        {{ $text }}
+                        <svg class="w-3.5 h-3.5 ms-2 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+                            fill="none" viewBox="0 0 14 10">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M1 5h12m0 0L9 1m4 4L9 9" />
+                        </svg>
+                    </a>
+                    {{ end }}
                 </div>
-                {{ end }}
             </div>
+        </section>
+    </div>
+</div>
+
+<div class="bg-white py-medium">
+    <div class="container">
+        <div class="grid grid-cols-1 xl:grid-cols-2 gap-4">
+
+
+            {{ range .Params.items }}
+
+                <a href="{{.link.href}}" class="flex flex-col items-center overflow-hidden bg-white border border-gray-200 rounded-lg shadow sm:flex-row md:flex-row lg:flex-col hover:bg-gray-100 lg:max-w-xl">
+                    
+                    {{ partial "components/image.html" (index .images 0) }}
+                    <div class="flex flex-col justify-between p-4 leading-normal">
+                        
+                
+                        <h5 class="inline-flex items-center mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                            {{.title }}
+
+                            <svg class="w-6 h-6" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 12H5m14 0-4 4m4-4-4-4"/>
+                            </svg>
+                        </h5>
+
+                        <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
+                            {{.text}}
+                        </p>
+                    </div>
+                </a>
+                {{ end }}
+
+            
+
+
+
         </div>
     </div>
 </div>
+
+
+
 {{ end }}

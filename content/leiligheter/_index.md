@@ -3,31 +3,29 @@
 menu:
   main:
     weight: 2
-    name: Leiligheter
+    name: Apartments
+
+url: /en/apartments
 
 # SEO
 sitemap:
   priority: 1
 
 # CONTENT
-title: Leiligheter i Balestrand
-description: Behov for å leie bolig? Vi har nye, moderne leiligheter midt i Balestrand sentrum. Lett tilkomst. Ferdig møblert, med komplett kjøkken og bad. Perfekt for deg som ønsker mer frihet.
-intro-button: Vis alle leiligheter
-
-intro: Vi bruker Airbnb som booking tjeneste, under finner du en oversikt over alle våre leiligheter. 
-intro-button-text: Klikk for mer praktisk info
-
-basic_apartments: Generell informasjon
+title: Apartments in Balestrand
+description: Our apartments are located centrally in Balestrand. With calm and quiet surroundings and an amazing view of the fjord. Balestrand offers beautiful scenery and high mountains with fantastic hiking opportunities. With short distances to grocery stores, tourist information and hiking opurtunities this is a perfect base for a longer stay.
+intro: We use Airbnb for booking, below we have listed our apartments available for rental.
+intro-button-text: Click for more practical info
 
 apartments:
 - title: Holmen 19A
-  desc: "Ny leilighet i Balestrand sentrum for 4 personer. 2 soverom, (valgfritt hvis du ønsker enkeltsenger eller dobbeltseng).
-Reiseseng tilgjengelig. Én ekstra gjest i den ekstra sengen.
-Leiligheten har en stor balkong med flere sitteplasser."
+  desc: "New apartment in Balestrand center for 4 people. 2 bedrooms, (optional if you want single beds or double bed).
+Travel cot available. One extra guest in the extra bed.
+The apartment has a large balcony with several seats."
   details:
-    - "4 personer"
-    - "- 2 soverom"
-    - "- 134 kvm"
+    - "4 persons"
+    - "- 2 bedrooms"
+    - "- 134 sq.m"
 
   images:
     - src: /images/apartments/holmen-19a.jpg
@@ -43,15 +41,15 @@ Leiligheten har en stor balkong med flere sitteplasser."
     - src: /images/apartments/holmen-19a-2-floor.webp
 
   link: https://airbnb.no/rooms/25425181
-  alt: leiligheter overnatting balestrand sentralt
-  
+  alt: apartment central balcony family single room double room furnished
+
 - title: Holmen 19B
-  desc: "Ny leilighet i Balestrand sentrum for 8 personer. (Mulighet for 2 ekstra gjester mot tillegg i pris). 4 soverom (valgfritt om du ønsker enkelt- eller dobbeltseng). Barneseng tilgjengelig. Leiligheten har en stor balkong og en liten balkong i toppetasjen. OBS: Trapper til inngangsdør."
+  desc: "New apartment in the center of Balestrand for 8 people. (Possibility of 2 extra guests at extra cost). 4 bedrooms (optional if you want a single or double bed). Cot available. The apartment has a large balcony and a small balcony on the top floor. NOTE: Stairs to front door."
   
   details:
-    - "8 personer"
-    - "- 4 soverom"
-    - "- 193 kvm"
+    - "8 persons"
+    - "- 4 bedrooms"
+    - "- 193 sq.m"
 
   images: 
     - src: /images/apartments/holmen-19b.jpg
@@ -70,8 +68,8 @@ Leiligheten har en stor balkong med flere sitteplasser."
     - src: /images/apartments/holmen-19b-14-bedroom.webp
     - src: /images/apartments/holmen-19b-16-floor.webp
     - src: /images/apartments/holmen-19b-17-floor.webp
-
-  link: https://www.airbnb.no/rooms/29767798
-  alt: leiligheter overnatting balestrand sentralt
+    
+  link: https://airbnb.no/rooms/29767798
+  alt: apartment central balcony family single room double room furnished
 
 ---

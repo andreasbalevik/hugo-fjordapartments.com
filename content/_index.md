@@ -4,33 +4,35 @@
 # SEO
 
 # CONTENT
-title: Balestrand Fjord Apartments
-description: Behov for overnatting i Balestrand? Vi har nye, moderne leiligheter midt i Balestrand sentrum. Balkonger med fantastisk fjordutsikt. Lett tilkomst. Ferdig møblert, med fullt utstyrt kjøkken og bad. Perfekt for deg som ønsker mer frihet.
-intro: Behov for overnatting i Balestrand? Vi har nye, moderne leiligheter midt i Balestrand sentrum. Balkonger med fantastisk fjordutsikt. Lett tilkomst. Ferdig møblert, med fullt utstyrt kjøkken og bad. Perfekt for deg som ønsker mer frihet.
-intro_button: Vis alle våre leiligheter
+carousel:
+  images:
+    - src: /images/IMG_6391.jpeg
+    - src: /images/IMG_6377.jpeg
+    - src: /images/IMG_6248.jpg
+    - src: /images/jetski.jpg
 
-images:
-- src: /images/IMG_6391.jpeg
-- src: /images/IMG_6377.jpeg
-- src: /images/IMG_6248.jpg
-- src: /images/jetski.jpg
+jumbotrone:
+  title: Balestrand Fjord Apartments
+  description: Looking for a place to stay in Balestrand? We have new, high standard apartments in the hearth of Balestrand. Balconies with an amazing fjord view. Fully furnished, well equipped kitchen and bathroom. Perfect for a small family or if you are looking for a flexible stay.
+  button: 
+    text: View our apartments
+    href: /leiligheter
 
-items: 
-- title: Utleie
+items:
+- title: Rental
   images:
       - src: /images/IMG_9845-HDR-492x277.jpg
-        alt: Bilde av oppredd seng
-  text: Vi har utleie av leiligheter og vannscooter midt i Balestrand sentrum. Perfekt for korte dagsturer i nærområdet.
+        alt: Image of made bed
+  text: We rent apartments and jet skis in the center of Balestrand. Perfect for short day trips in the local area.
   link:
-    href: /utleie
-    text: Mer informasjon
+    href : /en/rental
 
-- title: Aktiviteter
+- title: Activities
   images:
       - src: /images/IMG_6248-492x277.jpg
-        alt: Bilde av fjellet i esefjorden
-  text: Balestrand har mye å tilby deg som besøkende. Enten du reiser alene, eller i gruppe. Det er mye å velge mellom. 
+        alt: Image of mountains in esefjord
+  text: Balestrand has a lot to offer you as a visitor. Whether you travel alone or in a group there is a lot to choose from.
   link:
-    href: /aktiviteter
-    text: Se aktiviteter i Balestrand
+    href: /en/activities
+
 ---

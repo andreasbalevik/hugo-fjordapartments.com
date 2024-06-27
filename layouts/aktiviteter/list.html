@@ -1,8 +1,6 @@
 {{ define "main" }}
 <div class="page__activeties">
 
-    {{ partial "components/banner.html" . }}
-
     <section class="features-area features-nine">
         <div class="container">
 
@@ -26,7 +24,6 @@
                     </div>
                     <div class="col-md-6">
                         <div class="features-image" style="position: relative;">
-                            {{ partial "components/image-col-6.html" (dict "ctx" . "images" .images ) }}
                             {{ with .source }}
                             <div style="position: absolute; left:10px; bottom:10px;color:white; background-color:black;padding:1px 5px;">
                                 {{ i18n "image" }}: {{.}}
