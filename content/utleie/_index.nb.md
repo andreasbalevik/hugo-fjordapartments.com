@@ -18,18 +18,9 @@ intro: Her finner du en oversikt over våre utleietilbud. Vi er også behjelpeli
   eller ved bestilling av en av våre leiligheter.
 
 items:
-- title: Leiligheter
-  text: Vi har utleie av leiligheter midt i Balestrand sentrum. Perfekt for korte
-    opphold for å utforske nærområdet i Balestrand.
-  images:
-    - src: "/images/holmen.jpg"
-      alt: ""
 
-  link:
-    href: "/leiligheter"
-    text: Se våre leiligheter
 - title: Vannscooter
-  text: 2 stk Sea-Doo SPARK (TRIXX 2) og 2 stk Sea-Doo SPARK (TRIXX 3) vannscooterer
+  desc: 2 stk Sea-Doo SPARK (TRIXX 2) og 2 stk Sea-Doo SPARK (TRIXX 3) vannscooterer
     til utleie i Balestrand sentrum. Kontakt oss for å reservere.
   images:
     - src: "/images/jetski/IMG_0834.jpg"

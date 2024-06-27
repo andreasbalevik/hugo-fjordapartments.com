@@ -16,17 +16,9 @@ intro: Here you will find an overview of our rental offers. We are also helpful 
 ogImage: /images/jetski/IMG_0834.jpg
 
 items:
-- title: Apartments
-  text: We rent out apartments in the center of Balestrand. Perfect for short stays in Balestrand.
-  images:
-    - src: /images/holmen.jpg
-      alt: ""
-  link: 
-    href: /en/apartments
-    text: See our apartments
 
 - title: Jet skis
-  text: 2 Sea-Doo SPARK (TRIXX 2) and 2 Sea-Doo SPARK (TRIXX 3) personal jet skis for rent in the center of Balestrand. Contact us for a reservation.
+  desc: 2 Sea-Doo SPARK (TRIXX 2) and 2 Sea-Doo SPARK (TRIXX 3) personal jet skis for rent in the center of Balestrand. Contact us for a reservation.
   images:
     - src: /images/jetski/IMG_0834.jpg
       alt: ""

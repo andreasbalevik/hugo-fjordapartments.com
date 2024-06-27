@@ -2,7 +2,6 @@
 # HUGO
 menu:
   main:
-    weight: 1
     name: Praktisch
 url: /de/praktisch
 
@@ -19,7 +18,7 @@ faq:
   content: Wir nutzen Airbnb für die Buchung. Unter dem Menü Apartments finden Sie eine Liste der verfügbaren Apartments. Alle Apartments haben einen direkten Link zu aribnb für die Buchung.
 
 - title: Über unsere Wohnungen
-  content: "<ul>
+  content: "
 				<li>Alle Apartments verfügen über einen Balkon. Mit Blick auf den Fjord</li>
 				<li>Die Wohnungen sind voll möbliert</li>
 				<li>Einfaches Ein- und Auschecken mit der Keybox</li>
@@ -30,7 +29,7 @@ faq:
 				<li>Küche mit Kühlschrank, Herd und Gefrierschrank</li>
 				<li>Wohnzimmer mit Sitzecke und TV</li>
         <li>Internet</li>
-			</ul>"
+			"
 
 - title: Ein- und Auschecken
   content: Die Apartments verfügen über einen Schlüsselkasten in der Nähe des Eingangs. Nach Abschluss der Buchung erhalten Sie Informationen zur Adresse, zum Keybox-Code und mehr. Kasse vor 1200 Uhr am Abreisetag. Die Reinigung ist inbegriffen, aber wir bitten Sie, es in dem Zustand zu lassen, in dem Sie angekommen sind.

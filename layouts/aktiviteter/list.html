@@ -1,42 +1,60 @@
 {{ define "main" }}
-<div class="page__activeties">
 
-    <section class="features-area features-nine">
-        <div class="container">
+<div class="container my-medium">
 
-            {{ range .Page.Params.activeties }}
-            <div class="features-items">
-                <div class="row justify-content-between">
-                    <div class="col-md-5">
-                        <div class="features-title">
-                            <h2 class="h3">
-                                {{.title}}
-                            </h2>
-                            <p class="text-lg">
-                                {{.desc}}
-                            </p>
-                            <div class="feature-btn">
-                                <a href="{{.homepage}}" class="btn primary-btn">
-                                    {{.button}}
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="features-image" style="position: relative;">
-                            {{ with .source }}
-                            <div style="position: absolute; left:10px; bottom:10px;color:white; background-color:black;padding:1px 5px;">
-                                {{ i18n "image" }}: {{.}}
-                            </div>
-                            {{ end }}
-                        </div>
-                    </div>
-                </div>
-            </div>
-            {{ end }}
+
+
+
+    <section class="my-large">
+
+        <div class="flex flex-col justify-center">
+            <h1
+                class="mb-4 text-4xl font-extrabold tracking-tight leading-none text-gray-900 md:text-5xl lg:text-6xl dark:text-white">
+                {{.Page.Title}}</h1>
+
+            <p class="text-lg font-normal text-gray-500 lg:text-xl dark:text-gray-400">
+                {{.Page.Params.description}}
+            </p>
 
         </div>
+
     </section>
+
+
+
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+        {{ range .Page.Params.activeties }}
+
+        <div class="bg-white border border-gray-200 rounded-lg shadow">
+            {{ partial "components/image.html" (index .images 0)}}
+
+            <div class="p-5">
+                <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                    {{.title}}
+                </h5>
+
+                <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
+                    {{.desc}}
+                </p>
+
+
+                <a href="{{.homepage}}"
+                    class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg">
+                    {{.button}}
+                    <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+                        fill="none" viewBox="0 0 14 10">
+                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M1 5h12m0 0L9 1m4 4L9 9" />
+                    </svg>
+                </a>
+            </div>
+        </div>
+
+        {{ end }}
+
+    </div>
+
 </div>
+
 
 {{ end }}

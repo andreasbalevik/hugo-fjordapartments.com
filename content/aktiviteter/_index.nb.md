@@ -2,7 +2,7 @@
 # HUGO
 menu:
   main:
-    weight: 3
+    weight: 1
     name: Aktiviteter
 
 # SEO
@@ -19,7 +19,7 @@ activeties:
   images:
       - src: /images/BHCKTHm-16_9-s.jpg
         alt: rib fjord tur guide
-  button: Gå til nettsted >
+  button: Gå til nettsted
   source: balestrandadventure.no
 
 - title: Balestrand Fjord Angling
@@ -28,7 +28,7 @@ activeties:
   images:
       - src: /images/B67I4877-min.jpg
         alt: fiske balestrand fiskebåt fisketur
-  button: Gå til nettsted >
+  button: Gå til nettsted
   source: balestrandfjordangling.com
 
 - title: Utsikten
@@ -37,7 +37,7 @@ activeties:
   images:
       - src: /images/utsikten.jpeg
         alt: gaularfjellet utsikten balestrand
-  button: Få veibeskrivelse >
+  button: Få veibeskrivelse
   source: nasjonaleturistveger.no
 
 - title: Balestrand Badelagune
@@ -46,7 +46,7 @@ activeties:
   images:
       - src: /images/badelagunen.png
         alt: balestrand badeplass badelagune
-  button: Få veibeskrivelse >
+  button: Få veibeskrivelse
 
 - title: Balestrand Cider House
   desc: Balestrand cider house is located in Balestrand, a small walk from the pier and Kviknes Hotel. Balholm is their brand for fruit and berry drinks - cooked with a large portion of passion! In the summer, you can join in the tasting of cider and learn how to distill or cook sparkling cider in the traditional way. You can shop in the farm shop or have a meal in the restaurant.
@@ -54,7 +54,7 @@ activeties:
   images:
       - src: /images/ciderhuset.jpg
         alt: lokal mat cider tradisjon balestrand
-  button: Gå til nettsted >
+  button: Gå til nettsted
   source: ciderhuset.no
 
 - title: Hiking

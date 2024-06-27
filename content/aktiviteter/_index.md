@@ -2,7 +2,7 @@
 # HUGO
 menu:
   main:
-    weight: 3
+    weight: 1
     name: Activities
 url: /en/activities
 
@@ -21,7 +21,7 @@ activeties:
   images:
       - src: /images/BHCKTHm-16_9-s.jpg
         alt: fast sightseeing rib guide
-  button: Go to website >
+  button: Go to website
   source: balestrandadventure.no
 - title: Balestrand Fjord Angling
   desc: Experience more than just fishing. Stunning vistas around every corner, as far as eye can see. Culture. Educational. High mountains, Running water & Clean Air...
@@ -29,7 +29,7 @@ activeties:
   images:
       - src: /images/B67I4877-min.jpg
         alt: fishing angling balestrand fjord deep fish guide
-  button: Go to website >
+  button: Go to website
   source: balestrandfjordangling.com
 - title: The view
   desc: From Balestrand and 40 minutes drive you will find the spectacular viewpoint on Gaularfjellet.
@@ -37,7 +37,7 @@ activeties:
   images:
       - src: /images/utsikten.jpeg
         alt: gaularfjellet view balestrand
-  button: Get directions >
+  button: Get directions
   source: nasjonaleturistveger.no
 - title: Balestrand lagoon
   desc: A short walk from our apartments you will find Balestrand swimming lagoon. The swimming lagoon is a family-friendly area where children and adults can swim and relax.
@@ -45,14 +45,14 @@ activeties:
   images:
       - src: /images/badelagunen.png
         alt: balestrand lagoon swimming
-  button: Get directions >
+  button: Get directions
 - title: Balestrand Cider House
   desc: Balestrand cider house is located in Balestrand, a small walk from the pier and Kviknes Hotel. Balholm is their brand for fruit and berry drinks - cooked with a large portion of passion! In the summer, you can join in the tasting of cider and learn how to distill or cook sparkling cider in the traditional way. You can shop in the farm shop or have a meal in the restaurant.
   homepage: https://www.ciderhuset.no
   images:
       - src: /images/ciderhuset.jpg
         alt: ciderhuset ciderhouse local food tasting traditional
-  button: Go to website >
+  button: Go to website
   source: ciderhuset.no
 - title: Hiking
   desc: Balestrand has wonderful hiking trails for those who either want a longer hike to Raudmelen, or fantastic Keipen, or for those who want a short trip to Orrabenken. We have provided a map below containing hiking trails in the area.
