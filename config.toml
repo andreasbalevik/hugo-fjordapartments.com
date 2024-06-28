@@ -28,6 +28,7 @@ defaultContentLanguageInSubdir = false
   ogimage = "https://fjordapartments.no/images/holmen_hu5c462718f5c094e8219d8230346b031d_520206_400x275_fill_q100_mitchellnetravali_smart1.jpg"
   keywords = ['Fjordapartments', 'Balestrand', 'Vestland']
   email = "lidalsiv@gmail.com"
+  description = "Balestrand Fjord Apartments" 
   
 canonifyURLs = true
 enableRobotsTXT = true
