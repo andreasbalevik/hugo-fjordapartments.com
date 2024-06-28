@@ -27,7 +27,7 @@ items:
         alt: Bilde av oppredd seng
   text: Vi har utleie av leiligheter og vannscooter midt i Balestrand sentrum. Perfekt for korte dagsturer i nærområdet.
   link:
-    href: /nb/utleie
+    href: /utleie
 
 - title: Aktiviteter
   images:
@@ -35,5 +35,5 @@ items:
         alt: Bilde av fjellet i esefjorden
   text: Balestrand har mye å tilby deg som besøkende. Enten du reiser alene, eller i gruppe er det mye å velge mellom. 
   link:
-    href: /nb/aktiviteter
+    href: /aktiviteter
 ---

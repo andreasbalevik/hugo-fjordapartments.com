@@ -18,7 +18,7 @@ intro: Hier finden Sie eine Übersicht unserer Mietangebote. Auch mit Mietwagen 
 items:
 
 - title: Jet-Ski
-  text: 2 stk Sea-Doo SPARK TRIXX 2 persönliche Jetskis zum Mieten im Zentrum von Balestrand. Kontaktieren Sie uns für eine Reservierung.
+  desc: 2 stk Sea-Doo SPARK TRIXX 2 persönliche Jetskis zum Mieten im Zentrum von Balestrand. Kontaktieren Sie uns für eine Reservierung.
   images:
     - src: /images/jetski/IMG_0834.jpg
       alt: ""
