@@ -23,8 +23,8 @@ jumbotrone:
 items:
 - title: Rental
   images:
-      - src: /images/IMG_9845-HDR-492x277.jpg
-        alt: Image of made bed
+      - src: /images/jetski/IMG_0834.jpg
+        alt: Image of a jetski
   text: We rent apartments and jet skis in the center of Balestrand. Perfect for short day trips in the local area.
   link:
     href : /en/rental

@@ -25,8 +25,8 @@ jumbotrone:
 items:
 - title: Vermietung
   images:
-      - src: /images/IMG_9845-HDR-492x277.jpg
-        alt: ""
+      - src: /images/jetski/IMG_0834.jpg
+        alt: "Jetskis"
   text: Wir vermieten Apartments und Jetskis  im Zentrum von Balestrand. Perfekt für kurze Tagesausflüge in die Umgebung.
   link:
     href: /de/zu-vermieten

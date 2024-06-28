@@ -23,8 +23,8 @@ jumbotrone:
 items: 
 - title: Utleie
   images:
-      - src: /images/IMG_9845-HDR-492x277.jpg
-        alt: Bilde av oppredd seng
+      - src: /images/jetski/IMG_0834.jpg
+        alt: Bilde av vannskuter
   text: Vi har utleie av leiligheter og vannscooter midt i Balestrand sentrum. Perfekt for korte dagsturer i nærområdet.
   link:
     href: /utleie
