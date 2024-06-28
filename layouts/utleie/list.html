@@ -1,37 +1,19 @@
 {{ define "main" }}
 
 <div class="container my-medium">
+    
     <section class="my-large">
         <div class="flex flex-col justify-center">
-            <h1
-                class="text-4xl font-extrabold tracking-tight leading-none text-gray-900 md:text-5xl lg:text-6xl dark:text-white">
+            <h1 class="text-4xl font-extrabold tracking-tight leading-none text-gray-900 md:text-5xl lg:text-6xl">
                 {{.Page.Title}}
             </h1>
-
         </div>
     </section>
 
-
-    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
-        {{ range .Page.Params.items }}
-
-        <div itemscope itemtype="http://schema.org/Product">
-            <div class="bg-white border border-gray-200 rounded-lg shadow">
-                {{ partial "components/image.html" (index .images 0)}}
-
-                <div class="p-5">
-                    <h5 itemprop="name" class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-                        {{.title}}
-                    </h5>
-                    <p itemprop="description" class="mb-3 font-normal text-gray-700 dark:text-gray-400">
-                        {{.desc}}
-                    </p>
-                </div>
-
-            </div>
-        </div>
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+        {{ range .Pages }}
+            {{ .Render "li" }}
         {{ end }}
-
     </div>
 
 </div>

@@ -15,13 +15,4 @@ ogImage: /images/jetski/IMG_0834.jpg
 description: Wir vermieten Jetskis und Apartments im Zentrum von Balestrand. Perfekt für kurze Tagesausflüge in die Umgebung.
 intro: Hier finden Sie eine Übersicht unserer Mietangebote. Auch mit Mietwagen oder Vorschlägen für schöne Tagesausflüge in die Umgebung sind wir behilflich. Senden Sie eine Anfrage per E-Mail oder bei Buchung eines unserer Apartments.
 
-items:
-
-- title: Jet-Ski
-  desc: 2 stk Sea-Doo SPARK TRIXX 2 persönliche Jetskis zum Mieten im Zentrum von Balestrand. Kontaktieren Sie uns für eine Reservierung.
-  images:
-    - src: /images/jetski/IMG_0834.jpg
-      alt: ""
-  price: "2 Stunden: NOK 1400 - 4 Stunden: NOK 1900 - Preis kann verhandelt werden, wenn kürzere / längere Zeiten gewünscht werden."
-
 ---

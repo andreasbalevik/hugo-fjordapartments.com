@@ -1,0 +1,38 @@
+<section class="bg-white antialiased rounded-lg shadow">
+    <div class="max-w-screen-xl p-4 md:p-8 mx-auto 2xl:px-0">
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-4 lg:gap-8">
+            
+            <div class="min-h-[350px] max-h-[500px] border py-4 sm:bg-gray-50 rounded-lg">
+                {{ partial "components/carousel-square" (dict "ctx" . "images" .Page.Params.images ) }}
+            </div>
+
+            <div>
+                <h1 class="text-2xl font-semibold text-gray-900 mb-4">
+                    {{.Page.Title}}
+                </h1>
+
+                {{ range .Page.Params.details }}
+                    <span class="bg-blue-100 text-blue-800 text-sm font-medium me-2 px-2.5 py-0.5 rounded dark:bg-blue-900 dark:text-blue-300">
+                        {{.}}
+                    </span>
+                {{ end }}
+
+                <p class="my-6 text-gray-500 dark:text-gray-400">
+                {{.Page.Params.desc}}
+                </p>
+
+                <a href="{{.Page.Params.link}}"
+                class="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-white rounded-lg bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-900">
+                    AirBnb - {{ .Page.Title }}
+                    
+                    <svg class="w-3.5 h-3.5 ms-2 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+                        fill="none" viewBox="0 0 14 10">
+                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M1 5h12m0 0L9 1m4 4L9 9" />
+                    </svg>
+                </a>
+            </div>
+
+        </div>
+    </div>
+</section>

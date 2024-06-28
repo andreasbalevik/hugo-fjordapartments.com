@@ -3,45 +3,8 @@
 <div class="container my-medium">
 
     <div class="grid grid-cols-1 gap-4">
-        {{ range .Page.Params.apartments }}
-        <section class="bg-white antialiased rounded-lg shadow">
-            <div class="max-w-screen-xl p-4 md:p-8 mx-auto 2xl:px-0">
-                
-                <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
-                    <div class="min-h-[350px] max-h-[500px]">
-                        {{ partial "components/carousel-square" (dict "ctx" . "images" .images ) }}
-                    </div>
-
-                    <div class="mt-6 sm:mt-8 lg:mt-0">
-                        <h1 class="text-xl font-semibold text-gray-900 sm:text-2xl dark:text-white">
-                            {{.title}}
-                        </h1>
-
-                        {{ range .details }}
-                            {{.}}
-                        {{ end }}
-
-                        <hr class="my-6 md:my-8 border-gray-200 dark:border-gray-800" />
-
-                        <p class="mb-6 text-gray-500 dark:text-gray-400">
-                           {{.desc}}
-                        </p>
-
-                        <a href="{{.link}}"
-                        class="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-white rounded-lg bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-900">
-                            AirBnb - {{ .title }}
-                            
-                            <svg class="w-3.5 h-3.5 ms-2 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
-                                fill="none" viewBox="0 0 14 10">
-                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                    d="M1 5h12m0 0L9 1m4 4L9 9" />
-                            </svg>
-                        </a>
-
-                    </div>
-                </div>
-            </div>
-        </section>
+        {{ range .Pages }}
+            {{ .Render "li" }}
         {{ end }}
     </div>
 
