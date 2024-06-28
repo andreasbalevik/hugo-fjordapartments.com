@@ -19,9 +19,9 @@
                     {{.Page.Params.jumbotrone.description }}
                 </p>
                 <div class="flex flex-col space-y-4 sm:flex-row sm:justify-center sm:space-y-0">
-                    {{ $href := .Page.Params.jumbotrone.button.href }}
+                    
                     {{ $text := .Page.Params.jumbotrone.button.text }}
-                    {{ with .Site.GetPage (string $href) }}
+                    {{ with .Site.GetPage "leiligheter" }}
                     <a href="{{.RelPermalink}}"
                         class="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-white rounded-lg bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-900">
                         {{ $text }}
@@ -32,6 +32,7 @@
                         </svg>
                     </a>
                     {{ end }}
+
                 </div>
             </div>
         </section>
