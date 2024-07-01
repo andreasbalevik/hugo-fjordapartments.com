@@ -9,6 +9,9 @@ menu:
 sitemap:
   priority: 1
 
+images: 
+- src: /images/apartments/holmen-19b.jpg
+
 # CONTENT
 title: Leiligheter i Balestrand
 description: Behov for å leie bolig? Vi har nye, moderne leiligheter midt i Balestrand sentrum. Lett tilkomst. Ferdig møblert, med komplett kjøkken og bad. Perfekt for deg som ønsker mer frihet.

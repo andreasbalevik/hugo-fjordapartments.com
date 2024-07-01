@@ -6,7 +6,8 @@ menu:
     name: Aktiviteter
 
 # SEO
-ogImage: /images/B67I4877-min.jpg
+images: 
+- src: /images/BHCKTHm-16_9-s.jpg
 
 # CONTENT
 title: Aktiviteter i Balestrand

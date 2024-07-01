@@ -7,7 +7,8 @@ menu:
 # SEO
 sitemap:
   priority: 0.8
-ogImage: /images/jetski/IMG_0834.jpg
+images: 
+ - src: /images/jetski/IMG_0834.jpg
 
 # CONTENT
 title: Utleie

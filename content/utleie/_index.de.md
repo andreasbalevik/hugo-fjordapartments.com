@@ -9,7 +9,8 @@ url: /de/zu-vermieten
 # SEO
 sitemap:
   priority: 0.8
-ogImage: /images/jetski/IMG_0834.jpg
+images: 
+ - src: /images/jetski/IMG_0834.jpg
   
 # CONTENT
 description: Wir vermieten Jetskis und Apartments im Zentrum von Balestrand. Perfekt für kurze Tagesausflüge in die Umgebung.

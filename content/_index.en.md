@@ -4,12 +4,11 @@
 # SEO
 
 # CONTENT
-carousel:
-  images:
-    - src: /images/IMG_6391.jpeg
-    - src: /images/IMG_6377.jpeg
-    - src: /images/IMG_6248.jpg
-    - src: /images/jetski.jpg
+images:
+  - src: /images/IMG_6391.jpeg
+  - src: /images/IMG_6377.jpeg
+  - src: /images/IMG_6248.jpg
+  - src: /images/jetski.jpg
 
 description: Looking for a place to stay in Balestrand? We have new, high standard apartments in the hearth of Balestrand. Balconies with an amazing fjord view. Fully furnished, well equipped kitchen and bathroom. Perfect for a small family or if you are looking for a flexible stay.
 
