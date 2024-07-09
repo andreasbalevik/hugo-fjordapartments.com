@@ -15,7 +15,7 @@ intro: Den første turisten kom til Balestrand for over 100 år siden, tiltrukke
 description: Balestrand har mye å tilby deg som besøkende. Enten du reiser alene, eller i gruppe. Her er alt fra kulturvandring langs sjøkanten til fjord safari, tett på omgivelsene. Sognefjord akvarium, Reiselivsmuseum og mer. Møt lokale mennesker, fiskere eller kunstnere. Det er mye å velge mellom.
 activeties:
 - title: Balestrand Adventure
-  desc: Balestrand adventures are an experience provider in Balestrand, in the heart of the Sognefjord region. They sell down-to-earth experiences based on the history and nature of the Sognefjord. 
+  desc: Balestrand Adventures er en opplevelsesleverandør i Balestrand, i hjertet av Sognefjord-regionen. De selger jordnære opplevelser basert på Sognefjordens historie og natur.
   homepage: https://www.balestrandadventure.no
   images:
       - src: /images/BHCKTHm-16_9-s.jpg
@@ -24,7 +24,7 @@ activeties:
   source: balestrandadventure.no
 
 - title: Balestrand Fjord Angling
-  desc: Experience more than just fishing. Stunning vistas around every corner, as far as eye can see. Culture. Educational. High mountains, Running water & Clean Air...
+  desc: Opplev mer enn bare fiske. Fantastiske utsikter rundt hver sving, så langt øyet kan se. Kultur. Lærerikt. Høye fjell, rennende vann og ren luft...
   homepage: https://www.balestrandfjordangling.com
   images:
       - src: /images/B67I4877-min.jpg
@@ -50,7 +50,7 @@ activeties:
   button: Få veibeskrivelse
 
 - title: Balestrand Cider House
-  desc: Balestrand cider house is located in Balestrand, a small walk from the pier and Kviknes Hotel. Balholm is their brand for fruit and berry drinks - cooked with a large portion of passion! In the summer, you can join in the tasting of cider and learn how to distill or cook sparkling cider in the traditional way. You can shop in the farm shop or have a meal in the restaurant.
+  desc: Balestrand Cider House ligger i Balestrand, en kort spasertur fra kaien og Kviknes Hotel. Balholm er deres merke for frukt- og bæredrikker – laget med en stor porsjon lidenskap! Om sommeren kan du delta på cider-smaking og lære hvordan man destillerer eller lager musserende cider på tradisjonell måte. Du kan handle i gårdsbutikken eller nyte et måltid i restauranten.
   homepage: https://www.ciderhuset.no
   images:
       - src: /images/ciderhuset.jpg
@@ -59,7 +59,7 @@ activeties:
   source: ciderhuset.no
 
 - title: Hiking
-  desc: Balestrand has wonderful hiking trails for those who either want a longer hike to Raudmelen, or fantastic Keipen, or for those who want a short trip to Orrabenken. In the web link below you will find a nice overview of local hiking trails.
+  desc: Balestrand har fantastiske turstier for de som enten vil ha en lengre tur til Raudmelen eller fantastiske Keipen, eller for de som ønsker en kort tur til Orrabenken. På nettsiden nedenfor finner du en fin oversikt over lokale turstier.
   homepage: /images/balestrand_hiking_map.pdf
   images:
       - src: /images/balestrand_hiking.jpg

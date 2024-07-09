@@ -17,7 +17,7 @@ intro: Der erste Tourist kam vor mehr als 100 Jahren nach Balestrand, angezogen 
 
 activeties:
 - title: Balestrand Adventure
-  desc: Balestrand adventures are an experienced provider in Balestrand, in the heart of the Sognefjord region. They sell down-to-earth experiences based on the history and nature of the Sognefjord. 
+  desc: Balestrand Adventures ist ein erfahrener Anbieter in Balestrand, im Herzen der Sognefjord-Region. Sie bieten bodenständige Erlebnisse, die auf der Geschichte und Natur des Sognefjords basieren.
   homepage: https://www.balestrandadventure.no
   images:
       - src: /images/BHCKTHm-16_9-s.jpg
@@ -26,7 +26,7 @@ activeties:
   source: balestrandadventure.no
 
 - title: Balestrand Fjord Angling
-  desc: Experience more than just fishing. Stunning vistas around every corner, as far as eye can see. Culture. Educational. High mountains, Running water & Clean Air...
+  desc: Erleben Sie mehr als nur Angeln. Atemberaubende Aussichten an jeder Ecke, soweit das Auge reicht. Kultur. Bildung. Hohe Berge, fließendes Wasser und saubere Luft...
   homepage: https://www.balestrandfjordangling.com
   images:
       - src: /images/B67I4877-min.jpg
@@ -35,7 +35,7 @@ activeties:
   source: balestrandfjordangling.com
   
 - title: The view
-  desc: From Balestrand and 40 minutes drive you will find the spectacular viewpoint on Gaularfjellet.
+  desc: Von Balestrand aus erreichen Sie in einer 40-minütigen Fahrt den spektakulären Aussichtspunkt auf dem Gaularfjellet.
   homepage: https://goo.gl/maps/8Hxim3bHPJMgEdqBA
   images:
       - src: /images/utsikten.jpeg
@@ -44,7 +44,7 @@ activeties:
   source: nasjonaleturistveger.no
 
 - title: Balestrand lagoon
-  desc: A short walk from our apartments you will find Balestrand swimming lagoon. The swimming lagoon is a family-friendly area where children and adults can swim and relax.
+  desc: Ein kurzer Spaziergang von unseren Apartments führt Sie zur Balestrand Badelagune. Die Badelagune ist ein familienfreundlicher Bereich, in dem Kinder und Erwachsene schwimmen und entspannen können.
   homepage: https://goo.gl/maps/j4QFtcGzUHAtWaVe6
   images:
       - src: /images/badelagunen.png
@@ -52,7 +52,7 @@ activeties:
   button: Get directions
 
 - title: Balestrand Cider House
-  desc: Balestrand cider house is located in Balestrand, a small walk from the pier and Kviknes Hotel. Balholm is their brand for fruit and berry drinks - cooked with a large portion of passion! In the summer, you can join in the tasting of cider and learn how to distill or cook sparkling cider in the traditional way. You can shop in the farm shop or have a meal in the restaurant.
+  desc: Das Balestrand Cider House befindet sich in Balestrand, nur einen kurzen Spaziergang vom Pier und dem Kviknes Hotel entfernt. Balholm ist ihre Marke für Frucht- und Beerendrinks - mit einer großen Portion Leidenschaft hergestellt! Im Sommer können Sie an Cider-Verkostungen teilnehmen und lernen, wie man auf traditionelle Weise funkelnden Cider destilliert oder herstellt. Sie können im Hofladen einkaufen oder eine Mahlzeit im Restaurant genießen.
   homepage: https://www.ciderhuset.no
   images:
       - src: /images/ciderhuset.jpg
@@ -61,7 +61,7 @@ activeties:
   source: ciderhuset.no
 
 - title: Hiking
-  desc: Balestrand has wonderful hiking trails for those who either want a longer hike to Raudmelen, or fantastic Keipen, or for those who want a short trip to Orrabenken. We have provided a map below containing hiking trails in the area.
+  desc: Balestrand hat wunderbare Wanderwege für diejenigen, die entweder eine längere Wanderung nach Raudmelen oder zum fantastischen Keipen unternehmen möchten, oder für diejenigen, die einen kurzen Ausflug zum Orrabenken bevorzugen. Unten haben wir eine Karte mit Wanderwegen in der Umgebung bereitgestellt.
   homepage: static/balestrand_hiking_map.pdf
   images:
       - src: /images/balestrand_hiking.jpg
