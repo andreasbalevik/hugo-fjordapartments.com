@@ -4,7 +4,7 @@
   "description": "Website using Hugo",
   "main": "index.js",
   "scripts": {
-    "install": "npm install -g postcss-cli && cd themes/balevikit-tailwindcss-hugo-theme && npm install && npm run build-tw",
+    "install": "npm install -g postcss-cli && git submodule update --init --recursive && cd themes/balevikit-tailwindcss-hugo-theme && npm install && npm run build-tw",
     "watch-tw": "cd themes/balevikit-tailwindcss-hugo-theme && npm run watch-tw",
     "build-tw": "cd themes/balevikit-tailwindcss-hugo-theme && npm run build-tw"
   },
