@@ -1,14 +1,13 @@
 {{ define "main" }}
 
-
-<div class="my-medium">
-    <div class="container">
+<div class="container py-4">
+    <div>
         <div class="rounded-t-lg overflow-hidden">
             {{ partial "components/carousel.html" (dict "ctx" . "images" .Params.images ) }}
         </div>
     </div>
 
-    <div class="container">
+    <div>
         <section class="bg-white dark:bg-gray-900 shadow rounded-b-lg overflow-hidden">
             <div class="py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16">
                 <h1
@@ -39,8 +38,8 @@
     </div>
 </div>
 
-<div class="bg-white py-medium">
-    <div class="container">
+<div class="bg-white ">
+    <div class="container py-4">
         <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
 
             {{ range .Params.items }}

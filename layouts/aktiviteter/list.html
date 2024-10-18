@@ -1,32 +1,17 @@
 {{ define "main" }}
 
-<div class="container my-medium">
+{{ partial "components/heading.html" . }}
 
-
-
-
-    <section class="my-large">
-
-        <div class="flex flex-col justify-center">
-            <h1
-                class="mb-4 text-4xl font-extrabold tracking-tight leading-none text-gray-900 md:text-5xl lg:text-6xl dark:text-white">
-                {{.Page.Title}}</h1>
-
-            <p class="text-lg font-normal text-gray-500 lg:text-xl dark:text-gray-400">
-                {{.Page.Params.description}}
-            </p>
-
-        </div>
-
-    </section>
-
-
+<div class="container py-4">
 
     <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
         {{ range .Page.Params.activeties }}
 
         <div class="bg-white border border-gray-200 rounded-lg shadow">
+            
+            <div class="w-full">
             {{ partial "components/image.html" (index .images 0)}}
+            </div>
 
             <div class="p-5">
                 <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">

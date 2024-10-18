@@ -1,6 +1,9 @@
 {{ define "main" }}
 
-<div class="container my-medium">
+
+{{ partial "components/heading.html" . }}
+
+<div class="container py-4">
 
     <div class="grid grid-cols-1 gap-4">
         {{ range .Pages }}
