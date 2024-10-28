@@ -7,6 +7,10 @@ menu:
 url: /de/aktivitaten
 
 # SEO
+sitemap:
+  priority: 1
+  
+# SEO
 images: 
 - src: /images/BHCKTHm-16_9-s.jpg
 

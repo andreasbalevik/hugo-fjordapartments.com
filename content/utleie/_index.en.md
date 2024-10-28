@@ -7,7 +7,7 @@ url: /en/rental
 
 # SEO
 sitemap:
-  priority: 0.8
+  priority: 1
 
 images: 
  - src: /images/jetski/IMG_0834.jpg

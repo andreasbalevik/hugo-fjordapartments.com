@@ -6,6 +6,8 @@ menu:
 url: /en/practical
 
 # SEO
+sitemap:
+  priority: 1
 
 # CONTENT
 title: Practical information

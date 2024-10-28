@@ -6,6 +6,8 @@ menu:
 url: /de/praktisch
 
 # SEO
+sitemap:
+  priority: 1
 
 # CONTENT
 title: Praktische Information

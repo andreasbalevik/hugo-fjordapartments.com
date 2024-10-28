@@ -5,6 +5,8 @@ menu:
     name: Info
 
 # SEO
+sitemap:
+  priority: 1
 
 # CONTENT
 title: Praktisk informasjon
