@@ -21,8 +21,9 @@
                     
                     {{ $text := .Page.Params.jumbotrone.button.text }}
                     {{ with .Site.GetPage "leiligheter" }}
+                    
                     <a href="{{.RelPermalink}}"
-                        class="inline-flex justify-center items-center py-3 px-5 md:text-xl font-medium text-center text-white rounded-lg bg-primary hover:bg-primary--hover">
+                        class="inline-flex justify-center items-center py-3 px-5 md:text-xl font-medium text-center text-white rounded-lg bg-primary">
                         {{ $text }}
                         <svg class="w-3.5 h-3.5 ms-2 rtl:rotate-180" aria-hidden="true"
                             xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
