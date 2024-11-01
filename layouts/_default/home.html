@@ -22,7 +22,7 @@
                     {{ $text := .Page.Params.jumbotrone.button.text }}
                     {{ with .Site.GetPage "leiligheter" }}
                     <a href="{{.RelPermalink}}"
-                        class="inline-flex justify-center items-center py-3 px-5 md:text-xl font-medium text-center text-white rounded-lg bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-900">
+                        class="inline-flex justify-center items-center py-3 px-5 md:text-xl font-medium text-center text-white rounded-lg bg-primary hover:bg-primary--hover">
                         {{ $text }}
                         <svg class="w-3.5 h-3.5 ms-2 rtl:rotate-180" aria-hidden="true"
                             xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
@@ -44,7 +44,7 @@
 
             {{ range .Params.items }}
             <a href="{{.link.href}}"
-                class="flex items-center overflow-hidden bg-white border border-gray-200 rounded-lg shadow flex-col hover:bg-blue-100 lg:max-w-xl">
+                class="flex items-center overflow-hidden bg-white border border-gray-200 rounded-lg shadow flex-col hover:bg-primary--light lg:max-w-xl">
 
                 {{ partial "components/image.html" (index .images 0) }}
                 <div class="flex flex-col justify-between p-4 leading-normal">

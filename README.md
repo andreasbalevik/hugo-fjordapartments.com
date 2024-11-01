@@ -15,3 +15,8 @@ hugo serve
 ```
 npm run watch-tw
 ```
+
+### Theme
+
+#### Colors
+Add `partials/utils/colors.css` to overwrite colors in `tailwind.config.js`
