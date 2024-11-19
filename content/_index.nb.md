@@ -21,6 +21,13 @@ jumbotrone:
     href: /nb/leiligheter
 
 items: 
+- title: Aktiviteter
+  images:
+      - src: /images/IMG_6248-492x277.jpg
+        alt: Bilde av fjellet i esefjorden
+  text: Balestrand har mye å tilby deg som besøkende. Enten du reiser alene, eller i gruppe er det mye å velge mellom. 
+  link:
+    href: /aktiviteter
 - title: Utleie
   images:
       - src: /images/jetski/IMG_0834.jpg
@@ -29,11 +36,5 @@ items:
   link:
     href: /utleie
 
-- title: Aktiviteter
-  images:
-      - src: /images/IMG_6248-492x277.jpg
-        alt: Bilde av fjellet i esefjorden
-  text: Balestrand har mye å tilby deg som besøkende. Enten du reiser alene, eller i gruppe er det mye å velge mellom. 
-  link:
-    href: /aktiviteter
+
 ---
