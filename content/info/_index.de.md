@@ -34,7 +34,7 @@ faq:
 			"
 
 - title: Ein- und Auschecken
-  content: Die Apartments verfügen über einen Schlüsselkasten in der Nähe des Eingangs. Nach Abschluss der Buchung erhalten Sie Informationen zur Adresse, zum Keybox-Code und mehr. Kasse vor 1200 Uhr am Abreisetag. Die Reinigung ist inbegriffen, aber wir bitten Sie, es in dem Zustand zu lassen, in dem Sie angekommen sind.
+  content: Die Apartments verfügen über einen Schlüsselkasten in der Nähe des Eingangs. Nach Abschluss der Buchung erhalten Sie Informationen zur Adresse, zum Keybox-Code und mehr. Kasse vor 1100 Uhr am Abreisetag. Die Reinigung ist inbegriffen, aber wir bitten Sie, es in dem Zustand zu lassen, in dem Sie angekommen sind.
 
 - title: Irgendwas stimmt nicht, an wen kann ich mich wenden?
   content: Rufen Sie uns unter <b> +47 47 28 97 48 </b> an oder senden Sie eine E-Mail an <b> lidalsiv@gmail.com </b>
