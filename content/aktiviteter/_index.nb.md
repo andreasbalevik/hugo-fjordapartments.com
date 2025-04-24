@@ -18,6 +18,19 @@ title: Aktiviteter i Balestrand
 intro: Den første turisten kom til Balestrand for over 100 år siden, tiltrukket av høye fjell og dype fjorder. Det lille tettstedet har siden blitt et attraktivt reisemål for mennesker over hele verden. Under har vi liste opp noen aktiviteter og steder vi synes du bør vurdere.
 description: Balestrand har mye å tilby deg som besøkende. Enten du reiser alene, eller i gruppe. Her er alt fra kulturvandring langs sjøkanten til fjord safari, tett på omgivelsene. Sognefjord akvarium, Reiselivsmuseum og mer. Møt lokale mennesker, fiskere eller kunstnere. Det er mye å velge mellom.
 activeties:
+
+- title: Heit. Balestrand Sauna
+  desc: Welcome to a sauna experience by the fjord in Balestrand! Enjoy the view and tranquility in our brand new sauna located right on the pier, with room for up to 9 people. Rent the entire sauna or book a drop-in session with a membership. Free bathrobe for hotel guests – and yes, bringing your own drinks is allowed (but skip the red wine).
+  images:
+    - src: /images/balestrandsauna.png
+  button: Visit website
+  homepage: https://www.heitbalestrand.com/
+  source: heitbalestrand.com/
+- title: Kayak Balestrand
+  desc: Velkommen til Kayak Balestrand. Vi tilbyr en flott padleopplevelse i fjordlandskapet rundt Balestrand.
+  images:
+    - src: /images/balestrandkayak.png
+  homepage: https://kayak-balestrand.no/
 - title: Balestrand Adventure
   desc: Balestrand Adventures er en opplevelsesleverandør i Balestrand, i hjertet av Sognefjord-regionen. De selger jordnære opplevelser basert på Sognefjordens historie og natur.
   homepage: https://www.balestrandadventure.no

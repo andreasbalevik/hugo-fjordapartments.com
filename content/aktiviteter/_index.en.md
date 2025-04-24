@@ -20,6 +20,18 @@ description: Balestrand has many hidden treasures to explore. Go hiking in the h
 intro: The first tourist came to Balestrand more than a 100 years ago, drawn to majestic mountains and deep fjords. The small village has since become an attractive destination worldwide. Below we have listed some of the activities in Balestrand we think you should try.
 
 activeties:
+- title: Heit. Balestrand Sauna
+  desc: Welcome to a sauna experience by the fjord in Balestrand! Enjoy the view and tranquility in our brand new sauna located right on the pier, with room for up to 9 people. Rent the entire sauna or book a drop-in session with a membership. Free bathrobe for hotel guests – and yes, bringing your own drinks is allowed (but skip the red wine).
+  images:
+    - src: /images/balestrandsauna.png
+  button: Visit website
+  homepage: https://www.heitbalestrand.com/
+  source: heitbalestrand.com/
+- title: Kayak Balestrand
+  desc: Welcome to Kayak Balestrand. We offer a great kayaking experience in the fjord landscape around Balestrand. 
+  images:
+    - src: /images/balestrandkayak.png
+  homepage: https://kayak-balestrand.no/
 - title: Balestrand Adventure
   desc: Balestrand adventures are an experienced provider in Balestrand, in the heart of the Sognefjord region. They sell down-to-earth experiences based on the history and nature of the Sognefjord. 
   homepage: https://www.balestrandadventure.no
