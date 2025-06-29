@@ -79,4 +79,11 @@ activeties:
         alt: balestrand hiking mountains trails view amazing fjord
   button: Download hiking maps
   source: sognefjord.no
+
+- title: Car Rental in Balestrand
+  images:
+      - src: /images/leigebil.png
+        alt: ""
+
+  homepage: https://leigebil.no
 ---
