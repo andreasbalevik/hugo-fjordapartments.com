@@ -1,0 +1,28 @@
+{{/*
+    Usage:
+    { partial "components/heading.html" . }}
+
+    Colors:
+    <div class="bg-blue-100 text-black">
+        {{ partial "components/heading.html" . }}
+    </div>
+
+    component inherits bg and text color
+*/}}
+
+<div class="bg-primary--light text-inherit">
+    <div class="container py-8 md:py-12">
+        <div class="flex flex-col justify-center py-8">
+            <h1 class="mb-4 md:mb-6 text-4xl font-extrabold tracking-tight leading-none text-inherit md:text-5xl lg:text-6xl">
+                {{.Page.Title}}
+            </h1>
+
+            {{ with .Page.Params.description }}
+                <p class="text-lg font-normal text-inherit lg:text-x">
+                    {{.}}
+                </p>
+            {{ end }}
+
+        </div>
+    </div>
+</div>
