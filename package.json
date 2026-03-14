@@ -4,7 +4,7 @@
   "description": "Website using Hugo",
   "main": "index.js",
   "scripts": {
-    "install": "cd themes/balevikit-tailwindcss-hugo-theme && npm install",
+    "install": "cd themes/balevikit-tailwindcss-hugo-theme && npm install"
   },
   "devDependencies": {
     "@tailwindcss/cli": "^4.0.0",
