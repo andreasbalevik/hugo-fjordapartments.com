@@ -46,3 +46,16 @@ enableRobotsTXT = true
   hint = 'photo'
   quality = 90
   resampleFilter = 'MitchellNetravali'
+
+[build]
+  [build.buildStats]
+    enable = true
+  [[build.cachebusters]]
+    source = 'hugo_stats\.json'
+    target = 'css'
+  [[build.cachebusters]]
+    source = '(postcss|tailwind)\.config\.js'
+    target = 'css'
+  [[build.cachebusters]]
+    source = 'layouts/.*'
+    target = 'css'

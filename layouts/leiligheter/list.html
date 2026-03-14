@@ -8,7 +8,7 @@
         {{ with .Page.Params.intro }}
         <div class="flex flex-col sm:flex-row sm:items-center gap-3 justify-between
                     bg-background-tinted border border-border-subtle rounded-ds-lg px-6 py-4">
-            <p class="text-sm text-fg-muted leading-normal m-0">{{ . }}</p>
+            <p class="text-base text-gray-700 leading-normal m-0">{{ . }}</p>
             {{ $btnText := index $.Page.Params "intro-button-text" }}
             {{ $infoPage := $.Site.GetPage "info" }}
             {{ if and $btnText $infoPage }}

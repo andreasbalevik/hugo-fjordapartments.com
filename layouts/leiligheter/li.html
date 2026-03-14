@@ -10,7 +10,7 @@
     <div class="p-8 md:p-12 flex flex-col justify-center gap-4">
 
         <h2 itemprop="name"
-            class="text-2xl sm:text-3xl font-medium leading-tight tracking-tight mt-0 mb-0 text-fg">
+            class="text-2xl font-semibold leading-snug mt-0 mb-0 text-gray-900">
             {{.Title}}
         </h2>
 
@@ -25,9 +25,11 @@
         </div>
         {{ end }}
 
-        <p class="text-base leading-normal text-fg-muted">
+        <p class="text-base leading-normal text-gray-700">
             {{.Params.desc}}
         </p>
+
+        <hr class="my-4: sm:my-6 text-gray-300">
 
         <a href="{{.Params.link}}"
             class="inline-flex items-center gap-2 text-base font-semibold
