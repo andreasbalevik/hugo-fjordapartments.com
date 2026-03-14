@@ -1,8 +1,6 @@
 ---
 title: Holmen 19A
-desc: "Neue Wohnung im Zentrum von Balestrand für 4 Personen. 2 Schlafzimmer, (optional, wenn Sie Einzelbetten oder Doppelbett wünschen).
-Reisebett vorhanden. Ein zusätzlicher Gast im Zustellbett.
-Die Wohnung verfügt über einen großen Balkon mit mehreren Sitzplätzen."
+desc: "Wohnung für bis zu 4 Gäste mit 2 Schlafzimmern und großem Balkon. Flexible Bettenkonfiguration — Einzel- oder Doppelbett. Reisebett auf Anfrage verfügbar."
 
 details:
 - "4 personen"

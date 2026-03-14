@@ -11,13 +11,13 @@ sitemap:
 
 # CONTENT
 title: Praktische Information
-description: We use Airbnb for booking.
+description: Alles Wichtige zu Buchung, Check-in, Ausstattung und Kontakt.
 faq:
 - title: Lage
-  content: Unsere Apartments befinden sich im Herzen von Balestrand. Kurze Entfernungen zu allem, was Sie brauchen sollten. Lebensmittelgeschäfte, Restaurants, Touristeninformation und zu Fuß zum Boot (Bergen, Flom), Bus und Parkplatz
+  content: Unsere Apartments befinden sich im Herzen von Balestrand. Kurze Wege zu allem, was Sie brauchen — Lebensmittelgeschäfte, Restaurants, Touristeninformation und Fußweg zum Boot (Bergen, Flåm), Bus und Parkplatz.
 
 - title: Wie buche ich eine Wohnung?
-  content: Wir nutzen Airbnb für die Buchung. Unter dem Menü Apartments finden Sie eine Liste der verfügbaren Apartments. Alle Apartments haben einen direkten Link zu aribnb für die Buchung.
+  content: Wir nutzen Airbnb für die Buchung. Unter dem Menü Apartments finden Sie alle verfügbaren Apartments, jeweils mit direktem Link zur Airbnb-Seite.
 
 - title: Über unsere Wohnungen
   content: "
@@ -34,8 +34,8 @@ faq:
 			"
 
 - title: Ein- und Auschecken
-  content: Die Apartments verfügen über einen Schlüsselkasten in der Nähe des Eingangs. Nach Abschluss der Buchung erhalten Sie Informationen zur Adresse, zum Keybox-Code und mehr. Kasse vor 1100 Uhr am Abreisetag. Die Reinigung ist inbegriffen, aber wir bitten Sie, es in dem Zustand zu lassen, in dem Sie angekommen sind.
+  content: Die Apartments haben einen Schlüsselkasten am Eingang. Nach der Buchung erhalten Sie Adresse, Code und alle praktischen Informationen. Check-in ab 15:00 Uhr. Checkout bis 11:00 Uhr am Abreisetag. Reinigung ist inklusive — wir bitten lediglich darum, die Wohnung ordentlich zu hinterlassen.
 
-- title: Irgendwas stimmt nicht, an wen kann ich mich wenden?
-  content: Rufen Sie uns unter <b> +47 47 28 97 48 </b> an oder senden Sie eine E-Mail an <b> lidalsiv@gmail.com </b>
+- title: Etwas stimmt nicht? Kontaktieren Sie uns
+  content: "Rufen Sie uns an: <b>+47 47 28 97 48</b> oder senden Sie eine E-Mail an <b>lidalsiv@gmail.com</b>"
 ---

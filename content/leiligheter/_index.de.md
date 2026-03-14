@@ -12,8 +12,8 @@ sitemap:
 
 # CONTENT
 title: Wohnungen in Balestrand
-description: Wir nutzen Airbnb für die Buchung. Nachfolgend haben wir unsere zur Vermietung verfügbaren Apartments aufgelistet.
-intro: Wir nutzen Airbnb für die Buchung. Nachfolgend haben wir unsere zur Vermietung verfügbaren Apartments aufgelistet.
+description: Zentral in Balestrand gelegen, mit atemberaubendem Fjordblick — ideal als Ausgangspunkt für den Sognefjord.
+intro: Wir haben drei Apartments verfügbar — Holmen 19A, 19B und 19C. Wir nutzen Airbnb für die Buchung. Unten finden Sie jedes Apartment mit Fotos, Ausstattung und direktem Buchungslink.
 intro-button-text: Klicken Sie für weitere praktische Informationen
 
 # SEO

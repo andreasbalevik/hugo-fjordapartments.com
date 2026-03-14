@@ -1,6 +1,6 @@
 ---
 title: Holmen 19C
-desc: "Ny leilighet i Balestrand sentrum for 4 personer. 2 soverom med dobbeltseng. Det ene rommet kan deles til to enkeltsenger. Balkon med kveldssol. OBS: denne leiligheten har ingen fjordutsikt."
+desc: "Leilighet for 4 personer med 2 soverom og balkong med kveldssol. Fleksibelt soveroppsett — ett rom kan deles til to enkeltsenger. Ingen fjordutsikt."
 
 details:
 - "4 personer"

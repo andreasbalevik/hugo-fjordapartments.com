@@ -10,12 +10,12 @@ sitemap:
 
 # CONTENT
 title: Praktisk informasjon
-description: Vi bruker Airbnb som booking tjeneste. 
+description: Alt du trenger å vite om booking, innsjekk, fasiliteter og kontakt.
 faq:
 - title: Lokasjon
-  content: Våre leiligheter ligger midt i Balestrand sentrum. Korte avstander til det du trenger. Matbutikker, resturanter, turistinformasjon og gode aktivitetsmuligheter. Gå avstand til båt (Bergen, Flåm), buss og parkering.
+  content: Våre leiligheter ligger midt i Balestrand sentrum. Kort avstand til det du trenger — matbutikker, restauranter, turistinformasjon og gode aktivitetsmuligheter. Gangavstand til båt (Bergen, Flåm), buss og parkering.
 - title: Hvordan leier jeg en leilighet?
-  content: Vi bruker Airbnb som booking tjeneste. Vi har listet alle våre leiligheter under Leiligheter. Her finner du også direktelenke til leilighetens airbnb profil
+  content: Vi bruker Airbnb for booking. Under menyen Leiligheter finner du en oversikt over tilgjengelige leiligheter, med direktelenke til Airbnb-profilen for hver leilighet.
 - title: Om leilighetene
   content: "
 				<li>Alle leilighetene har balkong</li>
@@ -31,7 +31,7 @@ faq:
         <li>Internett</li>
 			"
 - title: Inn og utsjekk
-  content: Alle våre leilighet har en egen nøkkelboks på utsiden. Du vil få praktisk informasjon som adresse, pinkode og mer når du booker en av våre leiligheter. Utsjekk senest kl 11:00 på avreisedag. Utvask av leiligheten er inkludert i leieprisen, men vi ønsker at leiligheten skal være ryddig slik som ved ankomst.
-- title: Noe er galt, hvem kan jeg kontakte?
+  content: Alle leilighetene har nøkkelboks ved inngangsdøren. Etter booking mottar du adresse, pinkode og all praktisk informasjon. Innsjekk fra kl 15:00. Utsjekk senest kl 11:00 på avreisedagen. Utvask er inkludert i leieprisen, men vi ber om at leiligheten forlates ryddig.
+- title: Feil? Kontakt oss
   content: Ring oss på <b>+47 47 28 97 48</b> eller send en e-post til <b>lidalsiv@gmail.com</b>
 ---

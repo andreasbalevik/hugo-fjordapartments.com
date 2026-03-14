@@ -1,8 +1,6 @@
 ---
 title: Holmen 19A
-desc: "Ny leilighet i Balestrand sentrum for 4 personer. 2 soverom, (valgfritt hvis du ønsker enkeltsenger eller dobbeltseng).
-Reiseseng tilgjengelig. Én ekstra gjest i den ekstra sengen.
-Leiligheten har en stor balkong med flere sitteplasser."
+desc: "Leilighet for opptil 4 personer med 2 soverom og stor balkong. Fleksibelt soveroppsett — enkelt- eller dobbeltsenger. Reiseseng tilgjengelig."
 details:
   - "4 personer"
   - "2 soverom"

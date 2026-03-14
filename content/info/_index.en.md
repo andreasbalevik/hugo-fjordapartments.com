@@ -11,12 +11,12 @@ sitemap:
 
 # CONTENT
 title: Practical information
-description: We use Airbnb for booking.
+description: Everything you need to know about booking, check-in, facilities and contact.
 faq:
 - title: Location
-  content: Our apartments are located in the hearth of Balestrand. Short distances to everything you should need. Grocery stores, resturants, tourist information and walking distance to boat (Bergen, Flom), bus and parking
-- title: How do i book an apartment?
-  content: We use Airbnb for booking. Under the menu Apartments you will find a list of available apartments. All apartments have a direct link to aribnb for booking.
+  content: Our apartments are located in the heart of Balestrand. Short distances to everything you need — grocery stores, restaurants, tourist information, and walking distance to the boat (Bergen, Flåm), bus and parking.
+- title: How do I book an apartment?
+  content: We use Airbnb for booking. Under the Apartments menu you'll find all available apartments, each with a direct link to its Airbnb listing.
 - title: About our apartments
   content: "
 				<li>All the apartments have a balcony. With view of the fjord</li>
@@ -31,7 +31,7 @@ faq:
         <li>Internet</li>
 			"
 - title: Check-in and checkout
-  content: The apartments have a keybox near the entrance. We will provide you with information about the adress, keybox code and more after you have completed the booking. Checkout before 1100 a.m the day of departure. Cleaning is included, but we kindly ask you to leave it in the same condition as when you arrived. 
-- title: Something is wrong, who can i contact?
+  content: The apartments have a keybox near the entrance. After booking, you'll receive the address, keybox code and all practical details. Check-in from 3:00 PM. Checkout by 11:00 AM on the day of departure. Cleaning is included, but we kindly ask you to leave the apartment tidy.
+- title: Something wrong? Contact us
   content: Call us at <b>+47 47 28 97 48</b> or send an email to <b>lidalsiv@gmail.com</b>
 ---

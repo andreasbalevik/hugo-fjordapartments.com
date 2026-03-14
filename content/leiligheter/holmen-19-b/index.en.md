@@ -1,6 +1,6 @@
 ---
 title: Holmen 19B
-desc: "New apartment in the center of Balestrand for 8 people. (Possibility of 2 extra guests at extra cost). 4 bedrooms (optional if you want a single or double bed). Cot available. The apartment has a large balcony and a small balcony on the top floor. NOTE: Stairs to front door."
+desc: "Spacious apartment for up to 8 guests with 4 bedrooms and two balconies. Flexible bed setup. Cot available. Note: stairs to front door."
 
 details:
 - "8 persons"

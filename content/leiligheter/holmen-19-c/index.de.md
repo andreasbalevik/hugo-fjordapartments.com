@@ -1,11 +1,11 @@
 ---
 title: Holmen 19C
-desc: "Neue Wohnung im Zentrum von Balestrand für 4 Personen. 2 Schlafzimmer mit Doppelbetten. Eines der Zimmer kann in zwei Einzelbetten umgewandelt werden. Balkon mit Abendsonne. Hinweis: Diese Wohnung hat keine Fjordaussicht."
+desc: "Wohnung für 4 Gäste mit 2 Schlafzimmern und Balkon mit Abendsonne. Ein Zimmer kann in zwei Einzelbetten umgewandelt werden. Keine Fjordaussicht."
 
 details:
-- "4 personer"
-- "2 soverom"
-- "134 kvm"
+- "4 Personen"
+- "2 Schlafzimmer"
+- "134 qm"
 
 images: 
 - src: /images/apartments/19c/3.JPG

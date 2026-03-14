@@ -1,6 +1,6 @@
 ---
 title: Holmen 19B
-desc: "Neue Wohnung im Zentrum von Balestrand für 8 Personen. (Möglichkeit von 2 zusätzlichen Gästen gegen Aufpreis). 4 Schlafzimmer (optional, wenn Sie ein Einzel- oder Doppelbett wünschen). Kinderbett vorhanden. Die Wohnung verfügt über einen großen Balkon und einen kleinen Balkon im Dachgeschoss."
+desc: "Geräumige Wohnung für bis zu 8 Gäste mit 4 Schlafzimmern und zwei Balkonen. Flexible Bettenkonfiguration. Kinderbett verfügbar. Hinweis: Treppen zur Eingangstür."
 
 details:
 - "8 personen"
@@ -25,6 +25,6 @@ images:
 - src: /images/apartments/holmen-19b-16-floor.webp
 - src: /images/apartments/holmen-19b-17-floor.webp
 
-link: www.airbnb.no/rooms/29767798
+link: https://www.airbnb.no/rooms/29767798
 alt: leiligheter overnatting balestrand sentralt
 ---

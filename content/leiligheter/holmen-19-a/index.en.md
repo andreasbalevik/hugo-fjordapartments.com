@@ -1,6 +1,6 @@
 ---
 title: Holmen 19A
-desc: "New apartment in Balestrand center for 4 people. 2 bedrooms, (optional if you want single beds or double bed). Travel cot available. One extra guest in the extra bed. The apartment has a large balcony with several seats."
+desc: "Apartment for up to 4 guests with 2 bedrooms and a large balcony. Flexible bed setup — single or double. Travel cot available on request."
 details:
 - "4 persons"
 - "2 bedrooms"

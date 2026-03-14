@@ -1,6 +1,6 @@
 ---
 title: Holmen 19B
-desc: "Ny leilighet i Balestrand sentrum for 8 personer. (Mulighet for 2 ekstra gjester mot tillegg i pris). 4 soverom (valgfritt om du ønsker enkelt- eller dobbeltseng). Barneseng tilgjengelig. Leiligheten har en stor balkong og en liten balkong i toppetasjen. OBS: Trapper til inngangsdør."
+desc: "Stor leilighet for opptil 8 personer med 4 soverom og to balkonger. Fleksibelt soveroppsett. Barneseng tilgjengelig. Merk: trapper til inngangsdør."
 
 details:
 - "8 personer"
