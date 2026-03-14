@@ -1,28 +1,20 @@
 {{/*
     Usage:
-    { partial "components/heading.html" . }}
+    {{ partial "components/heading.html" . }}
 
-    Colors:
-    <div class="bg-blue-100 text-black">
-        {{ partial "components/heading.html" . }}
-    </div>
-
-    component inherits bg and text color
+    Self-contained section med balevikit heading-mønster.
+    Bruker background-tinted og semantiske fargetokens.
 */}}
 
-<div class="bg-primary--light text-inherit">
-    <div class="container py-8 md:py-12">
-        <div class="flex flex-col justify-center py-8">
-            <h1 class="mb-4 md:mb-6 text-4xl font-extrabold tracking-tight leading-none text-inherit md:text-5xl lg:text-6xl">
-                {{.Page.Title}}
-            </h1>
-
-            {{ with .Page.Params.description }}
-                <p class="text-lg font-normal text-inherit lg:text-x">
-                    {{.}}
-                </p>
-            {{ end }}
-
-        </div>
+<section class="bg-background-tinted">
+    <div class="container">
+        <h1 class="text-3xl sm:text-4xl font-medium leading-tight tracking-tight mt-0 mb-6 text-fg">
+            {{.Page.Title}}
+        </h1>
+        {{ with .Page.Params.description }}
+            <p class="text-lg leading-normal text-fg-muted max-w-2xl">
+                {{.}}
+            </p>
+        {{ end }}
     </div>
-</div>
+</section>

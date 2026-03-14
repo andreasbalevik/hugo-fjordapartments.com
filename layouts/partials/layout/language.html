@@ -1,0 +1,60 @@
+{{/* ── Desktop: dropdown ────────────────────────────────────────────── */}}
+<div class="hidden lg:block relative">
+    <button type="button" onclick="toggleLangDropdown()"
+        class="inline-flex items-center gap-1 text-sm text-inherit rounded-lg cursor-pointer hover:text-blue-700">
+        <i data-lucide="globe" class="w-5 h-5" aria-hidden="true"></i>
+        <span class="inline-flex items-center gap-0.5">
+            {{ i18n "language" }}
+            <i data-lucide="chevron-down" class="w-3 h-3" aria-hidden="true"></i>
+        </span>
+    </button>
+    <div id="lang-dropdown-menu"
+        class="hidden absolute top-full right-0 mt-2 z-50
+               bg-surface border border-border-subtle rounded-ds-lg shadow-ds-md
+               min-w-[140px] overflow-hidden">
+        <ul class="py-2" role="menu">
+            {{ range . }}
+            <li>
+                <a href="{{.Permalink}}"
+                    class="block px-4 py-2.5 text-sm text-fg hover:text-blue-700 hover:bg-surface-hover"
+                    role="menuitem">
+                    {{.Language.LanguageName}}
+                </a>
+            </li>
+            {{ end }}
+        </ul>
+    </div>
+</div>
+
+{{/* ── Mobil: matcher nav-elementenes stil ──────────────────────────── */}}
+<div class="lg:hidden">
+    <span class="flex items-center gap-1.5 text-sm text-fg-muted px-3 mb-1">
+        <i data-lucide="globe" class="w-4 h-4" aria-hidden="true"></i>
+        {{ i18n "language" }}
+    </span>
+    {{ range . }}
+    <a href="{{.Permalink}}"
+        class="block text-xl tracking-wide py-2 px-3 rounded text-fg
+               hover:bg-surface-hover">
+        {{.Language.LanguageName}}
+    </a>
+    {{ end }}
+</div>
+
+<script>
+function toggleLangDropdown() {
+    const menu = document.getElementById('lang-dropdown-menu');
+    const isHidden = menu.classList.contains('hidden');
+    menu.classList.toggle('hidden');
+
+    if (isHidden) {
+        function handleOutside(e) {
+            if (!menu.parentElement.contains(e.target)) {
+                menu.classList.add('hidden');
+                document.removeEventListener('click', handleOutside);
+            }
+        }
+        setTimeout(() => document.addEventListener('click', handleOutside), 0);
+    }
+}
+</script>

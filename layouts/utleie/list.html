@@ -1,17 +1,15 @@
 {{ define "main" }}
 
-<div class="bg-blue-100 text-black">
-    {{ partial "components/heading.html" . }}
-</div>
+{{ partial "components/heading.html" . }}
 
-<div class="container py-4">
-
-    <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
-        {{ range .Pages }}
-            {{ .Render "li" }}
-        {{ end }}
+<section class="bg-background">
+    <div class="container">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8">
+            {{ range .Pages }}
+                {{ .Render "li" }}
+            {{ end }}
+        </div>
     </div>
-
-</div>
+</section>
 
 {{ end }}

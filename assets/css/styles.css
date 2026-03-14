@@ -1,0 +1,52 @@
+@import "tailwindcss";
+@plugin "@tailwindcss/typography";
+
+/* ── Container ─────────────────────────────────────────────────── */
+@utility container {
+  @apply mx-auto py-12 lg:py-16 2xl:py-20 px-4 xl:px-0 max-w-[1280px];
+}
+
+/* ── Balevikit design tokens ────────────────────────────────────── */
+@theme {
+  /* Font */
+  --font-sans: 'Inter', system-ui, -apple-system, sans-serif;
+
+  /* Skygger (Digdir-skala) */
+  --shadow-ds-xs: 0 0 1px 0 rgba(0,0,0,0.16), 0 1px 2px 0 rgba(0,0,0,0.12);
+  --shadow-ds-sm: 0 0 1px 0 rgba(0,0,0,0.15), 0 1px 2px 0 rgba(0,0,0,0.12), 0 2px 4px 0 rgba(0,0,0,0.1);
+  --shadow-ds-md: 0 0 1px 0 rgba(0,0,0,0.14), 0 2px 4px 0 rgba(0,0,0,0.12), 0 4px 8px 0 rgba(0,0,0,0.12);
+  --shadow-ds-lg: 0 0 1px 0 rgba(0,0,0,0.13), 0 3px 5px 0 rgba(0,0,0,0.13), 0 6px 12px 0 rgba(0,0,0,0.14);
+  --shadow-ds-xl: 0 0 1px 0 rgba(0,0,0,0.12), 0 4px 8px 0 rgba(0,0,0,0.16), 0 12px 24px 0 rgba(0,0,0,0.16);
+
+  /* Border-radius (Digdir-skala) */
+  --radius-ds-sm:   0.125rem;
+  --radius-ds-md:   0.25rem;
+  --radius-ds-lg:   0.5rem;
+  --radius-ds-xl:   0.75rem;
+  --radius-ds-full: 9999px;
+
+  /* ── Prosjektfarger: Balestrand Fjord (Sognefjord-inspirert) ── */
+  --color-background:        #f7f9f9;
+  --color-background-tinted: #edf3f4;
+  --color-surface:           #ffffff;
+  --color-surface-hover:     #f0f5f6;
+  --color-border-subtle:     #d4e0e3;
+  --color-border:            #9bb8be;
+  --color-fg:                #111827;
+  --color-fg-muted:          #6b7280;
+  --color-primary:           #1a6b7a;
+  --color-primary-hover:     #155a67;
+  --color-primary-active:    #104a56;
+  --color-primary-fg:        #ffffff;
+  --color-focus:             #1a6b7a;
+}
+
+/* ── Base ───────────────────────────────────────────────────────── */
+html {
+  font-feature-settings: 'cv05' 1;
+  @apply bg-background text-fg leading-normal antialiased;
+}
+
+img, svg, video {
+  @apply max-w-full h-auto;
+}

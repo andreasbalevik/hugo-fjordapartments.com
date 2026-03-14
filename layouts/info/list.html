@@ -1,37 +1,28 @@
 {{ define "main" }}
 
-<div class="bg-blue-100 text-black">
-    {{ partial "components/heading.html" . }}
-</div>
+{{ partial "components/heading.html" . }}
 
-<div class="container py-8 md:py-12">
-
-    <section class="max-w-none format md:format-lg">
-        <div class="mx-auto max-w-screen-xl">
-            <div class="grid pt-8 text-left md:gap-16 gap-6 md:grid-cols-2">
-                    {{ range .Page.Params.faq }}
-                    <div class="mb-large">
-                        <h3 class="flex items-center mb-4 text-lg font-medium text-gray-900">
-                            <svg class="flex-shrink-0 mr-2 w-5 h-5 text-gray-500" fill="currentColor"
-                                viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                                <path fill-rule="evenodd"
-                                    d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-8-3a1 1 0 00-.867.5 1 1 0 11-1.731-1A3 3 0 0113 8a3.001 3.001 0 01-2 2.83V11a1 1 0 11-2 0v-1a1 1 0 011-1 1 1 0 100-2zm0 8a1 1 0 100-2 1 1 0 000 2z"
-                                    clip-rule="evenodd"></path>
-                            </svg>
-                            {{.title}}
-                        </h3>
-                        <p>
-                            {{.content | safeHTML}}
-                        </p>
-                    </div>
-                    {{ end }}
-
-            </div>
+<section class="bg-background">
+    <div class="container">
+        <div class="max-w-3xl flex flex-col gap-4 md:gap-6">
+            {{ range .Page.Params.faq }}
+            <article class="bg-surface border border-border-subtle rounded-ds-lg shadow-ds-sm p-6 md:p-8">
+                <h3 class="flex items-center gap-4 text-lg font-medium leading-tight mt-0 mb-4 text-fg">
+                    <span class="flex items-center justify-center w-9 h-9 rounded-ds-md bg-background-tinted text-primary shrink-0">
+                        <i data-lucide="circle-help" class="w-5 h-5" aria-hidden="true"></i>
+                    </span>
+                    {{.title}}
+                </h3>
+                <div class="text-base leading-relaxed text-fg-muted
+                            [&_li]:list-disc [&_li]:ml-6 [&_li]:mt-1
+                            [&_b]:font-medium [&_b]:text-fg
+                            [&_a]:text-primary [&_a]:underline [&_a]:underline-offset-2">
+                    {{.content | safeHTML}}
+                </div>
+            </article>
+            {{ end }}
         </div>
-    </section>
-
-
-
-</div>
+    </div>
+</section>
 
 {{ end }}
