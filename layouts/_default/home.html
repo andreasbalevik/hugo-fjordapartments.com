@@ -1,11 +1,11 @@
 {{ define "main" }}
 
-<section class="bg-background">
+<section class="bg-gray-50">
     <div class="container">
 
-        <div class="bg-surface border border-border-subtle rounded-ds-lg shadow-ds-sm overflow-hidden">
+        <div class="bg-white border border-slate-200 rounded-lg shadow-sm overflow-hidden">
 
-            <div class="overflow-hidden rounded-t-ds-lg">
+            <div class="overflow-hidden rounded-t-lg">
                 {{ partial "components/images/carousel" (dict "images" .Params.images "preset" "hero") }}
             </div>
 
@@ -20,11 +20,11 @@
                 {{ $text := .Page.Params.jumbotrone.button.text }}
                 {{ with .Site.GetPage "leiligheter" }}
                 <a href="{{.RelPermalink}}"
-                    class="inline-flex items-center gap-2 text-lg font-semibold
-                           bg-primary hover:bg-primary-hover active:bg-primary-active
-                           text-primary-fg px-6 py-3 rounded-ds-lg shadow-ds-sm
-                           hover:shadow-ds-md transition-all duration-300
-                           focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-focus">
+                    class="inline-flex items-center gap-2 text-xl font-semibold
+                           bg-cyan-800 hover:bg-cyan-900 active:bg-cyan-900
+                           text-white px-6 py-3 rounded-lg shadow-sm
+                           hover:shadow-md transition-all duration-300
+                           focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-cyan-800">
                     {{ $text }}
                     <i data-lucide="arrow-right" class="w-4 h-4" aria-hidden="true"></i>
                 </a>

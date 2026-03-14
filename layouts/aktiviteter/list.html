@@ -2,15 +2,15 @@
 
 {{ partial "components/heading.html" . }}
 
-<section class="bg-background">
+<section class="bg-gray-50">
     <div class="container">
         <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
             {{ range .Page.Params.activeties }}
 
             {{ $btnText := or .button "Besøk nettsted" }}
 
-            <article class="bg-surface border border-border-subtle rounded-ds-lg shadow-ds-sm
-                            hover:shadow-ds-md transition-all duration-300 overflow-hidden flex flex-col">
+            <article class="bg-white border border-slate-200 rounded-lg shadow-sm
+                            hover:shadow-md transition-all duration-300 overflow-hidden flex flex-col">
 
                 <div class="overflow-hidden">
                     {{ partial "components/images/image.html" (dict
@@ -31,10 +31,10 @@
                     <a href="{{ . }}"
                         target="_blank" rel="noopener noreferrer"
                         class="inline-flex items-center gap-2 text-base font-semibold
-                               bg-primary hover:bg-primary-hover active:bg-primary-active
-                               text-primary-fg px-6 py-3 rounded-ds-lg shadow-ds-sm
-                               hover:shadow-ds-md transition-all duration-300 w-fit
-                               focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-focus">
+                               bg-cyan-800 hover:bg-cyan-900 active:bg-cyan-900
+                               text-white px-6 py-3 rounded-lg shadow-sm
+                               hover:shadow-md transition-all duration-300 w-fit
+                               focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-cyan-800">
                         {{ $btnText }}
                         <i data-lucide="arrow-right" class="w-4 h-4" aria-hidden="true"></i>
                     </a>
