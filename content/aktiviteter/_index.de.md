@@ -16,8 +16,8 @@ images:
 
 # CONTENT
 title: Aktivitäten in Balestrand
-description: Von Fjordtouren und Bergwanderungen bis zu lokaler Kultur und Küche — Balestrand bietet für jeden etwas.
-intro: Der erste Tourist kam vor mehr als 100 Jahren nach Balestrand, angezogen von majestätischen Bergen und tiefen Fjorden. Das kleine Dorf ist seitdem weltweit ein attraktives Reiseziel. Nachfolgend haben wir einige Aktivitäten in Balestrand aufgelistet, die Sie ausprobieren sollten.
+description: Fjordtouren, Bergwanderungen, lokale Küche und Kultur — hier sind unsere Empfehlungen in Balestrand.
+intro: Der erste Tourist kam vor mehr als 100 Jahren nach Balestrand, angezogen von Bergen und tiefen Fjorden. Hier sind die Aktivitäten in der Region, die wir empfehlen.
 
 activeties:
 

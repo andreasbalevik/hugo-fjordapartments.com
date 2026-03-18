@@ -16,8 +16,8 @@ images:
 
 # CONTENT
 title: Activities in Balestrand
-description: From fjord cruises and mountain hikes to local culture and food — Balestrand has something for everyone.
-intro: The first tourist came to Balestrand more than a 100 years ago, drawn to majestic mountains and deep fjords. The small village has since become an attractive destination worldwide. Below we have listed some of the activities in Balestrand we think you should try.
+description: Fjord cruises, mountain hikes, local food and culture — here is what we recommend in Balestrand.
+intro: The first tourist came to Balestrand more than 100 years ago, drawn to the mountains and deep fjords. Here are activities in the area we recommend.
 
 activeties:
 - title: Heit. Balestrand Sauna

@@ -10,7 +10,7 @@ sitemap:
 
 # CONTENT
 title: Praktisk informasjon
-description: Alt du trenger å vite om booking, innsjekk, fasiliteter og kontakt.
+description: Booking, innsjekk, fasiliteter og kontakt.
 faq:
 - title: Lokasjon
   content: Våre leiligheter ligger midt i Balestrand sentrum. Kort avstand til det du trenger — matbutikker, restauranter, turistinformasjon og gode aktivitetsmuligheter. Gangavstand til båt (Bergen, Flåm), buss og parkering.
@@ -19,9 +19,9 @@ faq:
 - title: Om leilighetene
   content: "
 				<li>Alle leilighetene har balkong</li>
-				<li>Fult utstyrt og møblert</li>
+				<li>Fullt utstyrt og møblert</li>
 				<li>Enkel inn- og utsjekk ved bruk av nøkkelbokser</li>
-				<li>Korte avstander til matbutikker, kafeer. Resturanter i sommer-periodene.</li>
+				<li>Korte avstander til matbutikker, kafeer. Restauranter i sommerperiodene.</li>
 				<li>Kort vei til kollektivtransport som buss, ekspress båt og taxi</li>
 				<li>Bad med håndkle, dusj og vaskemaskin</li>
 				<li>Soverom med sengetøy</li>

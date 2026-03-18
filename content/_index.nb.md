@@ -11,13 +11,13 @@ images:
   - src: /images/IMG_6377.jpeg
   - src: /images/IMG_6248.jpg
 
-description: Nye, moderne leiligheter i hjertet av Balestrand — med balkong og fantastisk fjordutsikt. Ferdig møblert og klar for opphold.
+description: Tre leiligheter i hjertet av Balestrand — med balkong og fjordutsikt. Fullt møblert og klar for opphold.
 
 jumbotrone: 
   title: Balestrand Fjord Apartments
-  description: Nye, moderne leiligheter i hjertet av Balestrand — med balkong og fantastisk fjordutsikt. Ferdig møblert og klar for opphold.
+  description: Tre leiligheter i hjertet av Balestrand — med balkong og fjordutsikt. Fullt møblert og klar for opphold.
   button:
-    text: Se alle våre leiligheter
+    text: Se leilighetene
     href: /nb/leiligheter
 
 ---

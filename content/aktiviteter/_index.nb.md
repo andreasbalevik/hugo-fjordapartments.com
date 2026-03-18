@@ -15,8 +15,8 @@ images:
 
 # CONTENT
 title: Aktiviteter i Balestrand
-intro: Den første turisten kom til Balestrand for over 100 år siden, tiltrukket av høye fjell og dype fjorder. Det lille tettstedet har siden blitt et attraktivt reisemål for besøkende fra hele verden. Under har vi listet opp aktiviteter og steder vi anbefaler.
-description: Fra fjordturer og fjellturer til lokal mat og kultur — Balestrand har noe for enhver smak.
+intro: Den første turisten kom til Balestrand for over 100 år siden, tiltrukket av høye fjell og dype fjorder. Her er aktiviteter og steder vi anbefaler i området.
+description: Fjordturer, fjellturer, lokal mat og kultur — her er hva vi anbefaler i Balestrand.
 activeties:
 
 - title: Heit. Balestrand Sauna

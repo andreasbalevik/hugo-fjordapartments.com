@@ -11,7 +11,7 @@ sitemap:
 
 # CONTENT
 title: Practical information
-description: Everything you need to know about booking, check-in, facilities and contact.
+description: Booking, check-in, facilities and contact.
 faq:
 - title: Location
   content: Our apartments are located in the heart of Balestrand. Short distances to everything you need — grocery stores, restaurants, tourist information, and walking distance to the boat (Bergen, Flåm), bus and parking.
@@ -19,10 +19,10 @@ faq:
   content: We use Airbnb for booking. Under the Apartments menu you'll find all available apartments, each with a direct link to its Airbnb listing.
 - title: About our apartments
   content: "
-				<li>All the apartments have a balcony. With view of the fjord</li>
+				<li>All apartments have a balcony with fjord views</li>
 				<li>The apartments are fully furnished</li>
 				<li>Simple check-in and checkout using keybox</li>
-				<li>Short distances to grocery store, resturant, tourist information and everything you need</li>
+				<li>Short distances to grocery store, restaurant, tourist information and everything you need</li>
 				<li>Easy access, walking distance from public transport like boat, bus</li>
 				<li>Bathroom, shower and washing machine</li>
 				<li>Bedsheets included</li>

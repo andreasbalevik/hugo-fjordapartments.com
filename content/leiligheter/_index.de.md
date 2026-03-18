@@ -12,9 +12,9 @@ sitemap:
 
 # CONTENT
 title: Wohnungen in Balestrand
-description: Zentral in Balestrand gelegen, mit atemberaubendem Fjordblick — ideal als Ausgangspunkt für den Sognefjord.
+description: Drei Apartments in zentraler Lage in Balestrand — alle mit Fjordblick und voll ausgestattet.
 intro: Wir haben drei Apartments verfügbar — Holmen 19A, 19B und 19C. Wir nutzen Airbnb für die Buchung. Unten finden Sie jedes Apartment mit Fotos, Ausstattung und direktem Buchungslink.
-intro-button-text: Klicken Sie für weitere praktische Informationen
+intro-button-text: Praktische Informationen
 
 # SEO
 sitemap:

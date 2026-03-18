@@ -21,7 +21,7 @@ faq:
 
 - title: Über unsere Wohnungen
   content: "
-				<li>Alle Apartments verfügen über einen Balkon. Mit Blick auf den Fjord</li>
+				<li>Alle Apartments haben einen Balkon mit Fjordblick</li>
 				<li>Die Wohnungen sind voll möbliert</li>
 				<li>Einfaches Ein- und Auschecken mit der Keybox</li>
 				<li>Kurze Entfernungen zum Lebensmittelgeschäft, Restaurant, Touristeninformation und allem, was Sie brauchen</li>

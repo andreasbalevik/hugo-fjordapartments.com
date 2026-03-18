@@ -10,12 +10,12 @@ images:
   - src: /images/IMG_6377.jpeg
   - src: /images/IMG_6248.jpg
 
-description: Neue, moderne Apartments im Herzen von Balestrand — mit Balkon und fantastischem Fjordblick. Voll möbliert und bereit für Ihren Aufenthalt.
+description: Drei Apartments im Herzen von Balestrand — mit Balkon und Fjordblick. Voll möbliert und buchbar.
 
 jumbotrone:
   title: Balestrand Fjord Apartments
-  description: Neue, moderne Apartments im Herzen von Balestrand — mit Balkon und fantastischem Fjordblick. Voll möbliert und bereit für Ihren Aufenthalt.
+  description: Drei Apartments im Herzen von Balestrand — mit Balkon und Fjordblick. Voll möbliert und buchbar.
   button:
-    text: Alle Wohnungen anzeigen
+    text: Wohnungen anzeigen
     href: /leiligheter
 ---

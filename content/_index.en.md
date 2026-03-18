@@ -10,13 +10,13 @@ images:
   - src: /images/IMG_6377.jpeg
   - src: /images/IMG_6248.jpg
 
-description: New, modern apartments in the heart of Balestrand — with balconies and an amazing fjord view. Fully furnished and ready to enjoy.
+description: Three apartments in the heart of Balestrand — with balconies and fjord views. Fully furnished and ready to book.
 
 jumbotrone:
   title: Balestrand Fjord Apartments
-  description: New, modern apartments in the heart of Balestrand — with balconies and an amazing fjord view. Fully furnished and ready to enjoy.
+  description: Three apartments in the heart of Balestrand — with balconies and fjord views. Fully furnished and ready to book.
   button: 
-    text: View our apartments
+    text: View apartments
     href: /leiligheter
 
 ---
