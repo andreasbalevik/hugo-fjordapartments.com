@@ -26,9 +26,27 @@ defaultContentLanguageInSubdir = false
 
 [Params]
   brand_image = "https://fjordapartments.no/images/holmen_hu5c462718f5c094e8219d8230346b031d_520206_400x275_fill_q100_mitchellnetravali_smart1.jpg"
-  keywords = ['Fjordapartments', 'Balestrand', 'Vestland']
+  keywords = ['Fjordapartments', 'Balestrand', 'Vestland', 'overnatting', 'leilighet', 'fjord', 'Norge']
   email = "lidalsiv@gmail.com"
-  description = "Balestrand Fjord Apartments" 
+  description = "Tre leiligheter i hjertet av Balestrand — med balkong og fjordutsikt. Fullt møblert og klar for opphold."
+
+  # Lokasjon
+  address = "Holmen 19"
+  addressLocality = "Balestrand"
+  addressRegion = "Vestland"
+  postalCode = "6899"
+  addressCountry = "NO"
+  latitude = "61.1967"
+  longitude = "6.5337"
+  hasMap = "https://maps.google.com/maps?q=Holmen+19,+6899+Balestrand"
+
+  # Innsjekk / utsjekk
+  checkInTime = "15:00"
+  checkOutTime = "11:00"
+
+  # Kapasitet og pris
+  numberOfRooms = 3
+  priceRange = "NOK"
   
 canonifyURLs = true
 enableRobotsTXT = true

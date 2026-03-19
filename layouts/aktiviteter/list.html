@@ -2,15 +2,15 @@
 
 {{ partial "components/heading.html" . }}
 
-<section class="bg-gray-50">
+<section class="bg-primary/3">
     <div class="container">
         <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
             {{ range .Page.Params.activeties }}
 
             {{ $btnText := or .button "Besøk nettsted" }}
 
-            <article class="bg-white border border-slate-200 rounded-lg shadow-sm
-                            hover:shadow-md transition-all duration-300 overflow-hidden flex flex-col">
+            <article class="bg-white border border-primary/15 rounded-lg shadow-sm
+                            hover:shadow transition-all duration-300 overflow-hidden flex flex-col">
 
                 <div class="overflow-hidden">
                     {{ partial "components/images/image.html" (dict
@@ -21,7 +21,7 @@
                 </div>
 
                 <div class="p-6 flex flex-col gap-3 flex-1">
-                    <h3 class="text-xl font-semibold leading-snug mt-0 mb-2 text-gray-900">
+                    <h3 class="text-xl md:text-2xl font-medium leading-[1.2] tracking-[-0.015em] text-balance mt-0 mb-2 text-gray-900">
                         {{.title}}
                     </h3>
                     <p class="text-base leading-normal text-gray-700 flex-1 mb-4">
@@ -31,10 +31,10 @@
                     <a href="{{ . }}"
                         target="_blank" rel="noopener noreferrer"
                         class="inline-flex items-center gap-2 text-base font-semibold
-                               bg-cyan-800 hover:bg-cyan-900 active:bg-cyan-900
+                               bg-primary hover:bg-primary/90 active:bg-primary/80
                                text-white px-6 py-3 rounded-lg shadow-sm
-                               hover:shadow-md transition-all duration-300 w-fit
-                               focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-cyan-800">
+                               hover:shadow transition-all duration-300 w-fit
+                               focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary">
                         {{ $btnText }}
                         <i data-lucide="arrow-right" class="w-4 h-4" aria-hidden="true"></i>
                     </a>

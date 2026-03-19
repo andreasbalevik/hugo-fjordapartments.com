@@ -1,0 +1,8 @@
+@theme {
+  /* ─────────────────────────────────────────────────────────
+     Fjordblå — henter fra fjordvannet og den norske naturen.
+     OKLCH: L=35%, C=0.08, H=212 (dempet teal-blå)
+     Kontrast mot hvit: ≥7:1 ✓
+  ───────────────────────────────────────────────────────────── */
+  --color-primary: oklch(35% 0.08 212);
+}

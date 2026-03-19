@@ -5,13 +5,13 @@
     Self-contained section med balevikit heading-mønster.
 */}}
 
-<section class="bg-slate-100">
+<section class="bg-primary">
     <div class="container">
-        <h1 class="text-4xl font-semibold leading-snug tracking-tight mt-0 mb-6 text-gray-900">
+        <h1 class="text-3xl md:text-4xl font-medium leading-[1.2] tracking-[-0.015em] text-balance mt-0 mb-6 text-white">
             {{.Page.Title}}
         </h1>
         {{ with .Page.Params.description }}
-            <p class="text-lg leading-normal text-gray-700 max-w-2xl">
+            <p class="text-lg leading-normal text-white/80 max-w-2xl">
                 {{.}}
             </p>
         {{ end }}

@@ -1,0 +1,90 @@
+{{ $productSection := .Site.Params.product_section | default "products" }}
+{{ if or (eq .Kind "section") (eq .Kind "taxonomy") }}
+{{ if not .IsHome }}
+
+<!-- ITEM LIST SCHEMA -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "{{ .Title }}",
+  "description": "{{ .Page.Params.description | default .Site.Params.description }}",
+  "url": "{{ .Permalink }}",
+  "numberOfItems": {{ len .Pages }},
+  "itemListElement": [
+    {{ range $index, $page := .Pages }}
+    {{ if $index }},{{ end }}
+    {
+      "@type": "ListItem",
+      "position": {{ add $index 1 }},
+      {{ if eq $.Section "leiligheter" }}
+      "item": {
+        "@type": "Apartment",
+        "name": "{{ $page.Title }}",
+        "url": "{{ $page.Permalink }}"
+        {{ $desc := $page.Params.description | default $page.Params.desc }}
+        {{ with $desc }},"description": "{{ . }}"{{ end }}
+        {{ with $page.Params.images }}
+          {{ range first 1 . }}
+        ,"image": "{{ .src | absURL }}"
+          {{ end }}
+        {{ end }}
+        {{ with $page.Params.link }}
+        ,"potentialAction": {
+          "@type": "ReserveAction",
+          "target": "{{ . }}",
+          "name": "Book nå"
+        }
+        {{ end }}
+      }
+      {{ else if eq $.Section $productSection }}
+      "item": {
+        "@type": ["Product", "TouristTrip"],
+        "name": "{{ $page.Title }}",
+        "url": "{{ $page.Permalink }}",
+        "description": "{{ $page.Params.description }}"
+        {{ with $page.Params.images }}
+          {{ range first 1 . }}
+            {{ $image := resources.GetMatch .src }}
+            {{ if $image }}
+        ,"image": "{{ $image.Permalink }}"
+            {{ end }}
+          {{ end }}
+        {{ end }}
+        {{ with $page.Params.product_info }}
+          {{ with .prices }}
+            {{ $firstPrice := index . 0 }}
+            {{ $lastPrice := index . (sub (len .) 1) }}
+        ,"offers": {
+          "@type": "AggregateOffer",
+          "priceCurrency": "{{ $.Site.Params.currency | default "NOK" }}",
+          "lowPrice": "{{ $firstPrice.price }}",
+          "highPrice": "{{ $lastPrice.price }}"
+        }
+          {{ end }}
+        {{ end }}
+      }
+      {{ else }}
+      "item": {
+        "@type": "Article",
+        "name": "{{ $page.Title }}",
+        "url": "{{ $page.Permalink }}",
+        "description": "{{ $page.Params.description }}"
+        {{ with $page.Params.images }}
+          {{ range first 1 . }}
+            {{ $image := resources.GetMatch .src }}
+            {{ if $image }}
+        ,"image": "{{ $image.Permalink }}"
+            {{ end }}
+          {{ end }}
+        {{ end }}
+      }
+      {{ end }}
+    }
+    {{ end }}
+  ]
+}
+</script>
+
+{{ end }}
+{{ end }}

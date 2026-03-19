@@ -1,0 +1,79 @@
+{{ if .IsHome }}
+<!-- LODGING BUSINESS / VACATION RENTAL SCHEMA -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": ["LodgingBusiness", "VacationRental"],
+  "@id": "{{ .Site.BaseURL }}#localbusiness",
+  "name": "{{ .Site.Title }}",
+  "description": "{{ .Page.Params.description | default .Site.Params.description }}"
+  {{ with .Page.Params.images }}
+    {{ range first 1 . }}
+  ,"image": "{{ .src | absURL }}"
+    {{ end }}
+  {{ end }}
+  ,"url": "{{ .Site.BaseURL }}"
+  {{ with .Site.Params.phone }},"telephone": "{{ . }}"{{ end }}
+  {{ with .Site.Params.email }},"email": "{{ . }}"{{ end }}
+  ,"address": {
+    "@type": "PostalAddress",
+    "streetAddress": "{{ .Site.Params.address | default "Holmen 19" }}",
+    "addressLocality": "{{ .Site.Params.addressLocality | default "Balestrand" }}",
+    "addressRegion": "{{ .Site.Params.addressRegion | default "Vestland" }}",
+    "postalCode": "{{ .Site.Params.postalCode | default "6899" }}",
+    "addressCountry": "{{ .Site.Params.addressCountry | default "NO" }}"
+  }
+  {{ if and .Site.Params.latitude .Site.Params.longitude }}
+  ,"geo": {
+    "@type": "GeoCoordinates",
+    "latitude": "{{ .Site.Params.latitude }}",
+    "longitude": "{{ .Site.Params.longitude }}"
+  }
+  {{ end }}
+  {{ with .Site.Params.checkInTime }},"checkinTime": "{{ . }}"{{ end }}
+  {{ with .Site.Params.checkOutTime }},"checkoutTime": "{{ . }}"{{ end }}
+  {{ with .Site.Params.priceRange }},"priceRange": "{{ . }}"{{ end }}
+  ,"numberOfRooms": {{ .Site.Params.numberOfRooms | default 3 }}
+  ,"amenityFeature": [
+    { "@type": "LocationFeatureSpecification", "name": "Balkong", "value": true },
+    { "@type": "LocationFeatureSpecification", "name": "Fjordutsikt", "value": true },
+    { "@type": "LocationFeatureSpecification", "name": "Fullt utstyrt kjøkken", "value": true },
+    { "@type": "LocationFeatureSpecification", "name": "Internett / WiFi", "value": true },
+    { "@type": "LocationFeatureSpecification", "name": "Parkering", "value": true }
+  ]
+  ,"audience": {
+    "@type": "TouristAudience",
+    "audienceType": "Reisende til Balestrand"
+  }
+  {{ with .Site.Params.hasMap }},"hasMap": "{{ . }}"{{ end }}
+  {{ with .Site.Params.social }}
+  ,"sameAs": [{{ range $i, $url := . }}{{ if $i }},{{ end }}"{{ $url }}"{{ end }}]
+  {{ end }}
+  ,"containsPlace": [
+    {{ $apartments := where .Site.RegularPages "Section" "leiligheter" }}
+    {{ range $i, $apt := $apartments }}
+    {{ if $i }},{{ end }}
+    {
+      "@type": "Apartment",
+      "name": "{{ $apt.Title }}",
+      "url": "{{ $apt.Permalink }}"
+      {{ $desc := $apt.Params.description | default $apt.Params.desc }}
+      {{ with $desc }},"description": "{{ . }}"{{ end }}
+      {{ with $apt.Params.images }}
+        {{ range first 1 . }}
+      ,"image": "{{ .src | absURL }}"
+        {{ end }}
+      {{ end }}
+      {{ with $apt.Params.link }}
+      ,"potentialAction": {
+        "@type": "ReserveAction",
+        "target": "{{ . }}",
+        "name": "Book nå"
+      }
+      {{ end }}
+    }
+    {{ end }}
+  ]
+}
+</script>
+{{ end }}

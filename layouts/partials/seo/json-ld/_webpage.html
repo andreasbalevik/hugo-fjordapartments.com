@@ -1,0 +1,110 @@
+{{ if not .IsHome }}
+{{ if and (eq .Section "leiligheter") .IsPage }}
+
+<!-- APARTMENT SCHEMA -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Apartment",
+  "@id": "{{ .Permalink }}#apartment",
+  "name": "{{ .Title }}",
+  "description": "{{ .Page.Params.description | default .Page.Params.desc }}"
+  {{ with .Page.Params.images }}
+  ,"image": [
+    {{ range $i, $img := . }}{{ if $i }},{{ end }}"{{ $img.src | absURL }}"{{ end }}
+  ]
+  {{ end }}
+  ,"containedInPlace": {
+    "@type": "LodgingBusiness",
+    "@id": "{{ .Site.BaseURL }}#localbusiness",
+    "name": "{{ .Site.Title }}"
+  }
+  ,"address": {
+    "@type": "PostalAddress",
+    "streetAddress": "{{ .Site.Params.address | default "Holmen 19" }}",
+    "addressLocality": "{{ .Site.Params.addressLocality | default "Balestrand" }}",
+    "addressRegion": "{{ .Site.Params.addressRegion | default "Vestland" }}",
+    "postalCode": "{{ .Site.Params.postalCode | default "6899" }}",
+    "addressCountry": "{{ .Site.Params.addressCountry | default "NO" }}"
+  }
+  {{ if and .Site.Params.latitude .Site.Params.longitude }}
+  ,"geo": {
+    "@type": "GeoCoordinates",
+    "latitude": "{{ .Site.Params.latitude }}",
+    "longitude": "{{ .Site.Params.longitude }}"
+  }
+  {{ end }}
+  {{ with .Site.Params.checkInTime }},"checkinTime": "{{ . }}"{{ end }}
+  {{ with .Site.Params.checkOutTime }},"checkoutTime": "{{ . }}"{{ end }}
+  {{ with .Page.Params.link }}
+  ,"potentialAction": {
+    "@type": "ReserveAction",
+    "target": "{{ . }}",
+    "name": "Book nå"
+  }
+  {{ end }}
+  ,"amenityFeature": [
+    { "@type": "LocationFeatureSpecification", "name": "Balkong", "value": true },
+    { "@type": "LocationFeatureSpecification", "name": "Fjordutsikt", "value": true },
+    { "@type": "LocationFeatureSpecification", "name": "Fullt utstyrt kjøkken", "value": true },
+    { "@type": "LocationFeatureSpecification", "name": "Internett / WiFi", "value": true }
+  ]
+}
+</script>
+
+<!-- BREADCRUMB SCHEMA -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "{{ .Site.Title }}",
+      "item": "{{ .Site.BaseURL }}"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "{{ with .Parent }}{{ .Title }}{{ else }}Leiligheter{{ end }}",
+      "item": "{{ with .Parent }}{{ .Permalink }}{{ else }}{{ .Site.BaseURL }}leiligheter/{{ end }}"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "{{ .Title }}",
+      "item": "{{ .Permalink }}"
+    }
+  ]
+}
+</script>
+
+{{ else }}
+
+<!-- WEBPAGE SCHEMA -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "{{ .Title }}",
+  "url": "{{ .Permalink }}",
+  "mainEntity": {
+    "@type": "Article",
+    "headline": "{{ .Title }}",
+    "description": "{{ .Page.Params.description }}",
+    "image": "{{ with .Page.Params.image }}{{ . | absURL }}{{ else }}{{ .Site.Params.brand_image | absURL }}{{ end }}",
+    "publisher": {
+      "@type": "Organization",
+      "name": "{{ .Site.Title }}",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "{{ .Site.Params.brand_image | absURL }}"
+      }
+    }
+  }
+}
+</script>
+
+{{ end }}
+{{ end }}

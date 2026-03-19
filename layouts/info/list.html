@@ -2,13 +2,13 @@
 
 {{ partial "components/heading.html" . }}
 
-<section class="bg-gray-50">
+<section class="bg-white">
     <div class="container">
         <div class="max-w-3xl flex flex-col gap-4 md:gap-6">
             {{ range .Page.Params.faq }}
-            <article class="bg-white border border-slate-200 rounded-lg shadow-sm p-6 md:p-8">
-                <h2 class="flex items-center gap-4 text-xl font-semibold leading-snug mt-0 mb-4 text-gray-900">
-                    <span class="flex items-center justify-center w-9 h-9 rounded-md bg-slate-100 text-cyan-800 shrink-0">
+            <article class="bg-primary/5 border border-primary/15 rounded-lg shadow-sm p-6 md:p-8">
+                <h2 class="flex items-center gap-4 text-xl md:text-2xl font-medium leading-[1.2] tracking-[-0.015em] text-balance mt-0 mb-4 text-gray-900">
+                    <span class="flex items-center justify-center w-9 h-9 rounded-md bg-primary/8 text-primary shrink-0">
                         <i data-lucide="circle-help" class="w-5 h-5" aria-hidden="true"></i>
                     </span>
                     {{.title}}
@@ -16,7 +16,7 @@
                 <div class="text-base leading-relaxed text-gray-700
                             [&_li]:list-disc [&_li]:ml-6 [&_li]:mt-1
                             [&_b]:font-medium [&_b]:text-gray-900
-                            [&_a]:text-cyan-800 [&_a]:underline [&_a]:underline-offset-2">
+                            [&_a]:text-primary [&_a]:underline [&_a]:underline-offset-2">
                     {{.content | safeHTML}}
                 </div>
             </article>
