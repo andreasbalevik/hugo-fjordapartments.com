@@ -2,7 +2,7 @@
     class="bg-white border border-primary/15 rounded-lg shadow-sm
            flex flex-col h-full hover:shadow transition-all duration-300 overflow-hidden">
 
-    <div class="overflow-hidden">
+    <div class="overflow-hidden rounded-t-lg">
         {{ partial "components/images/image.html" (dict
             "src" (index .Page.Params.images 0).src
             "alt" (index .Page.Params.images 0).alt
@@ -10,7 +10,7 @@
         ) }}
     </div>
 
-    <div class="p-6 md:p-8 flex flex-col gap-4 flex-1">
+    <div class="p-6 md:p-8 flex flex-col gap-4 flex-1 rounded-b-lg">
 
         <h2 itemprop="name"
             class="text-xl md:text-2xl font-medium leading-[1.2] tracking-[-0.015em] text-balance mt-0 mb-0 text-gray-900">

@@ -12,7 +12,7 @@
             <article class="bg-white border border-primary/15 rounded-lg shadow-sm
                             hover:shadow transition-all duration-300 overflow-hidden flex flex-col">
 
-                <div class="overflow-hidden">
+                <div class="overflow-hidden rounded-t-lg">
                     {{ partial "components/images/image.html" (dict
                         "src" (index .images 0).src
                         "alt" (or (index .images 0).alt .title)
@@ -20,7 +20,7 @@
                     ) }}
                 </div>
 
-                <div class="p-6 flex flex-col gap-3 flex-1">
+                <div class="p-6 flex flex-col gap-3 flex-1 rounded-b-lg">
                     <h3 class="text-xl md:text-2xl font-medium leading-[1.2] tracking-[-0.015em] text-balance mt-0 mb-2 text-gray-900">
                         {{.title}}
                     </h3>
